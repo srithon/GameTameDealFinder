@@ -50,10 +50,10 @@ logger.setLevel(logging.DEBUG)
 
 logger.info('Starting script...')
 
-DISPLAY = False
-SORT = False
+DISPLAY = True
+SORT = True
 
-current_page = 69
+current_page = 85
 num_iterations = 100
 query_count = 0
 handler = None
