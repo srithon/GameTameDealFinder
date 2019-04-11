@@ -53,7 +53,7 @@ logger.info('Starting script...')
 DISPLAY = False
 SORT = False
 
-current_page = 100
+current_page = 116
 num_iterations = 100
 query_count = 0
 handler = None
@@ -128,6 +128,9 @@ class Handler:
         self.num_iterations = num_iterations / iterations_per_save
         self.iterations_per_save = iterations_per_save
 
+    def get_num_queries(self):
+        return self.scrap.query_count
+
     def start(self):
         global money_per_point_list
         self.scrap = Scraper()
@@ -190,6 +193,8 @@ class Scraper:
         self.current_real_prices = list()
 
         self.page = current_page
+
+        self.query_count = 0
 
         logger.debug('Initalized scraper')
 
@@ -293,6 +298,8 @@ class Scraper:
                 logger.debug('WebDriverException in fillRealPrices(); Refreshing page')
                 sleep(0.5)
                 self.browser.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + str(self.current_items[i]))
+
+            self.query_count += 1
 
             while True:
                 try:
@@ -520,6 +527,7 @@ def __main__():
 
         print('Ended on page #{}'.format(final_page))
         logger.info('Start next run at page #{}'.format(final_page))
+        logger.info('{} queries recorded'.format(handler.get_num_queries()))
 
         """if len(item_list) < (36 * num_iterations):
             print('Finish this run before proceeding; {} entries in list, {} entries needed'.format(len(item_list), (36 * num_iterations)))

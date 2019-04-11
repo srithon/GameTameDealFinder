@@ -1,13 +1,21 @@
 Spooktacles
+Dressed to Kill Medi Gun (Field-Tested)
+Citizen Pain Minigun (Field-Tested)
+Civil Servant Mk.II Panic Attack (Minimal Wear)
+Civic Duty Mk.II Revolver (Field-Tested)
 Civic Duty Mk.II Stickybomb Launcher (Minimal Wear)
 Civil Servant Mk.II Revolver (Well-Worn)
 Civil Servant Mk.II Stickybomb Launcher (Battle Scarred)
+Civil Servant Mk.II Brass Beast (Well-Worn)
 Civil Servant Mk.II Medi Gun (Field-Tested)
 Civil Servant Mk.II Stickybomb Launcher (Minimal Wear)
+Civil Servant Mk.II Winger (Minimal Wear)
 Civic Duty Mk.II Wrench (Field-Tested)
+Civic Duty Mk.II Scotsman's Skullcutter (Field-Tested)
 Civic Duty Mk.II Flame Thrower (Minimal Wear)
 Civil Servant Mk.II Grenade Launcher (Minimal Wear)
 Civic Duty Mk.II Pistol (Minimal Wear)
+Forest Fire Mk.II Medi Gun (Field-Tested)
 Civil Servant Medi Gun (Field-Tested)
 Civic Duty Mk.II Family Business (Minimal Wear)
 Civic Duty Mk.II Disciplinary Action (Minimal Wear)
@@ -20,18 +28,28 @@ Civil Servant Mk.II Black Box (Battle Scarred)
 Civil Servant Mk.II Winger (Well-Worn)
 Civil Servant Mk.II Stickybomb Launcher (Factory New)
 Civic Duty Mk.II Degreaser (Factory New)
+Civic Duty Mk.II Claidheamh Mòr (Factory New)
 Civic Duty Mk.II Shahanshah (Minimal Wear)
+Plaid Potshotter Mk.II Black Box (Battle Scarred)
+Plaid Potshotter Mk.II Degreaser (Battle Scarred)
+Mannana Peeled Black Box (Field-Tested)
 Civic Duty Mk.II Holy Mackerel (Minimal Wear)
 Civic Duty Mk.II SMG (Battle Scarred)
 Civic Duty Mk.II Crusader's Crossbow (Well-Worn)
+Bovine Blazemaker Mk.II Flame Thrower (Battle Scarred)
 Autumn Mk.II Sniper Rifle (Battle Scarred)
 Civic Duty Mk.II Winger (Well-Worn)
 Civil Servant Mk.II Crusader's Crossbow (Field-Tested)
 Nutcracker Mk.II Degreaser (Well-Worn)
 Civic Duty Mk.II Holy Mackerel (Factory New)
+Plaid Potshotter Mk.II Degreaser (Minimal Wear)
+Autumn Mk.II Back Scratcher (Well-Worn)
 Civic Duty Mk.II Amputator (Field-Tested)
+Bovine Blazemaker Mk.II Iron Bomber (Battle Scarred)
 Civic Duty Mk.II Iron Bomber (Minimal Wear)
 Civic Duty Mk.II Disciplinary Action (Field-Tested)
+Forest Fire Mk.II Rocket Launcher (Well-Worn)
+Autumn Mk.II Sniper Rifle (Field-Tested)
 Civil Servant Mk.II Degreaser (Field-Tested)
 Civic Duty Mk.II Ubersaw (Minimal Wear)
 Civil Servant Mk.II Loose Cannon (Battle Scarred)
@@ -44,7 +62,11 @@ Civic Duty Mk.II Stickybomb Launcher (Well-Worn)
 Civic Duty Mk.II Jag (Well-Worn)
 Woodsy Widowmaker Mk.II Black Box (Field-Tested)
 Civic Duty Mk.II Grenade Launcher (Well-Worn)
+Backwoods Boomstick Mk.II Rocket Launcher (Minimal Wear)
 Forest Fire Mk.II Rocket Launcher (Minimal Wear)
+Plaid Potshotter Mk.II Brass Beast (Field-Tested)
+Autumn Mk.II Knife (Minimal Wear)
+Civil Servant Mk.II Bazaar Bargain (Factory New)
 Autumn Mk.II Minigun (Battle Scarred)
 Masked Mender Mk.II Grenade Launcher (Field-Tested)
 Macabre Web Stickybomb Launcher (Minimal Wear)
@@ -52,12 +74,17 @@ Civil Servant Mk.II Loose Cannon (Factory New)
 Masked Mender Mk.II Flame Thrower (Field-Tested)
 Plaid Potshotter Mk.II Shotgun (Well-Worn)
 Civil Servant Mk.II Disciplinary Action (Well-Worn)
+Iron Wood Mk.II Scattergun (Well-Worn)
+Civic Duty Mk.II Revolver (Factory New)
+Forest Fire Mk.II Reserve Shooter (Well-Worn)
+Civic Duty Mk.II Bazaar Bargain (Factory New)
 Civil Servant Mk.II Scorch Shot (Well-Worn)
 Civil Servant Mk.II Wrench (Well-Worn)
 Civil Servant Mk.II Brass Beast (Battle Scarred)
 Civil Servant Mk.II Soda Popper (Minimal Wear)
 Plaid Potshotter Mk.II Minigun (Minimal Wear)
 Forest Fire Mk.II Air Strike (Field-Tested)
+Bovine Blazemaker Mk.II Minigun (Well-Worn)
 Forest Fire Mk.II Bazaar Bargain (Field-Tested)
 Civil Servant Mk.II Bazaar Bargain (Minimal Wear)
 Civic Duty Mk.II Family Business (Field-Tested)
@@ -65,9 +92,13 @@ Night Owl Mk.II Powerjack (Well-Worn)
 Woodsy Widowmaker Mk.II Grenade Launcher (Field-Tested)
 Civil Servant Mk.II Scattergun (Well-Worn)
 Plaid Potshotter Mk.II Bazaar Bargain (Field-Tested)
+Tiger Buffed Knife (Battle Scarred)
+Plaid Potshotter Mk.II Disciplinary Action (Factory New)
+Autumn Mk.II Tomislav (Factory New)
 Autumn Mk.II Medi Gun (Field-Tested)
 Civic Duty Mk.II Reserve Shooter (Field-Tested)
 Forest Fire Mk.II Sniper Rifle (Minimal Wear)
+Dead Reckoner Mk.II Brass Beast (Well-Worn)
 Civil Servant Mk.II Family Business (Battle Scarred)
 Civil Servant Mk.II Bazaar Bargain (Field-Tested)
 Civil Servant Mk.II Medi Gun (Well-Worn)
@@ -82,33 +113,48 @@ Autumn Mk.II Minigun (Minimal Wear)
 Civic Duty Mk.II Panic Attack (Factory New)
 Plaid Potshotter Mk.II Knife (Field-Tested)
 Forest Fire Mk.II Rescue Ranger (Field-Tested)
+Dead Reckoner Mk.II Brass Beast (Field-Tested)
+Tiger Buffed Loose Cannon (Field-Tested)
+Autumn Mk.II Bazaar Bargain (Minimal Wear)
+Night Owl Mk.II Crusader's Crossbow (Field-Tested)
+Autumn Mk.II Holy Mackerel (Factory New)
 Mannana Peeled Iron Bomber (Field-Tested)
 Woodsy Widowmaker Mk.II Rocket Launcher (Minimal Wear)
 Backwoods Boomstick Mk.II Rocket Launcher (Field-Tested)
 Autumn Mk.II Degreaser (Field-Tested)
+Piña Polished Loose Cannon (Field-Tested)
 Autumn Mk.II Back Scratcher (Minimal Wear)
 Civic Duty Mk.II Detonator (Minimal Wear)
 Autumn Mk.II Brass Beast (Battle Scarred)
+Bovine Blazemaker Mk.II Air Strike (Well-Worn)
 Autumn Grenade Launcher (Minimal Wear)
 Genuine Dadliest Catch
+Quack Canvassed Holy Mackerel (Field-Tested)
 Civic Duty Mk.II Iron Bomber (Field-Tested)
+Autumn Mk.II Bazaar Bargain (Battle Scarred)
 Civil Servant Mk.II Family Business (Field-Tested)
 Woodsy Widowmaker Mk.II Air Strike (Minimal Wear)
 Civic Duty Mk.II Brass Beast (Field-Tested)
 Civil Servant Mk.II Brass Beast (Field-Tested)
+Forest Fire Mk.II Claidheamh Mòr (Battle Scarred)
 Strange Filter: Banana Bay (Community)
 Bamboo Brushed Rocket Launcher (Field-Tested)
 Autumn Mk.II Rocket Launcher (Well-Worn)
 Forest Fire Mk.II Holy Mackerel (Well-Worn)
 Civic Duty Mk.II Tomislav (Battle Scarred)
+Quack Canvassed Black Box (Field-Tested)
 Civil Servant Mk.II Flame Thrower (Well-Worn)
 Masked Mender Mk.II Knife (Field-Tested)
 Masked Mender Mk.II Scorch Shot (Field-Tested)
 Civil Servant Mk.II Amputator (Battle Scarred)
 Civil Servant Mk.II Rescue Ranger (Field-Tested)
+Woodsy Widowmaker Mk.II Rescue Ranger (Minimal Wear)
+Quack Canvassed Ubersaw (Field-Tested)
 Civic Duty Mk.II Crusader's Crossbow (Minimal Wear)
 Woodsy Widowmaker Mk.II Panic Attack (Field-Tested)
 Night Owl Mk.II Rocket Launcher (Field-Tested)
+Autumn Mk.II Claidheamh Mòr (Minimal Wear)
+Plaid Potshotter Mk.II Tomislav (Factory New)
 Civil Servant Mk.II Loch-n-Load (Well-Worn)
 Autumn Mk.II Loose Cannon (Well-Worn)
 Autumn Mk.II Iron Bomber (Minimal Wear)
@@ -126,6 +172,7 @@ Plaid Potshotter Mk.II Rescue Ranger (Field-Tested)
 Civil Servant Mk.II Jag (Field-Tested)
 Autumn Mk.II Minigun (Field-Tested)
 Night Owl Mk.II Black Box (Well-Worn)
+Forest Fire Mk.II Black Box (Factory New)
 Bovine Blazemaker Mk.II Medi Gun (Battle Scarred)
 Civil Servant Mk.II Minigun (Well-Worn)
 Dead Reckoner Mk.II Rescue Ranger (Battle Scarred)
@@ -133,6 +180,8 @@ Woodsy Widowmaker Mk.II Rocket Launcher (Well-Worn)
 Civil Servant Mk.II Winger (Field-Tested)
 Plaid Potshotter Mk.II Loch-n-Load (Field-Tested)
 Cardboard Boxed Black Box (Minimal Wear)
+Bovine Blazemaker Mk.II Family Business (Well-Worn)
+Anodized Aloha Air Strike (Battle Scarred)
 Civic Duty Mk.II Panic Attack (Minimal Wear)
 Civic Duty Mk.II Loose Cannon (Minimal Wear)
 Mannana Peeled Stickybomb Launcher (Field-Tested)
@@ -147,19 +196,25 @@ Civil Servant Mk.II Detonator (Field-Tested)
 Plaid Potshotter Mk.II Black Box (Minimal Wear)
 Civic Duty Mk.II Claidheamh Mòr (Minimal Wear)
 Civic Duty Mk.II Brass Beast (Minimal Wear)
+Backwoods Boomstick Mk.II Jag (Well-Worn)
 Dead Reckoner Mk.II Minigun (Minimal Wear)
 Bamboo Brushed Knife (Field-Tested)
 Bloom Buffed Flame Thrower (Field-Tested)
+Tiger Buffed Sniper Rifle (Field-Tested)
 Anodized Aloha Sniper Rifle (Field-Tested)
 Civil Servant Mk.II Rocket Launcher (Well-Worn)
 Civic Duty Mk.II Crusader's Crossbow (Factory New)
 Civil Servant Mk.II Jag (Minimal Wear)
+Civic Duty Mk.II Iron Bomber (Factory New)
+Tiger Buffed Ubersaw (Field-Tested)
 Civic Duty Mk.II Sniper Rifle (Minimal Wear)
 Merc Stained Minigun (Well-Worn)
 Civil Servant Mk.II Persian Persuader (Minimal Wear)
 Masked Mender Mk.II Sniper Rifle (Minimal Wear)
 Civil Servant Mk.II Sniper Rifle (Field-Tested)
 Civic Duty Mk.II Ubersaw (Well-Worn)
+Forest Fire Mk.II Claidheamh Mòr (Well-Worn)
+Bloom Buffed Degreaser (Well-Worn)
 Civil Servant Mk.II Crusader's Crossbow (Battle Scarred)
 Civic Duty Mk.II Rescue Ranger (Minimal Wear)
 Bovine Blazemaker Mk.II Revolver (Field-Tested)
@@ -180,6 +235,7 @@ Bovine Blazemaker Mk.II Powerjack (Field-Tested)
 Quack Canvassed Minigun (Field-Tested)
 Civic Duty Mk.II Rocket Launcher (Factory New)
 Civil Servant Mk.II Rescue Ranger (Well-Worn)
+Bovine Blazemaker Mk.II Loose Cannon (Minimal Wear)
 Civil Servant Mk.II Scotsman's Skullcutter (Minimal Wear)
 Star Crossed Air Strike (Field-Tested)
 Bovine Blazemaker Mk.II Family Business (Field-Tested)
@@ -199,15 +255,18 @@ Civic Duty Mk.II Winger (Field-Tested)
 Star Crossed Wrench (Well-Worn)
 Cardboard Boxed Rocket Launcher (Field-Tested)
 Woodsy Widowmaker Mk.II Black Box (Minimal Wear)
+Bovine Blazemaker Mk.II Disciplinary Action (Well-Worn)
 Plaid Potshotter Mk.II Bazaar Bargain (Battle Scarred)
 Forest Fire Mk.II Rocket Launcher (Battle Scarred)
 Bovine Blazemaker Mk.II Knife (Field-Tested)
 Civil Servant Mk.II Grenade Launcher (Field-Tested)
 Plaid Potshotter Mk.II Scattergun (Minimal Wear)
+Masked Mender Mk.II Brass Beast (Minimal Wear)
 Leopard Printed Degreaser (Field-Tested)
 Autumn Mk.II Iron Bomber (Field-Tested)
 Forest Fire Mk.II Grenade Launcher (Field-Tested)
 Star Crossed Loch-n-Load (Field-Tested)
+Quack Canvassed Family Business (Battle Scarred)
 Civil Servant Mk.II Scorch Shot (Field-Tested)
 Civic Duty Mk.II Tomislav (Field-Tested)
 Autumn Mk.II Grenade Launcher (Well-Worn)
@@ -215,12 +274,15 @@ Autumn Mk.II Wrench (Well-Worn)
 Pumpkin Patch Sniper Rifle (Well-Worn)
 Quack Canvassed Rocket Launcher (Field-Tested)
 Plaid Potshotter Mk.II Wrench (Battle Scarred)
+Quack Canvassed Black Box (Well-Worn)
+Bamboo Brushed Scattergun (Field-Tested)
 Dead Reckoner Mk.II Knife (Well-Worn)
 Civil Servant Mk.II Air Strike (Field-Tested)
 Civic Duty Mk.II Shotgun (Field-Tested)
 Strange Filter: Brazil (Community)
 Civic Duty Mk.II Scattergun (Well-Worn)
 Plaid Potshotter Mk.II Scattergun (Field-Tested)
+Woodland Warrior Mk.II War Paint (Well-Worn)
 Forest Fire Mk.II Tomislav (Battle Scarred)
 Bloom Buffed Stickybomb Launcher (Field-Tested)
 Woodsy Widowmaker Mk.II Shotgun (Well-Worn)
@@ -232,18 +294,22 @@ Forest Fire Mk.II Amputator (Well-Worn)
 Woodsy Widowmaker Mk.II Sniper Rifle (Well-Worn)
 Civil Servant Mk.II Loose Cannon (Minimal Wear)
 Civil Servant Mk.II Rocket Launcher (Field-Tested)
+Bloom Buffed Panic Attack (Well-Worn)
 Dead Reckoner Mk.II Powerjack (Battle Scarred)
 Bamboo Brushed Loose Cannon (Field-Tested)
 Stabbed to Hell Knife (Battle Scarred)
 Dead Reckoner Mk.II Back Scratcher (Field-Tested)
 Plaid Potshotter Mk.II Bazaar Bargain (Minimal Wear)
 Third Degree Strangifier
+Star Crossed Rocket Launcher (Well-Worn)
 Civic Duty Mk.II Black Box (Battle Scarred)
 Strange Flame Thrower
 Civil Servant Mk.II Black Box (Field-Tested)
 Autumn Mk.II Wrench (Battle Scarred)
+Bovine Blazemaker Mk.II Holy Mackerel (Minimal Wear)
 Macabre Web Scattergun (Field-Tested)
 Civil Servant Mk.II Disciplinary Action (Factory New)
+Bovine Blazemaker Mk.II Detonator (Field-Tested)
 Autumn Mk.II Crusader's Crossbow (Minimal Wear)
 Bamboo Brushed Rocket Launcher (Well-Worn)
 Star Crossed Flame Thrower (Field-Tested)
@@ -255,16 +321,20 @@ Anodized Aloha Holy Mackerel (Well-Worn)
 Forest Fire Mk.II Scattergun (Well-Worn)
 Blitzkrieg Knife (Minimal Wear)
 Bovine Blazemaker Mk.II Stickybomb Launcher (Well-Worn)
+Merc Stained Air Strike (Field-Tested)
+Dead Reckoner Mk.II Tomislav (Minimal Wear)
 Civic Duty Mk.II Flame Thrower (Field-Tested)
 Civil Servant Mk.II Scattergun (Battle Scarred)
 Civil Servant Mk.II Minigun (Minimal Wear)
 Autumn Mk.II Shahanshah (Well-Worn)
+Dead Reckoner Mk.II Soda Popper (Field-Tested)
 Civil Servant Mk.II Shahanshah (Field-Tested)
 Strange Filter: Mossrock (Community)
 Quack Canvassed Sniper Rifle (Field-Tested)
 Autumn Mk.II Grenade Launcher (Field-Tested)
 Anodized Aloha Black Box (Well-Worn)
 Cardboard Boxed Shotgun (Well-Worn)
+Merc Stained Soda Popper (Minimal Wear)
 Backwoods Boomstick Mk.II Rocket Launcher (Battle Scarred)
 Woodsy Widowmaker Mk.II Iron Bomber (Battle Scarred)
 Backwoods Boomstick Mk.II Flame Thrower (Battle Scarred)
@@ -287,11 +357,13 @@ Carpet Bomber Mk.II War Paint (Battle Scarred)
 Strange Commando Elite
 Masked Mender Mk.II Minigun (Minimal Wear)
 Pumpkin Patch Sniper Rifle (Field-Tested)
+Mannana Peeled Soda Popper (Minimal Wear)
 Bovine Blazemaker Mk.II Scotsman's Skullcutter (Field-Tested)
 Mannana Peeled Back Scratcher (Field-Tested)
 Civil Servant Mk.II Medi Gun (Minimal Wear)
 Piña Polished Medi Gun (Well-Worn)
 Bamboo Brushed Winger (Field-Tested)
+Bamboo Brushed Bazaar Bargain (Battle Scarred)
 Quack Canvassed Claidheamh Mòr (Field-Tested)
 Strange Silver Botkiller Flame Thrower Mk.II
 Dead Reckoner Mk.II Rocket Launcher (Battle Scarred)
@@ -310,9 +382,14 @@ Civic Duty Mk.II Air Strike (Well-Worn)
 Civil Servant Mk.II Minigun (Field-Tested)
 Carpet Bomber Mk.II Stickybomb Launcher (Well-Worn)
 Bovine Blazemaker Mk.II Claidheamh Mòr (Field-Tested)
+Quack Canvassed Degreaser (Field-Tested)
+Leopard Printed Flame Thrower (Minimal Wear)
+Bovine Blazemaker Mk.II Flame Thrower (Minimal Wear)
 Shot to Hell Pistol (Minimal Wear)
+Star Crossed Medi Gun (Field-Tested)
 Quack Canvassed Panic Attack (Battle Scarred)
 Forest Fire Mk.II Disciplinary Action (Field-Tested)
+Star Crossed Sniper Rifle (Minimal Wear)
 Tiger Buffed Black Box (Field-Tested)
 Civic Duty Mk.II Scattergun (Battle Scarred)
 Croc Dusted Rocket Launcher (Field-Tested)
@@ -328,7 +405,9 @@ Mannana Peeled Air Strike (Minimal Wear)
 Dead Reckoner Mk.II Minigun (Battle Scarred)
 Cardboard Boxed Tomislav (Field-Tested)
 Flower Power Scattergun (Minimal Wear)
+Star Crossed Grenade Launcher (Minimal Wear)
 Dead Reckoner Mk.II Tomislav (Battle Scarred)
+Masked Mender Mk.II Amputator (Field-Tested)
 Bovine Blazemaker Mk.II Bazaar Bargain (Minimal Wear)
 Star Crossed Claidheamh Mòr (Field-Tested)
 Plaid Potshotter Mk.II Black Box (Well-Worn)
@@ -338,12 +417,14 @@ Bovine Blazemaker Flame Thrower (Battle Scarred)
 Dead Reckoner Mk.II Degreaser (Field-Tested)
 Bloom Buffed Knife (Field-Tested)
 Butcher Bird Grenade Launcher (Minimal Wear)
+Quack Canvassed Medi Gun (Well-Worn)
 D-eye-monds
 Blitzkrieg Knife (Well-Worn)
 Autumn Grenade Launcher (Field-Tested)
 Croc Dusted Air Strike (Battle Scarred)
 Anodized Aloha Black Box (Minimal Wear)
 Forest Fire Mk.II Tomislav (Minimal Wear)
+Leopard Printed Soda Popper (Field-Tested)
 Civil Servant Mk.II Stickybomb Launcher (Well-Worn)
 Masked Mender Mk.II Sniper Rifle (Battle Scarred)
 Civic Duty Mk.II Holy Mackerel (Field-Tested)
@@ -361,12 +442,14 @@ Merc Stained Back Scratcher (Well-Worn)
 Civic Duty Mk.II Degreaser (Field-Tested)
 Star Crossed Air Strike (Well-Worn)
 Strange Flying Guillotine
+Bovine Blazemaker Mk.II Minigun (Battle Scarred)
 Bloom Buffed Rocket Launcher (Field-Tested)
 Woodsy Widowmaker Mk.II Scorch Shot (Field-Tested)
 Woodsy Widowmaker Mk.II Sniper Rifle (Minimal Wear)
 Blitzkrieg Knife (Field-Tested)
 Cardboard Boxed Scattergun (Battle Scarred)
 Merc Stained Powerjack (Field-Tested)
+Quack Canvassed Minigun (Minimal Wear)
 Coffin Nail Minigun (Battle Scarred)
 Civil Servant Mk.II Ubersaw (Well-Worn)
 Autumn Mk.II Shotgun (Field-Tested)
@@ -387,6 +470,7 @@ Quack Canvassed Scotsman's Skullcutter (Field-Tested)
 Woodsy Widowmaker Mk.II Scotsman's Skullcutter (Minimal Wear)
 Strange Killstreak Axtinguisher
 Corsair Scattergun (Battle Scarred)
+Killstreak Backwoods Boomstick Shotgun (Well-Worn)
 Civil Servant Mk.II Panic Attack (Well-Worn)
 Merc Stained Rocket Launcher (Battle Scarred)
 Bovine Blazemaker Mk.II Grenade Launcher (Field-Tested)
@@ -410,8 +494,10 @@ Autumn Mk.II Knife (Battle Scarred)
 Macabre Web Minigun (Well-Worn)
 Macabre Web Grenade Launcher (Field-Tested)
 Plaid Potshotter Mk.II Stickybomb Launcher (Field-Tested)
+Backwoods Boomstick Mk.II Black Box (Factory New)
 Plaid Potshotter Mk.II Crusader's Crossbow (Field-Tested)
 Genuine Fortune Hunter
+Leopard Printed Jag (Battle Scarred)
 Civic Duty Shotgun (Well-Worn)
 Coffin Nail Grenade Launcher (Battle Scarred)
 Leopard Printed Loose Cannon (Field-Tested)
@@ -420,10 +506,12 @@ Plaid Potshotter Mk.II Detonator (Minimal Wear)
 Backcountry Blaster Scattergun (Minimal Wear)
 Civil Servant Mk.II Medi Gun (Battle Scarred)
 Civic Duty Mk.II Medi Gun (Field-Tested)
+Star Crossed Loose Cannon (Field-Tested)
 Autumn Mk.II Rescue Ranger (Well-Worn)
 Civil Servant Mk.II Wrench (Field-Tested)
 Civic Duty Mk.II Disciplinary Action (Well-Worn)
 Torqued to Hell Wrench (Well-Worn)
+Strange Part: Full Moon Kills
 Coffin Nail Shotgun (Minimal Wear)
 Quack Canvassed Loose Cannon (Field-Tested)
 Old Country Revolver (Factory New)
@@ -431,6 +519,7 @@ Dead Reckoner Mk.II Scattergun (Minimal Wear)
 Leopard Printed Holy Mackerel (Field-Tested)
 Autumn Mk.II Crusader's Crossbow (Field-Tested)
 Plaid Potshotter Mk.II Grenade Launcher (Minimal Wear)
+Sandstone Special Pistol (Factory New)
 Anodized Aloha Minigun (Field-Tested)
 Leopard Printed War Paint (Minimal Wear)
 Mayflower Cosmetic Case
@@ -443,6 +532,8 @@ Autumn Shotgun (Field-Tested)
 Civic Duty Mk.II Soda Popper (Minimal Wear)
 Blitzkrieg Pistol (Minimal Wear)
 Bamboo Brushed Holy Mackerel (Field-Tested)
+Killstreak Coffin Nail Revolver (Minimal Wear)
+Bovine Blazemaker Mk.II Revolver (Minimal Wear)
 Macabre Web Scattergun (Battle Scarred)
 Homemade Heater Pistol (Minimal Wear)
 Autumn Mk.II Scattergun (Battle Scarred)
@@ -460,6 +551,7 @@ Earth, Sky and Fire Flame Thrower (Minimal Wear)
 Night Owl Mk.II Grenade Launcher (Minimal Wear)
 Tartan Torpedo Scattergun (Battle Scarred)
 Bovine Blazemaker Mk.II Degreaser (Field-Tested)
+Strange Part: Underwater Kills
 Mister Cuddles Minigun (Field-Tested)
 Airwolf Knife (Well-Worn)
 Bloom Buffed Scotsman's Skullcutter (Field-Tested)
@@ -471,6 +563,7 @@ Merc Stained Black Box (Well-Worn)
 Masked Mender Mk.II Bazaar Bargain (Well-Worn)
 Dead Reckoner Mk.II Ubersaw (Field-Tested)
 Civic Duty Mk.II Scotsman's Skullcutter (Minimal Wear)
+Macaw Masked Grenade Launcher (Field-Tested)
 Vintage Killstreak Southern Hospitality
 Strange Fireman's Essentials
 Bovine Blazemaker Mk.II Rescue Ranger (Field-Tested)
@@ -491,6 +584,7 @@ Bloom Buffed Iron Bomber (Minimal Wear)
 Bovine Blazemaker Mk.II Shotgun (Battle Scarred)
 Plaid Potshotter SMG (Factory New)
 Bamboo Brushed Rocket Launcher (Battle Scarred)
+Wrapped Reviver Mk.II Tomislav (Well-Worn)
 Coffin Nail Stickybomb Launcher (Well-Worn)
 Dressed to Kill Medi Gun (Minimal Wear)
 Macabre Web Minigun (Battle Scarred)
@@ -510,6 +604,7 @@ Smalltown Bringdown Rocket Launcher (Field-Tested)
 Backcountry Blaster Scattergun (Field-Tested)
 Civil Servant Mk.II SMG (Field-Tested)
 Airwolf Knife (Minimal Wear)
+Piña Polished Sniper Rifle (Field-Tested)
 High Roller's Medi Gun (Well-Worn)
 Vintage Camera Beard
 Dead Reckoner Mk.II Grenade Launcher (Well-Worn)
@@ -518,6 +613,7 @@ Autumn Mk.II Air Strike (Field-Tested)
 Tiger Buffed Grenade Launcher (Well-Worn)
 Flower Power Scattergun (Battle Scarred)
 Masked Mender Mk.II Powerjack (Well-Worn)
+Airwolf Wrench (Factory New)
 Mann Co. Stockpile Crate
 Reinforced Robot Bomb Stabilizer
 Giftapult
@@ -528,6 +624,7 @@ Abominable Cosmetic Case
 Dressed to Kill Pistol (Well-Worn)
 Genuine Killstreak Flying Guillotine
 Forest Fire Mk.II Air Strike (Well-Worn)
+Haunted Pocket Horsemann
 Leopard Printed Flame Thrower (Well-Worn)
 Woodsy Widowmaker Mk.II Degreaser (Well-Worn)
 Hickory Hole-Puncher Pistol (Factory New)
@@ -535,15 +632,19 @@ Autumn Mk.II Detonator (Minimal Wear)
 Bank Rolled Rocket Launcher (Field-Tested)
 Killstreak Dead Reckoner Revolver (Battle Scarred)
 Dead Reckoner Mk.II Loose Cannon (Minimal Wear)
+Bovine Blazemaker Mk.II Grenade Launcher (Minimal Wear)
 Coffin Nail Sniper Rifle (Well-Worn)
 Autumn Flame Thrower (Battle Scarred)
 Cardboard Boxed Black Box (Well-Worn)
 Backwoods Boomstick Mk.II Black Box (Well-Worn)
 Bamboo Brushed Bazaar Bargain (Minimal Wear)
+Strange Mayor Revolver (Field-Tested)
 Civic Duty Mk.II Loose Cannon (Field-Tested)
 Masked Mender Mk.II Knife (Well-Worn)
 Haunted Emerald Jarate
 Strange Bait and Bite
+Wrapped Reviver Mk.II Black Box (Well-Worn)
+Macaw Masked Black Box (Well-Worn)
 Star Crossed Brass Beast (Field-Tested)
 Backwoods Boomstick Mk.II Jag (Battle Scarred)
 Bovine Blazemaker Mk.II Loch-n-Load (Battle Scarred)
@@ -553,8 +654,10 @@ Civic Duty Mk.II Stickybomb Launcher (Field-Tested)
 Autumn Stickybomb Launcher (Battle Scarred)
 Plaid Potshotter Mk.II SMG (Battle Scarred)
 Bloom Buffed Wrench (Well-Worn)
+Killstreak Plaid Potshotter SMG (Factory New)
 Woodsy Widowmaker Mk.II Shortstop (Minimal Wear)
 Croc Dusted Family Business (Field-Tested)
+Leopard Printed Disciplinary Action (Minimal Wear)
 Killstreak Pretty Boy's Pocket Pistol
 Autumn Rocket Launcher (Battle Scarred)
 Bovine Blazemaker Mk.II Shahanshah (Well-Worn)
@@ -575,6 +678,7 @@ Autumn Flame Thrower (Field-Tested)
 Leopard Printed Air Strike (Well-Worn)
 Quack Canvassed Rocket Launcher (Battle Scarred)
 Lumber From Down Under Sniper Rifle (Well-Worn)
+Clover Camo'd War Paint (Minimal Wear)
 Rooftop Wrangler Stickybomb Launcher (Factory New)
 Bovine Blazemaker Mk.II Black Box (Well-Worn)
 Dead Reckoner Mk.II Rescue Ranger (Field-Tested)
@@ -586,6 +690,7 @@ Stabbed to Hell Knife (Minimal Wear)
 Sax Waxed War Paint (Field-Tested)
 Leopard Printed Pistol (Minimal Wear)
 Forest Fire Mk.II War Paint (Minimal Wear)
+Lumber From Down Under Sniper Rifle (Minimal Wear)
 Blue Mew Rocket Launcher (Field-Tested)
 Strange Filter: Frontier (Community)
 Masked Mender Mk.II Black Box (Battle Scarred)
@@ -597,6 +702,7 @@ Civil Servant Mk.II Revolver (Field-Tested)
 Strange Filter: Snowycoast (Community)
 Brain Candy Rocket Launcher (Battle Scarred)
 Cardboard Boxed Brass Beast (Field-Tested)
+Macaw Masked War Paint (Battle Scarred)
 Killstreak Coffin Nail Revolver (Battle Scarred)
 Bovine Blazemaker Mk.II Bazaar Bargain (Well-Worn)
 Blue Mew SMG (Battle Scarred)
@@ -607,6 +713,7 @@ Clover Camo'd Ubersaw (Field-Tested)
 Corsair Medi Gun (Field-Tested)
 Autumn Flame Thrower (Minimal Wear)
 Nutcracker Scattergun (Field-Tested)
+Strange Smalltown Bringdown Rocket Launcher (Battle Scarred)
 Mannana Peeled War Paint (Minimal Wear)
 Vintage Axtinguisher
 Wildwood Medi Gun (Well-Worn)
@@ -639,9 +746,11 @@ Blue Mew Pistol (Battle Scarred)
 Bovine Blazemaker Mk.II Scattergun (Well-Worn)
 Civic Duty Mk.II Knife (Factory New)
 Leopard Printed Shotgun (Minimal Wear)
+Strange Pocket Pauling
 Strange Forest Fire Flame Thrower (Battle Scarred)
 Civic Duty Mk.II Shotgun (Battle Scarred)
 Foster's Facade
+Strange Mayor Revolver (Minimal Wear)
 Brain Candy Pistol (Factory New)
 Strange Speedster's Spandex
 Forest Fire Mk.II Stickybomb Launcher (Battle Scarred)
@@ -659,6 +768,7 @@ Civic Duty Shotgun (Battle Scarred)
 Civic Duty Mk.II Panic Attack (Well-Worn)
 Plaid Potshotter Mk.II Claidheamh Mòr (Field-Tested)
 Pizza Polished War Paint (Field-Tested)
+Haunted Voodoo-Cursed Soldier Soul
 Bovine Blazemaker Mk.II Shotgun (Minimal Wear)
 Vintage Scottish Resistance
 Vintage Backburner
@@ -687,6 +797,8 @@ Dressed to Kill Shotgun (Battle Scarred)
 Dead Reckoner Mk.II Air Strike (Well-Worn)
 Dead Reckoner Mk.II Air Strike (Field-Tested)
 Genuine Killstreak Neon Annihilator
+Macabre Web Stickybomb Launcher (Factory New)
+Sweet Dreams Stickybomb Launcher (Battle Scarred)
 Homemade Heater Pistol (Field-Tested)
 Flower Power Scattergun (Well-Worn)
 Masked Mender Mk.II Holy Mackerel (Well-Worn)
@@ -729,6 +841,7 @@ Dressed to Kill Stickybomb Launcher (Field-Tested)
 Civic Duty Mk.II Grenade Launcher (Minimal Wear)
 Night Owl Mk.II Scorch Shot (Field-Tested)
 Autumn Shotgun (Battle Scarred)
+Killstreak Blasted Bombardier Stickybomb Launcher (Field-Tested)
 Bamboo Brushed War Paint (Battle Scarred)
 Bamboo Brushed Air Strike (Battle Scarred)
 Civic Duty Mk.II Knife (Minimal Wear)
@@ -765,6 +878,7 @@ Strange Aqua Marine Rocket Launcher (Field-Tested)
 Vintage Killstreak Huntsman
 Bovine Blazemaker Mk.II Scotsman's Skullcutter (Well-Worn)
 Killstreak Mayor Revolver (Factory New)
+Wrapped Reviver Mk.II Black Box (Field-Tested)
 Bovine Blazemaker Mk.II Iron Bomber (Minimal Wear)
 The Concealed Killer Weapons Case
 Civil Servant Mk.II War Paint (Well-Worn)
@@ -794,6 +908,8 @@ Haunted Accursed Apparition
 Killstreak Night Owl Sniper Rifle (Field-Tested)
 Bovine Blazemaker Mk.II Shortstop (Minimal Wear)
 Strange Civil Servant Medi Gun (Field-Tested)
+Torqued to Hell Wrench (Minimal Wear)
+Genuine Killstreak Short Circuit
 War Room Minigun (Field-Tested)
 Sudden Flurry Stickybomb Launcher (Minimal Wear)
 Killstreak Dead Reckoner Revolver (Minimal Wear)
@@ -801,6 +917,7 @@ Killstreak Dressed to Kill Wrench (Field-Tested)
 Genuine Short Circuit
 Jupiter Jetpack
 Strange Reclaimed Reanimator Medi Gun (Field-Tested)
+Genuine Killstreak Diamondback
 Piña Polished Air Strike (Field-Tested)
 Haunted Unidentified Following Object
 Killstreak Airwolf Wrench (Field-Tested)
@@ -819,9 +936,11 @@ Dead Reckoner Mk.II Family Business (Field-Tested)
 Brick House Minigun (Minimal Wear)
 Bamboo Brushed Shahanshah (Battle Scarred)
 Bovine Blazemaker Mk.II Rescue Ranger (Well-Worn)
+Psychedelic Slugger Revolver (Minimal Wear)
 Wildwood Revolver (Battle Scarred)
 Low Profile SMG (Well-Worn)
 Nutcracker Pistol (Battle Scarred)
+Anodized Aloha Iron Bomber (Well-Worn)
 Night Owl Mk.II Grenade Launcher (Battle Scarred)
 Dead Reckoner Mk.II Stickybomb Launcher (Minimal Wear)
 Autumn Rocket Launcher (Field-Tested)
@@ -838,6 +957,7 @@ Civil Servant Mk.II Grenade Launcher (Well-Worn)
 Civil Servant Mk.II Degreaser (Well-Worn)
 Civic Duty Mk.II Powerjack (Well-Worn)
 Croc Dusted Holy Mackerel (Field-Tested)
+Strange Nutcracker Minigun (Minimal Wear)
 Vintage Razorback
 Dressed to Kill Minigun (Well-Worn)
 Civil Servant Mk.II Rocket Launcher (Factory New)
@@ -850,13 +970,16 @@ Coffin Nail Scattergun (Battle Scarred)
 Pumpkin Patch Minigun (Field-Tested)
 Anodized Aloha Black Box (Field-Tested)
 Plaid Potshotter Mk.II Scattergun (Well-Worn)
+Sweet Dreams Grenade Launcher (Battle Scarred)
 Shot to Hell Scattergun (Battle Scarred)
+Strange Autumn Shotgun (Field-Tested)
 Wildwood SMG (Well-Worn)
 Civil Servant Medi Gun (Battle Scarred)
 Civil Servant Mk.II Flame Thrower (Field-Tested)
 Pumpkin Patch Stickybomb Launcher (Well-Worn)
 Star Crossed War Paint (Field-Tested)
 Mannana Peeled Holy Mackerel (Field-Tested)
+Bank Rolled War Paint (Minimal Wear)
 Coffin Nail Rocket Launcher (Well-Worn)
 Brain Candy Pistol (Well-Worn)
 Haunted Creature From The Heap
@@ -877,9 +1000,11 @@ Rooftop Wrangler Stickybomb Launcher (Minimal Wear)
 Team Sprayer SMG (Minimal Wear)
 Treadplate Tormenter SMG (Battle Scarred)
 Tiger Buffed War Paint (Battle Scarred)
+Killstreak Aqua Marine Rocket Launcher (Field-Tested)
 Strange Diamond Botkiller Flame Thrower Mk.I
 Tartan Torpedo Scattergun (Well-Worn)
 Dead Reckoner Mk.II Grenade Launcher (Minimal Wear)
+Vintage Killstreak Eyelander
 Bloom Buffed Revolver (Minimal Wear)
 Strange Fists
 Tiger Buffed Medi Gun (Field-Tested)
@@ -903,7 +1028,9 @@ Civil Servant Mk.II Disciplinary Action (Minimal Wear)
 Boneyard Knife (Well-Worn)
 Black Dahlia Pistol (Well-Worn)
 Killstreak Scottish Handshake
+Strange Physician's Protector
 Airwolf Knife (Battle Scarred)
+Anodized Aloha Persian Persuader (Minimal Wear)
 Coffin Nail Flame Thrower (Well-Worn)
 Civil Servant Mk.II Shotgun (Factory New)
 Plaid Potshotter Mk.II Tomislav (Battle Scarred)
@@ -912,6 +1039,8 @@ Gift Wrap
 Haunted Candyman's Cap
 Croc Dusted Powerjack (Well-Worn)
 Haunted Death Support Pack
+Killstreak Backwoods Boomstick Shotgun (Battle Scarred)
+Top Shelf Wrench (Field-Tested)
 Hickory Hole-Puncher Pistol (Well-Worn)
 Coffin Nail Scattergun (Field-Tested)
 High Roller's Rocket Launcher (Field-Tested)
@@ -920,6 +1049,7 @@ Rooftop Wrangler Stickybomb Launcher (Battle Scarred)
 Bovine Blazemaker Mk.II Minigun (Field-Tested)
 Boneyard Wrench (Field-Tested)
 Mister Cuddles Minigun (Well-Worn)
+Haunted Macabre Mask
 Psychedelic Slugger Revolver (Battle Scarred)
 Killstreak Wildwood Revolver (Minimal Wear)
 Vintage Homewrecker
@@ -932,10 +1062,12 @@ Bamboo Brushed Back Scratcher (Field-Tested)
 Psychedelic Slugger Revolver (Field-Tested)
 Psychedelic Slugger Revolver (Well-Worn)
 The Croaking Hazard
+Strange Flower Power Revolver (Battle Scarred)
 Strange Killstreak Third Degree
 Strange Flower Power Revolver (Field-Tested)
 Blitzkrieg Pistol (Battle Scarred)
 Killstreak Lightning Rod Shotgun (Field-Tested)
+Strange Blitzkrieg SMG (Minimal Wear)
 Killstreak Lightning Rod Shotgun (Minimal Wear)
 Shell Shocker Rocket Launcher (Well-Worn)
 Strange Steel Shako
@@ -968,10 +1100,15 @@ Autumn Stickybomb Launcher (Factory New)
 Wrapped Reviver Medi Gun (Factory New)
 Killstreak Flower Power Shotgun (Well-Worn)
 Killstreak Spruce Deuce Scattergun (Minimal Wear)
+Killstreak Backcountry Blaster Scattergun (Well-Worn)
+Genuine Killstreak Fortified Compound
 Haunted Terrier Trousers
 Dead Reckoner Mk.II Flame Thrower (Minimal Wear)
 Reclaimed Reanimator Medi Gun (Factory New)
 Dead Reckoner Mk.II Panic Attack (Field-Tested)
+Warhawk Flame Thrower (Field-Tested)
+Killstreak Country Crusher Scattergun (Minimal Wear)
+Bamboo Brushed War Paint (Factory New)
 Merc Stained Loch-n-Load (Well-Worn)
 Strange Part: Kills During Victory Time
 Killstreak Dressed to Kill Wrench (Well-Worn)
@@ -1043,10 +1180,12 @@ Vintage Killstreak Sandman
 Killstreak Kritzkrieg
 Mannana Peeled Panic Attack (Field-Tested)
 Cardboard Boxed Iron Bomber (Well-Worn)
+Strange Killstreak Old Country Revolver (Factory New)
 Homemade Heater Pistol (Battle Scarred)
 King of the Jungle Minigun (Minimal Wear)
 Genuine Cheet Sheet
 Bamboo Brushed War Paint (Minimal Wear)
+Killstreak Plaid Potshotter SMG (Field-Tested)
 Haunted Cadaver's Capper
 Strange Turbine Torcher Flame Thrower (Field-Tested)
 Kill Covered War Paint (Well-Worn)
@@ -1079,12 +1218,15 @@ Killstreak Night Owl Sniper Rifle (Well-Worn)
 Macaw Masked War Paint (Well-Worn)
 Killstreak Force-A-Nature
 Killstreak Nutcracker Wrench (Field-Tested)
+Strange Brain Candy Rocket Launcher (Well-Worn)
 Strange Part: Halloween Kills
+Bovine Blazemaker Mk.II Reserve Shooter (Well-Worn)
 Croc Dusted Black Box (Field-Tested)
 Macabre Web Pistol (Well-Worn)
 Strange Killstreak Cleaner's Carbine
 Zepheniah's Greed
 Killstreak Old Country Revolver (Minimal Wear)
+Spark of Life Medi Gun (Factory New)
 Blue Mew SMG (Field-Tested)
 Squire's Sabatons
 Life Support System
@@ -1112,12 +1254,17 @@ Backwoods Boomstick Mk.II Stickybomb Launcher (Field-Tested)
 Strange Filter: Hoodoo (Community)
 Star Crossed Amputator (Field-Tested)
 Bovine Blazemaker Mk.II Knife (Minimal Wear)
+Vintage Scotsman's Stove Pipe
+Killstreak Blue Mew Scattergun (Field-Tested)
+Red Rock Roscoe Pistol (Battle Scarred)
 Killstreak Nutcracker Wrench (Well-Worn)
 Strange Killstreak Flying Guillotine
+Strange Cyborg Stunt Helmet
 Strange Back Scatter
 Genuine Tomb Wrapper
 Civil Servant Medi Gun (Factory New)
 Haunted Can Opener
+Killstreak Night Terror Scattergun (Battle Scarred)
 Bovine Blazemaker Mk.II Minigun (Minimal Wear)
 Haunted Voodoo-Cursed Spy Soul
 Pristine Robot Brainstorm Bulb
@@ -1169,6 +1316,7 @@ Haunted Sackcloth Spook
 Strange Field Practice
 Genuine Sharpened Volcano Fragment
 Haunted Rump-o'-Lantern
+Strange Flower Power Scattergun (Well-Worn)
 Blitzkrieg Medi Gun (Field-Tested)
 Coffin Nail Rocket Launcher (Battle Scarred)
 Hickory Hole-Puncher Pistol (Battle Scarred)
@@ -1195,6 +1343,7 @@ Civic Duty Shotgun (Factory New)
 Merc Stained Tomislav (Field-Tested)
 Killstreak Apoco-Fists
 Pizza Polished Minigun (Battle Scarred)
+Strange Killstreak Old Country Revolver (Field-Tested)
 Bamboo Brushed Holy Mackerel (Minimal Wear)
 Strange Killstreak Boston Basher
 Strange Brain Candy Minigun (Field-Tested)
@@ -1202,6 +1351,7 @@ Killstreak Vita-Saw
 Haunted Tuque or Treat
 Wild West Waistcoat
 Strange Napoleon Complex
+Vintage Killstreak Scotsman's Skullcutter
 Genuine Heroic Companion Badge
 Coffin Nail Scattergun (Minimal Wear)
 Airwolf Sniper Rifle (Field-Tested)
@@ -1211,6 +1361,8 @@ Strange Lightning Rod Shotgun (Well-Worn)
 Sudden Flurry Stickybomb Launcher (Battle Scarred)
 Killstreak Backwoods Boomstick Shotgun (Factory New)
 Masked Mender Mk.II War Paint (Factory New)
+Strange Killstreak Carbonado Botkiller Minigun Mk.I
+Strange Autumn Rocket Launcher (Battle Scarred)
 Genuine Awesomenauts Badge
 Bovine Blazemaker Mk.II Holy Mackerel (Battle Scarred)
 Forest Fire Flame Thrower (Field-Tested)
@@ -1235,9 +1387,11 @@ Autumn Mk.II Scattergun (Well-Worn)
 Dead Reckoner Mk.II Medi Gun (Well-Worn)
 Quack Canvassed Powerjack (Field-Tested)
 Sweet Dreams Stickybomb Launcher (Field-Tested)
+Strange Clan Pride
 Strange Socked and Loaded
 Vintage Killstreak Axtinguisher
 Bloom Buffed Amputator (Field-Tested)
+Mann Co. Audition Reel
 Strange Smalltown Bringdown Rocket Launcher (Well-Worn)
 Haunted Dead Little Buddy
 Strange Scotsman's Skullcutter
@@ -1283,6 +1437,7 @@ Killstreak Night Terror Scattergun (Field-Tested)
 Strange Aqua Marine Rocket Launcher (Well-Worn)
 Civil Servant Mk.II Tomislav (Field-Tested)
 Civil Servant Mk.II Reserve Shooter (Minimal Wear)
+Strange Winter Woodsman
 Sudden Flurry Stickybomb Launcher (Field-Tested)
 Strange Backcountry Blaster Scattergun (Field-Tested)
 Killstreak Wanga Prick
@@ -1298,6 +1453,7 @@ Civic Duty Mk.II Sniper Rifle (Factory New)
 Killstreak Loch-n-Load
 Bamboo Brushed Air Strike (Well-Worn)
 Shot to Hell Scattergun (Minimal Wear)
+Strange Killstreak Rainblower
 Genuine Crown of the Old Kingdom
 Sweet Dreams Grenade Launcher (Well-Worn)
 King of the Jungle Minigun (Battle Scarred)
@@ -1321,12 +1477,14 @@ Genuine Brimstone
 Pumpkin Patch Flame Thrower (Field-Tested)
 Genuine Janissary Ketche
 Bovine Blazemaker Mk.II Brass Beast (Field-Tested)
+Strange Filter: Hellstone (Community)
 Blitzkrieg Medi Gun (Factory New)
 Bovine Blazemaker Mk.II Air Strike (Field-Tested)
 Star Crossed Scattergun (Field-Tested)
 Blue Mew Pistol (Field-Tested)
 Cardboard Boxed Black Box (Field-Tested)
 Genuine Cross-Comm Crash Helmet
+Strange Blitzkrieg Pistol (Battle Scarred)
 Night Owl Mk.II Family Business (Minimal Wear)
 Strange Neckwear Headwear
 Killstreak Macabre Web Revolver (Field-Tested)
@@ -1336,16 +1494,21 @@ Woodsy Widowmaker Mk.II Iron Bomber (Factory New)
 Killstreak Flower Power Revolver (Well-Worn)
 Shot to Hell Scattergun (Field-Tested)
 Dead Reckoner Mk.II Shotgun (Field-Tested)
+Nutcracker Flame Thrower (Factory New)
 Airwolf Sniper Rifle (Battle Scarred)
 Strange Grenade Launcher
 Genuine Prize Plushy
 Strange Part: Taunting Player Kills
 Merc Stained Black Box (Battle Scarred)
+Balloonicorn Flame Thrower (Field-Tested)
 Strange Nasty Norsemann
 Killstreak Dead Reckoner Revolver (Well-Worn)
 Vintage Bloke's Bucket Hat
 Genuine Killstreak Freedom Staff
 Strange Nutcracker Flame Thrower (Field-Tested)
+Killstreak Three-Rune Blade
+Macaw Masked Grenade Launcher (Well-Worn)
+Killstreak Flower Power Scattergun (Field-Tested)
 Vintage Eyelander
 Vintage Scotsman's Skullcutter
 Wildwood SMG (Minimal Wear)
@@ -1393,6 +1556,8 @@ Dead Reckoner Mk.II Degreaser (Battle Scarred)
 Vintage Killstreak Ambassador
 Killstreak Autumn Wrench (Well-Worn)
 Tiger Buffed Holy Mackerel (Minimal Wear)
+Strange Specialized Killstreak Flying Guillotine
+Strange Surgeon's Shako
 Haunted Manneater
 Sweet Dreams Stickybomb Launcher (Well-Worn)
 Killstreak Airwolf Wrench (Well-Worn)
@@ -1402,6 +1567,8 @@ Strange Hillbilly Speed-Bump
 Bovine Blazemaker Mk.II Sniper Rifle (Minimal Wear)
 Haunted Gothic Guise
 Killstreak Backburner
+Strange Woolen Warmer
+Nutcracker Wrench (Factory New)
 Genuine Killstreak Sun-on-a-Stick
 Dead Reckoner Mk.II Degreaser (Minimal Wear)
 Strange Brain Candy Rocket Launcher (Field-Tested)
@@ -1414,10 +1581,12 @@ Blitzkrieg Stickybomb Launcher (Well-Worn)
 Wrapped Reviver Medi Gun (Battle Scarred)
 Genuine Mask of the Shaman
 Croc Dusted War Paint (Field-Tested)
+Festive Stickybomb Launcher
 Strange Rump-o'-Lantern
 Strange Hot Heels
 Black Dahlia Pistol (Field-Tested)
 Fat Man's Field Cap
+Strange Killstreak Silver Botkiller Rocket Launcher Mk.II
 Blue Mew Rocket Launcher (Battle Scarred)
 Blue Mew Knife (Battle Scarred)
 Strange Stickybomb Launcher
@@ -1439,10 +1608,12 @@ Strange Battle Boonie
 Killstreak Low Profile SMG (Field-Tested)
 Strange Citizen Pain Minigun (Field-Tested)
 Quack Canvassed Tomislav (Well-Worn)
+Strange Corpus Christi Cranium
 Aqua Marine Rocket Launcher (Field-Tested)
 Vintage Stockbroker's Scarf
 Backwoods Boomstick Shotgun (Well-Worn)
 Strange Blitzkrieg Medi Gun (Minimal Wear)
+Strange Black Dahlia Pistol (Well-Worn)
 Strange Killstreak Neon Annihilator
 Strange Silver Botkiller Stickybomb Launcher Mk.I
 Strange Coffin Nail Stickybomb Launcher (Field-Tested)
@@ -1453,6 +1624,7 @@ Vintage Cloak and Dagger
 Civic Duty Mk.II Panic Attack (Field-Tested)
 Civil Servant Mk.II Jag (Well-Worn)
 Masked Mender Mk.II Rescue Ranger (Field-Tested)
+Strange Berlin Brain Bowl
 Haunted Snaggletoothed Stetson
 Strange Filter: Landfall (Community)
 Plaid Potshotter Mk.II War Paint (Factory New)
@@ -1484,6 +1656,7 @@ Vintage Killstreak Frontier Justice
 Strange Brick House Minigun (Field-Tested)
 Strange Carbonado Botkiller Rocket Launcher Mk.I
 Haunted Rugged Respirator
+Pyroland Weapons Case
 Blitzkrieg Pistol (Field-Tested)
 Brain Candy Minigun (Field-Tested)
 Coffin Nail Stickybomb Launcher (Minimal Wear)
@@ -1496,6 +1669,9 @@ Forest Fire Mk.II Sniper Rifle (Field-Tested)
 Bovine Blazemaker Mk.II Stickybomb Launcher (Field-Tested)
 Plaid Potshotter Mk.II Shotgun (Battle Scarred)
 Killstreak Autumn Wrench (Battle Scarred)
+Strange Killstreak Rust Botkiller Rocket Launcher Mk.I
+Balloonicorn Flame Thrower (Well-Worn)
+Killstreak Nutcracker Scattergun (Field-Tested)
 Killstreak Scotsman's Skullcutter
 Killstreak Persian Persuader
 Mann Co. Director's Cut Reel
@@ -1506,6 +1682,7 @@ Strange Deity's Dress
 Killstreak Scorch Shot
 Strange Dressed to Kill Knife (Minimal Wear)
 Strange Reclaimed Reanimator Medi Gun (Well-Worn)
+Vintage Sharpened Volcano Fragment
 Genuine Faerie Solitaire Pin
 Genuine Baronial Badge
 Genuine Atomic Accolade
@@ -1532,6 +1709,7 @@ Vintage Killstreak Warrior's Spirit
 Strange Forest Fire Flame Thrower (Field-Tested)
 Strange Bonedolier
 Killstreak Nutcracker Wrench (Minimal Wear)
+Strange Specialized Killstreak Loch-n-Load
 Strange Wildwood Medi Gun (Field-Tested)
 Killstreak Lightning Rod Shotgun (Well-Worn)
 Strange Festive Bonesaw
@@ -1541,8 +1719,10 @@ Killstreak Shortstop
 Strange Nutcracker Scattergun (Battle Scarred)
 Pocket Momma
 Bovine Blazemaker Mk.II Panic Attack (Battle Scarred)
+Strange Specialized Killstreak Reserve Shooter
 Vintage Killstreak Direct Hit
 Killstreak Escape Plan
+Strange Old Country Revolver (Minimal Wear)
 Autumn Wrench (Battle Scarred)
 Civil Servant Mk.II Tomislav (Minimal Wear)
 Croc Dusted War Paint (Well-Worn)
@@ -1550,6 +1730,7 @@ Strange Dressed to Kill Wrench (Well-Worn)
 Haunted Crispy Golden Locks
 Sudden Flurry Stickybomb Launcher (Well-Worn)
 Haunted Hair of the Dog
+Wildwood SMG (Factory New)
 Genuine Killstreak Sharpened Volcano Fragment
 Stockbroker's Scarf
 Pumpkin Patch Stickybomb Launcher (Field-Tested)
@@ -1561,7 +1742,11 @@ Haunted Pin Pals
 Strange Filter: Borneo (Community)
 Autumn Shotgun (Minimal Wear)
 Strange Warhood
+Haunted Spectralnaut
+Strange Full Metal Drill Hat
+Genuine Specialized Killstreak Huo-Long Heater
 Macaw Masked Air Strike (Battle Scarred)
+Woodland Warrior Mk.II War Paint (Minimal Wear)
 Mannana Peeled Stickybomb Launcher (Minimal Wear)
 Hillbilly Speed-Bump
 Strange Dressed to Kill Minigun (Field-Tested)
@@ -1604,6 +1789,7 @@ Treadplate Tormenter SMG (Factory New)
 Killstreak Civic Duty Shotgun (Well-Worn)
 Vintage Killstreak Backburner
 Killstreak Manmelter
+Strange Killstreak Hitman's Heatmaker
 Top Shelf Revolver (Well-Worn)
 Strange Aqua Marine Rocket Launcher (Battle Scarred)
 Strange Killstreak Fists
@@ -1631,13 +1817,16 @@ Nutcracker Scattergun (Battle Scarred)
 Butcher Bird Grenade Launcher (Well-Worn)
 Civil Servant Mk.II Bazaar Bargain (Well-Worn)
 Genuine Red-Tape Recorder
+Strange Vitals Vest
 Killstreak Psychedelic Slugger Revolver (Well-Worn)
 Flower Power Shotgun (Factory New)
 Strange Silver Botkiller Scattergun Mk.I
 Strange Valhalla Helm
 Strange Head Mounted Double Observatory
 Citizen Pain Minigun (Factory New)
+Strange Towering Pillar of Hats
 Flammable Favor
+Strange Killstreak Rust Botkiller Scattergun Mk.I
 Strange Cleaner's Carbine
 Strange Lollichop
 Coffin Nail Medi Gun (Minimal Wear)
@@ -1653,6 +1842,7 @@ Butcher Bird Minigun (Well-Worn)
 Killstreak Huo-Long Heater
 Strange Loch-n-Load
 Killstreak Wildwood Revolver (Field-Tested)
+Strange Antique Annihilator Minigun (Factory New)
 Killstreak Rooftop Wrangler Stickybomb Launcher (Well-Worn)
 Vintage Killstreak Natascha
 Haunted Horned Honcho
@@ -1677,6 +1867,8 @@ Haunted Last Bite
 Dead Reckoner Revolver (Battle Scarred)
 Killstreak Blitzkrieg SMG (Minimal Wear)
 Strange Autumn Rocket Launcher (Well-Worn)
+Strange Brain Candy Rocket Launcher (Battle Scarred)
+Strange Autumn Wrench (Minimal Wear)
 Woodsy Widowmaker SMG (Field-Tested)
 Aqua Marine Rocket Launcher (Minimal Wear)
 Festive Bonesaw
@@ -1684,10 +1876,13 @@ Autumn Mk.II War Paint (Well-Worn)
 Plaid Potshotter Mk.II Medi Gun (Field-Tested)
 Plaid Potshotter Mk.II Black Box (Field-Tested)
 Civic Duty Mk.II Tomislav (Minimal Wear)
+Killstreak Spruce Deuce Scattergun (Well-Worn)
 Coffin Nail Rocket Launcher (Factory New)
 Strange Rust Botkiller Scattergun Mk.I
 Genuine Apoco-Fists
 Killstreak Winger
+Strange Killstreak Backburner
+Strange Part: Kills While Übercharged
 Vintage Dead Ringer
 Iron Wood Minigun (Well-Worn)
 The Demo's Dustcatcher
@@ -1717,15 +1912,21 @@ Bovine Blazemaker Mk.II Jag (Field-Tested)
 Killstreak Festive Flare Gun
 Macaw Masked Sniper Rifle (Well-Worn)
 Vintage Tyrant's Helm
+Vintage Specialized Killstreak Escape Plan
+Autumn Wrench (Factory New)
 Strange Ambassador
 Star Crossed Loose Cannon (Well-Worn)
 Strange Blitzkrieg Revolver (Battle Scarred)
 Killstreak Festive Backburner
 Medical Monarch
+Vintage Specialized Killstreak Scottish Resistance
 Tiger Buffed Bazaar Bargain (Well-Worn)
+Wildwood Sniper Rifle (Factory New)
+Dead Reckoner Mk.II Ubersaw (Minimal Wear)
 Strange Killstreak Southern Hospitality
 Strange Civic Duty Shotgun (Field-Tested)
 Killstreak Festive Frontier Justice
+Genuine Specialized Killstreak Freedom Staff
 Secret Saxton
 Dressed to Kill Pistol (Field-Tested)
 Wildwood Sniper Rifle (Battle Scarred)
@@ -1767,6 +1968,8 @@ The Classy Capper
 Killstreak Degreaser
 Strange Backwoods Boomstick Shotgun (Field-Tested)
 Genuine Tyrant's Helm
+Macaw Masked Amputator (Battle Scarred)
+Strange Shooter's Sola Topi
 Strange Killstreak Syringe Gun
 Lumbricus Lid
 Haunted Vicious Visage
@@ -1778,11 +1981,13 @@ Packable Provisions
 Strange Killstreak Bottle
 Strange Hive Minder
 Genuine Hetman's Headpiece
+Strange Killstreak Classic
 Killstreak Panic Attack
 Strange Bamboo Brushed Shahanshah (Field-Tested)
 Rustic Ruiner Shotgun (Battle Scarred)
 Star Crossed War Paint (Minimal Wear)
 Strange Herald's Helm
+Warhawk Flame Thrower (Battle Scarred)
 Strange Bonk Batter's Backup
 Civic Duty Mk.II Pistol (Battle Scarred)
 Haunted Lo-Grav Loafers
@@ -1793,6 +1998,7 @@ Leopard Printed Powerjack (Well-Worn)
 Anodized Aloha War Paint (Battle Scarred)
 Autumn Mk.II Tomislav (Minimal Wear)
 Shell Shocker Rocket Launcher (Field-Tested)
+Strange Part: Kills While Explosive Jumping
 Killstreak Bat Outta Hell
 Genuine Companion Cube Pin
 Blitzkrieg Revolver (Well-Worn)
@@ -1826,12 +2032,14 @@ Haunted Scorched Skirt
 Killstreak Diamondback
 Strange Blitzkrieg Medi Gun (Battle Scarred)
 Strange Brain Candy Knife (Field-Tested)
+Strange Nutcracker Wrench (Minimal Wear)
 Strange Wrap Assassin
 Genuine Flying Guillotine
 Flash Fryer Flame Thrower (Field-Tested)
 Woodsy Widowmaker Mk.II War Paint (Minimal Wear)
 Strange Blitzkrieg Pistol (Well-Worn)
 Strange Gold Botkiller Stickybomb Launcher Mk.II
+Haunted Grand Duchess Fairy Wings
 Strange Backcountry Blaster Scattergun (Well-Worn)
 Killstreak Kukri
 Strange Reader's Choice
@@ -1845,6 +2053,7 @@ Genuine Sydney Straw Boat
 Genuine Whale Bone Charm
 Phobos Filter
 Blue Mew Knife (Well-Worn)
+Strange Specialized Killstreak Amputator
 Vintage Specialized Killstreak Sandman
 Killstreak Hitman's Heatmaker
 Strange Electric Escorter
@@ -1852,6 +2061,8 @@ Genuine Professor's Pineapple
 Killstreak Amputator
 Haunted Pickled Paws
 Anodized Aloha Rocket Launcher (Factory New)
+Strange Patriot's Pouches
+Strange Killstreak Carbonado Botkiller Rocket Launcher Mk.I
 Strange Apoco-Fists
 Strange Syringe Gun
 Brain Candy Rocket Launcher (Field-Tested)
@@ -1893,16 +2104,19 @@ Blitzkrieg SMG (Well-Worn)
 Nutcracker Wrench (Battle Scarred)
 Dressed to Kill Stickybomb Launcher (Minimal Wear)
 Haunted Spooky Shoes
+Specialized Killstreak Dead Reckoner Revolver (Well-Worn)
 Blue Mew Pistol (Minimal Wear)
 Mo'Horn
 Strange Filter: Enclosure (Community)
 Genuine King of Scotland Cape
 Dead Reckoner Mk.II Powerjack (Field-Tested)
 Strange Dual-Core Devil Doll
+Nutcracker Minigun (Factory New)
 Strange Force-A-Nature
 Mannana Peeled Shotgun (Battle Scarred)
 Killstreak Machina
 Strange Flower Power Medi Gun (Field-Tested)
+Strange Specialized Killstreak Shortstop
 Vintage Wrangler
 Hovering Hotshot
 Genuine Big Daddy
@@ -1948,7 +2162,9 @@ Bloom Buffed Scattergun (Field-Tested)
 Anodized Aloha Rocket Launcher (Field-Tested)
 Merc Stained Sniper Rifle (Field-Tested)
 Backwoods Boomstick Mk.II Crusader's Crossbow (Field-Tested)
+Strange Fan O'War
 The Patriot Peak
+Strange American Pastoral Rocket Launcher (Factory New)
 Haunted Soviet Stitch-Up
 Genuine Company Man
 Archer's Sterling
@@ -1963,6 +2179,7 @@ Strange Rust Botkiller Minigun Mk.I
 Bonk Batter's Backup
 Strange Carbonado Botkiller Scattergun Mk.I
 Strange Nutcracker Wrench (Well-Worn)
+Strange Strontium Stove Pipe
 Strange Antique Annihilator Minigun (Field-Tested)
 Strange Killstreak Frontier Justice
 The Nuke
@@ -1974,6 +2191,7 @@ Haunted Silver Bullets
 Killstreak Crusader's Crossbow
 Killstreak Festive Axtinguisher
 Genuine Planeswalker Goggles
+Killstreak Tomislav
 Genuine Heavy Artillery Officer's Cap
 Boneyard Wrench (Well-Worn)
 Civil Servant Mk.II Crusader's Crossbow (Minimal Wear)
@@ -2004,6 +2222,7 @@ Strange Dressed to Kill Stickybomb Launcher (Field-Tested)
 Blitzkrieg Stickybomb Launcher (Factory New)
 Corsair Scattergun (Factory New)
 Vintage Specialized Killstreak Axtinguisher
+Strange Flak Jack
 Festive Flame Thrower
 Strange Wally Pocket
 Killstreak Lightning Rod Shotgun (Factory New)
@@ -2047,6 +2266,7 @@ Vintage Sun-on-a-Stick
 Cardboard Boxed Bazaar Bargain (Battle Scarred)
 Haunted Legend of Bugfoot
 Festive Gloves of Running Urgently
+Professional's Ushanka
 Big Topper
 Strange Killstreak Righteous Bison
 Strange Pistol
@@ -2060,12 +2280,14 @@ Haunted Shaolin Sash
 Dead Reckoner Mk.II Medi Gun (Minimal Wear)
 Killstreak Warrior's Spirit
 Strange Carbonado Botkiller Knife Mk.I
+Strange Night Owl Sniper Rifle (Well-Worn)
 Genuine Steel Sixpack
 Vintage Killstreak Brass Beast
 Strange Dressed to Kill Knife (Field-Tested)
 Festive Jarate
 Prehistoric Pullover
 Strange Storm Stompers
+Autumn Flame Thrower (Factory New)
 Dead Reckoner Revolver (Well-Worn)
 Night Owl Sniper Rifle (Minimal Wear)
 Forest Fire Mk.II Degreaser (Field-Tested)
@@ -2078,7 +2300,11 @@ Vintage Glengarry Bonnet
 Festive Shotgun
 Genuine Stainless Pot
 Strange Specialized Killstreak Beggar's Bazooka
+Strange Civil Servant Mk.II Rocket Launcher (Factory New)
 Chicago Overcoat
+Strange White Russian
+Lord Cockswain's Novelty Mutton Chops and Pipe Strangifier
+Strange Dressed to Kill Wrench (Minimal Wear)
 Pretty Boy's Pocket Pistol Strangifier
 Festive Bonk! Atomic Punch
 Genuine Croft's Crest
@@ -2090,6 +2316,7 @@ Dead Reckoner Mk.II Loch-n-Load (Well-Worn)
 Fireman's Essentials
 Strange Killstreak Enforcer
 Strange Low Profile SMG (Battle Scarred)
+Strange Specialized Killstreak Claidheamh Mòr
 Strange Rust Botkiller Knife Mk.I
 Haunted Master Mind
 Bovine Blazemaker Mk.II Disciplinary Action (Field-Tested)
@@ -2100,6 +2327,7 @@ Strange Autumn Shotgun (Well-Worn)
 Killstreak Low Profile SMG (Minimal Wear)
 Lumber From Down Under Sniper Rifle (Battle Scarred)
 Strange Part: Killstreaks Ended
+Boneyard Wrench (Minimal Wear)
 Strange Bonk! Atomic Punch
 Country Crusher Scattergun (Well-Worn)
 Strange Crit-a-Cola
@@ -2118,10 +2346,14 @@ Genuine Anger
 Strange Carbonado Botkiller Minigun Mk.I
 Autumn Rocket Launcher (Minimal Wear)
 Genuine Tartantaloons
+Killstreak Airwolf Wrench (Battle Scarred)
 Strange Panic Attack
 Piña Polished War Paint (Battle Scarred)
+Killstreak Plaid Potshotter SMG (Minimal Wear)
 Vintage Killstreak Tribalman's Shiv
 Surgeon's Shako
+Strange Dressed to Kill Shotgun (Minimal Wear)
+Killstreak Antique Annihilator Minigun (Field-Tested)
 Dressed to Kill Shotgun (Well-Worn)
 Wildwood Sniper Rifle (Minimal Wear)
 Blasted Bombardier Stickybomb Launcher (Minimal Wear)
@@ -2186,6 +2418,7 @@ Strange Pretty Boy's Pocket Pistol
 Deity's Dress
 Killstreak Coffin Nail Shotgun (Field-Tested)
 Strange Flakcatcher
+Strange Specialized Killstreak Pistol
 Killstreak Equalizer
 Strange Killstreak Overdose
 Killstreak Cleaner's Carbine
@@ -2194,6 +2427,7 @@ Killstreak Sandman
 Strange Forest Fire Flame Thrower (Well-Worn)
 Croc Dusted SMG (Well-Worn)
 Courtier's Collar
+Strange Killstreak Autumn Wrench (Minimal Wear)
 Genuine Diamondback
 Croc Dusted Sniper Rifle (Minimal Wear)
 Killstreak Festive Holy Mackerel
@@ -2256,6 +2490,7 @@ Strange Razorback
 Genuine Dread Knot
 Bovine Blazemaker Mk.II War Paint (Well-Worn)
 Strange Attack Packs
+Haunted Glob
 Genuine Champ Stamp
 Strange Silver Botkiller Wrench Mk.I
 Killstreak Tribalman's Shiv
@@ -2273,11 +2508,13 @@ Wrapped Reviver Mk.II War Paint (Field-Tested)
 Croc Dusted Pistol (Field-Tested)
 Strange Backwoods Boomstick Shotgun (Well-Worn)
 Strange Phlogistinator
+Haunted Beast From Below
 Strange Killstreak Gloves of Running Urgently
 Killstreak Back Scratcher
 Killstreak Beggar's Bazooka
 Haunted Voodoo-Cursed Sniper Soul
 Strange Killstreak Family Business
+Strange Cardboard Boxed War Paint (Well-Worn)
 Butcher Bird Minigun (Field-Tested)
 Strange Killstreak Scotsman's Skullcutter
 Killstreak Civic Duty Shotgun (Field-Tested)
@@ -2287,6 +2524,7 @@ Strange Killing Gloves of Boxing
 Strange Wing Mann
 Sweet Smissmas Sweater
 Final Frontiersman
+Vintage Killstreak Gunslinger
 Killstreak Sydney Sleeper
 Big Chief Strangifier
 Killstreak Lollichop
@@ -2326,6 +2564,7 @@ Genuine Neon Annihilator
 Carpet Bomber Mk.II War Paint (Well-Worn)
 The Hot Huaraches
 Strange Killstreak Rust Botkiller Stickybomb Launcher Mk.I
+Strange Killstreak Pistol
 Killstreak Blitzkrieg Revolver (Field-Tested)
 Strange Human Cannonball
 Strange Killstreak Direct Hit
@@ -2336,10 +2575,12 @@ Vintage Whiskered Gentleman
 Genuine Planeswalker Helm
 Strange Coffin Nail Flame Thrower (Well-Worn)
 The Festive Holy Mackerel
+Strange Soda Popper
 Strange Silver Botkiller Minigun Mk.II
 Cardboard Boxed Brass Beast (Well-Worn)
 Strange Blood Botkiller Stickybomb Launcher Mk.I
 Bank Rolled Bazaar Bargain (Field-Tested)
+Strange Wartime Warmth
 Strange Carbonado Botkiller Wrench Mk.I
 Kill Covered War Paint (Field-Tested)
 Festive SMG
@@ -2350,6 +2591,7 @@ Mannana Peeled War Paint (Well-Worn)
 Forest Footwear
 Blitzkrieg Pistol (Factory New)
 Strange Silver Botkiller Sniper Rifle Mk.I
+Specialized Killstreak Blitzkrieg Revolver (Field-Tested)
 Killstreak Boston Basher
 Bounty Hat
 Righteous Bison Strangifier
@@ -2376,6 +2618,7 @@ Killstreak Frontier Justice
 Killstreak Market Gardener
 Dead Reckoner Mk.II Family Business (Minimal Wear)
 Star Crossed Loose Cannon (Battle Scarred)
+Strange Killstreak Low Profile SMG (Minimal Wear)
 Killstreak Blue Mew SMG (Field-Tested)
 Haunted Lieutenant Bites the Dust
 Dressed to Kill Sniper Rifle (Minimal Wear)
@@ -2394,18 +2637,23 @@ High Roller's Medi Gun (Field-Tested)
 Strange Killstreak Silver Botkiller Wrench Mk.I
 Festive Frontier Justice
 Bloom Buffed Panic Attack (Field-Tested)
+Strange Neptune's Nightmare
 Brick House Minigun (Factory New)
 Corsair Medi Gun (Well-Worn)
 The Most Dangerous Mane
+Strange Specialized Killstreak Bushwacka
 Strange Filter: Snowplow (Community)
 Vintage Otolaryngologist's Mirror
 Killstreak Short Circuit
 Bamboo Brushed Wrench (Well-Worn)
+Strange Shin Shredders
 Strange Bat
 Vintage Gunboats
 Strange Frontier Justice
 The Self-Aware Beauty Mark
 Strange Killstreak Carbonado Botkiller Sniper Rifle Mk.I
+Vintage Specialized Killstreak Direct Hit
+Haunted Burny's Boney Bonnet
 Strange Filter: Process (Community)
 Strange Killstreak Kukri
 Strange Gridiron Guardian
@@ -2416,6 +2664,7 @@ Haunted Wrap Battler
 The Space Diver
 Nasty Norsemann
 Vintage Whoopee Cap
+Strange Sandvich Safe
 Strange Autumn Rocket Launcher (Minimal Wear)
 Strange Dressed to Kill Sniper Rifle (Well-Worn)
 Strange Part: Heavies Killed
@@ -2437,6 +2686,7 @@ Strange Killstreak Carbonado Botkiller Wrench Mk.I
 Vintage Noble Amassment of Hats
 Killstreak Revolver
 Haunted Voodoo-Cursed Demoman Soul
+Killstreak Festive Huntsman
 Strange Silver Botkiller Wrench Mk.II
 Killstreak Civic Duty Shotgun (Minimal Wear)
 Pink Elephant Stickybomb Launcher (Battle Scarred)
@@ -2459,6 +2709,7 @@ Strange Powdered Practitioner
 Boston Boom-Bringer Strangifier
 Strange Killstreak Tribalman's Shiv
 Strange Specialized Killstreak Kukri
+Vintage Specialized Killstreak Amputator
 Genuine Centurion
 Strange Killstreak Detonator
 Strange Killstreak Atomizer
@@ -2467,6 +2718,8 @@ Strange Noble Nickel Amassment of Hats
 Strange Elf Esteem
 Wrapped Reviver Medi Gun (Field-Tested)
 Strange Killstreak Blitzkrieg Revolver (Field-Tested)
+Strange Toss-Proof Towel
+The Festive Huntsman
 Genuine Sign of the Wolf's School
 The Color of a Gentlemann's Business Pants
 Cardboard Boxed Scattergun (Minimal Wear)
@@ -2474,21 +2727,28 @@ Strange Halogen Head Lamp
 Strange Rust Botkiller Medi Gun Mk.I
 Strange Knife
 Haunted Beacon from Beyond
+Bamboo Brushed Iron Bomber (Minimal Wear)
 Strange Private Eye
+Strange Smalltown Bringdown Rocket Launcher (Factory New)
 Strange American Pastoral Rocket Launcher (Field-Tested)
 Cardboard Boxed Knife (Well-Worn)
+The Lurking Legionnaire
 Haunted Futankhamun
 Football Helmet
 Genuine Blind Justice
 Genuine Vox Diabolus
 Strange Towering Titanium Pillar of Hats
+Strange Camera Beard
 Killstreak Bazaar Bargain
 Leopard Printed Crusader's Crossbow (Well-Worn)
 Haunted Ramses' Regalia
+Aloha Apparel
 Killstreak Huntsman
 Dead Reckoner Mk.II Rocket Launcher (Minimal Wear)
 Strange Killstreak Silver Botkiller Stickybomb Launcher Mk.I
+Specialized Killstreak Huo-Long Heater
 Strange Backburner
+Vintage Specialized Killstreak Chargin' Targe
 Wildwood SMG (Battle Scarred)
 Civic Duty Mk.II Scattergun (Minimal Wear)
 Private Eye Strangifier
@@ -2502,6 +2762,7 @@ Death Racer's Helmet
 Strange Blitzkrieg Pistol (Field-Tested)
 Genuine Noise Maker - Koto
 Mountebank's Masque
+Killstreak Original
 Killstreak Baby Face's Blaster
 The Cammy Jammies
 Vintage Specialized Killstreak Natascha
@@ -2530,12 +2791,14 @@ Strange Teufort Tooth Kicker
 Wildwood Revolver (Factory New)
 Killstreak Pain Train
 Haunted Hallowed Headcase
+Specialized Killstreak Machina
 Strange Killstreak Sniper Rifle
 Strange Specialized Killstreak Candy Cane
 Strange Killstreak Revolver
 Strange Silver Botkiller Medi Gun Mk.II
 Killstreak Dressed to Kill Shotgun (Field-Tested)
 Kill Covered Scattergun (Battle Scarred)
+Vintage Specialized Killstreak Loch-n-Load
 Star Crossed Scattergun (Minimal Wear)
 The Festive Buff Banner
 Bovine Blazemaker Mk.II War Paint (Field-Tested)
@@ -2545,6 +2808,7 @@ Summer Shades
 Strange Dressed to Kill Pistol (Field-Tested)
 Strange Eyelander
 Strange Citizen Pain Minigun (Factory New)
+The Festive Sandvich
 Haunted Headtaker's Hood
 Strange Nutcracker Pistol (Field-Tested)
 Flakcatcher
@@ -2554,6 +2818,7 @@ Strange Old Country Revolver (Well-Worn)
 Killstreak Country Crusher Scattergun (Battle Scarred)
 The War on Smissmas Battle Socks
 Killstreak Unarmed Combat
+Genuine Alien Cranium
 Killstreak Atomizer
 Strange A Head Full of Hot Air
 Strange Bomber's Bucket Hat
@@ -2566,6 +2831,7 @@ Strange Wildwood Sniper Rifle (Field-Tested)
 Strange Silver Botkiller Rocket Launcher Mk.II
 Vintage Killstreak Flare Gun
 High Roller's Medi Gun (Battle Scarred)
+Vintage Specialized Killstreak Force-A-Nature
 The Mishap Mercenary
 Killstreak Flower Power Revolver (Factory New)
 Strange Killstreak Beggar's Bazooka
@@ -2575,12 +2841,15 @@ Strange Dressed to Kill Pistol (Minimal Wear)
 Strange Specialized Killstreak Air Strike
 Strange Medi Gun
 Bloom Buffed Ubersaw (Well-Worn)
+Waterlogged Lab Coat
 Haunted Bozo's Brogues
 Tiger Buffed Reserve Shooter (Well-Worn)
+Specialized Killstreak Loose Cannon
 Name Tag
 Haunted Hound's Hood
 Snowwing
 Guilden Guardian
+Strange Killstreak Shotgun
 Tour of Duty Ticket
 Strange Kukri
 Strange Cow Mangler 5000
@@ -2606,11 +2875,14 @@ Strange Boston Basher
 Blue Mew Scattergun (Field-Tested)
 Wrapped Reviver Medi Gun (Minimal Wear)
 Strange Bushwacka
+Strange Killstreak Autumn Shotgun (Field-Tested)
 Strange Squire's Sabatons
 Backwoods Boomstick Mk.II Winger (Field-Tested)
 Cardboard Boxed War Paint (Battle Scarred)
 Killstreak Wrap Assassin
 Haunted Foul Cowl
+Strange Wildwood Revolver (Minimal Wear)
+Killstreak Corsair Scattergun (Battle Scarred)
 Woodsy Widowmaker Mk.II Powerjack (Factory New)
 Strange Filter: Coldfront (Community)
 A Deep Commitment to Purple
@@ -2623,6 +2895,7 @@ Bloom Buffed Black Box (Well-Worn)
 Lurker's Leathers
 Killstreak Festive Gloves of Running Urgently
 Strange Mad Milk
+Strange Part: Cloaked Spies Killed
 Dead Reckoner Mk.II Black Box (Battle Scarred)
 Winter Backup
 Strange Killstreak Force-A-Nature
@@ -2636,6 +2909,8 @@ Strange Carbonado Botkiller Flame Thrower Mk.I
 Strange Flower Power Medi Gun (Battle Scarred)
 Neptune's Nightmare
 The Hunter in Darkness
+Specialized Killstreak Old Country Revolver (Minimal Wear)
+Strange Crusader's Crossbow
 Strange Killstreak Carbonado Botkiller Scattergun Mk.I
 Strange Forest Footwear
 Killstreak Ubersaw
@@ -2654,10 +2929,14 @@ Strange Blue Mew SMG (Field-Tested)
 Haunted Parasight
 Strange Southern Hospitality
 Strange Cloak and Dagger
+Killstreak Mister Cuddles Minigun (Field-Tested)
 Haunted Voodoo JuJu (Slight Return)
 Strange Blitzkrieg Medi Gun (Field-Tested)
 Killstreak Chargin' Targe
 Strange Masked Mender Medi Gun (Well-Worn)
+Strange Merc Stained War Paint (Well-Worn)
+Specialized Killstreak Flare Gun
+Strange Killstreak Backcountry Blaster Scattergun (Minimal Wear)
 Dead Reckoner Mk.II Grenade Launcher (Battle Scarred)
 Vintage Triboniophorus Tyrannus
 Strange Killstreak Liberty Launcher
@@ -2682,6 +2961,7 @@ Strange Toy Tailor
 Vintage Stainless Pot
 Strange Genuine Foppish Physician
 Strange Local Hero Pistol (Field-Tested)
+Strange Blood Banker
 Killstreak Festive SMG
 Strange Ornament Armament
 Strange Killstreak Silver Botkiller Minigun Mk.II
@@ -2737,6 +3017,13 @@ Genuine Dread Hiding Hood
 Strange Bootleg Base Metal Billycock
 Strange Specialized Killstreak Blutsauger
 Strange Part: Full Health Kills
+Strange Pom-Pommed Provocateur
+High Roller's SMG (Minimal Wear)
+Specialized Killstreak Ubersaw
+Specialized Killstreak Baby Face's Blaster
+Specialized Killstreak Shortstop
+Strange Killstreak Ubersaw
+Strange Bazaar Bargain
 Haunted Executioner
 Strange Nutcracker Wrench (Field-Tested)
 Strange Specialized Killstreak Baby Face's Blaster
@@ -2746,8 +3033,10 @@ Strange Woodsy Widowmaker SMG (Minimal Wear)
 Vintage Engineer's Cap
 Strange Filter: Suijin (Community)
 Killstreak Widowmaker
+Strange Plug-In Prospector
 Airborne Attire
 Killstreak Scattergun
+Old Man Frost
 Strange Rocket Launcher
 Killstreak Bogtrotter Sniper Rifle (Field-Tested)
 Showstopper
@@ -2756,21 +3045,27 @@ Strange Coffin Nail Revolver (Well-Worn)
 Haunted Intangible Ascot
 Harlequin's Hooves
 Strange Nutcracker Flame Thrower (Well-Worn)
+Balloonicorn Sniper Rifle (Field-Tested)
+Strange Specialized Killstreak Silver Botkiller Stickybomb Launcher Mk.II
 Killstreak Sniper Rifle
 Outta' Sight
 Sacrificial Stone
 Strange Specialized Killstreak Lollichop
+Macaw Masked Holy Mackerel (Battle Scarred)
 Haunted Voodoo-Cursed Engineer Soul
 Haunted Maniac's Manacles
+Strange King of the Jungle Minigun (Minimal Wear)
 Killstreak Shahanshah
 Killstreak Eviction Notice
 Killstreak Bushwacka
 Dead Reckoner Mk.II Black Box (Minimal Wear)
 The Festive Ambassador
+Strange L'Etranger
 Killstreak Direct Hit
 Dead Reckoner Mk.II Black Box (Well-Worn)
 Strange Dressed to Kill Minigun (Minimal Wear)
 Bamboo Brushed Bazaar Bargain (Factory New)
+Strange Part: Medics Killed That Have Full ÜberCharge
 Killstreak Candy Cane
 Noble Hatter's Violet
 Genuine Aperture Labs Hard Hat
@@ -2779,12 +3074,14 @@ Demoman's Fro
 Strange Killstreak Scottish Resistance
 Strange Buff Banner
 Killstreak Air Strike
+Strange Spirit of the Bombing Past
 Festive Eyelander
 Haunted Shoestring Budget
 Strange Killstreak Natascha
 Strange Local Hero Pistol (Factory New)
 Festive Force-A-Nature
 Strange Mad Mask
+Specialized Killstreak Reserve Shooter
 Strange Autumn Wrench (Field-Tested)
 Genuine Specialized Killstreak Ham Shank
 Strange Support Spurs
@@ -2802,6 +3099,7 @@ Infernal Reward War Paint Case
 Killstreak Holy Mackerel
 Strange Killstreak Vaccinator
 Heavy Tourism
+Specialized Killstreak Splendid Screen
 Vintage Specialized Killstreak Huntsman
 Strange Manmelter
 Strange Frenchman's Beret
@@ -2811,18 +3109,24 @@ Bamboo Brushed Pistol (Field-Tested)
 Strange Autumn Shotgun (Battle Scarred)
 Strange Scattergun
 Strange Carbonado Botkiller Sniper Rifle Mk.I
+Thirst Blood
+Specialized Killstreak Fan O'War
+Strange Pyro's Boron Beanie
 Sharp Chest Pain
 Genuine Hero's Hachimaki
 Vintage Ye Olde Baker Boy
+Specialized Killstreak Quickiebomb Launcher
 Vintage Heavy Duty Rag
 Strange Local Hero Pistol (Battle Scarred)
 Strange Part: Posthumous Kills
 Strange Filter: Kong King (Community)
 Strange Killstreak Homewrecker
+Specialized Killstreak Huntsman
 Strange Righteous Bison
 Strange Demo's Dustcatcher
 Phononaut
 The Aztec Aggressor
+Vintage Brigade Helm
 Cardboard Boxed War Paint (Well-Worn)
 The Shellmet
 Killstreak Black Box
@@ -2835,6 +3139,7 @@ Strange Killstreak Silver Botkiller Wrench Mk.II
 Strange Specialized Killstreak Neon Annihilator
 Herald's Helm
 Valhalla Helm
+Specialized Killstreak Backburner
 Pallet of Crates
 Haunted Grub Grenades
 Killstreak Liberty Launcher
@@ -2847,7 +3152,9 @@ Killstreak Bat
 Strange A Hat to Kill For
 Strange Broadband Bonnet
 Strange Showstopper
+Strange Cosmetic Part: Assists
 Vintage Trophy Belt
+Dead Reckoner Mk.II Scattergun (Factory New)
 Dead Reckoner Mk.II Holy Mackerel (Well-Worn)
 Pumpkin Patch Flame Thrower (Minimal Wear)
 Strange Autumn Wrench (Well-Worn)
@@ -2855,22 +3162,27 @@ Killstreak Sun-on-a-Stick
 Strange Jag
 Vintage Brass Beast
 A Hat to Kill For
+Genuine Specialized Killstreak Machina
 Strange Killstreak SMG
 Killstreak Quick-Fix
 Strange Nutcracker Scattergun (Well-Worn)
 The Corpus Christi Cranium
 Strange Shotgun
+Vintage Specialized Killstreak Kritzkrieg
 Haunted Grisly Gumbo
 Anodized Aloha War Paint (Well-Worn)
 Smalltown Bringdown Rocket Launcher (Factory New)
 Carpet Bomber Mk.II Rocket Launcher (Field-Tested)
 Genuine That '70s Chapeau
+Strange Killstreak Half-Zatoichi
 Genuine Scrap Pack
 Strange Bamboo Brushed Back Scratcher (Field-Tested)
+Specialized Killstreak Force-A-Nature
 Haunted Steel Pipes
 Genuine Tough Guy's Toque
 Ye Olde Rustic Colour
 Professor Speks Strangifier
+Specialized Killstreak Lollichop
 Killstreak Backwoods Boomstick Shotgun (Field-Tested)
 Strange Killstreak Spy-cicle
 Strange Rotation Sensation
@@ -2879,24 +3191,33 @@ Haunted External Organ
 Killstreak Fists
 Haunted Guano
 Strange Boxcar Bomber
+Specialized Killstreak Syringe Gun
 Mann Co. Orange
 Genuine Combat Medic's Crusher Cap
+Strange Festive SMG
 Strange Killstreak Ambassador
 Strange Dressed to Kill Medi Gun (Minimal Wear)
 Cardboard Boxed Shotgun (Minimal Wear)
+Professional Killstreak Festive Gloves of Running Urgently
 Strange Local Hero Pistol (Minimal Wear)
 Thrilling Tracksuit
 Strange Killstreak Sydney Sleeper
 Vintage Ritzy Rick's Hair Fixative
+Strange Specialized Killstreak Bottle
 Sandstone Special Pistol (Battle Scarred)
 Genuine Biomech Backpack
 Vintage Pyro's Beanie
+Strange Killstreak Scattergun
 Haunted Vicar's Vestments
 Vintage Shooter's Sola Topi
+Specialized Killstreak Righteous Bison
 Tiger Buffed Disciplinary Action (Battle Scarred)
 Haunted Scarecrow
 Genuine Die Regime-Panzerung
+Strange Specialized Killstreak Rescue Ranger
 Genuine Geisha Boy
+Haunted Quoth
+Genuine MK 50
 Strange Specialized Killstreak Solemn Vow
 Strange Festive Bonk! Atomic Punch
 Kill Covered Scattergun (Field-Tested)
@@ -2914,6 +3235,7 @@ Strange Killstreak Market Gardener
 Strange Spooktacles
 Strange Coffin Nail Flame Thrower (Battle Scarred)
 Clover Camo'd War Paint (Field-Tested)
+Strange Specialized Killstreak Flare Gun
 Genuine Sun-on-a-Stick
 Dead Reckoner Mk.II Scattergun (Well-Worn)
 Brain Candy Knife (Factory New)
@@ -2921,6 +3243,9 @@ Haunted Faun Feet
 Strange Gauzed Gaze
 Strange Air Strike
 Strange Kiss King
+Specialized Killstreak Wanga Prick
+Genuine Quadwrangler
+Poacher's Safari Jacket
 Muskelmannbraun
 Genuine Cold War Luchador
 Strange Killstreak Eviction Notice
@@ -2931,15 +3256,20 @@ Corsair Medi Gun (Battle Scarred)
 Genuine Half-Zatoichi
 Strange Packable Provisions
 The Electric Twanger
+Festive Minigun
 Strange Blue Mew SMG (Minimal Wear)
+Strange Brooklyn Booties
 Earth, Sky and Fire Flame Thrower (Factory New)
 Strange Scoped Spartan
+Macaw Masked Air Strike (Well-Worn)
 Killstreak L'Etranger
 Bunnyhopper's Ballistics Vest
 Bovine Blazemaker Mk.II Iron Bomber (Field-Tested)
 Strange Part: Burning Enemy Kills
 Strange Liberty Launcher
 Strange Coffin Nail Medi Gun (Minimal Wear)
+Specialized Killstreak Eyelander
+Strange Specialized Killstreak Tribalman's Shiv
 Brain Candy Pistol (Minimal Wear)
 Strange Chargin' Targe
 Strange Wrapped Reviver Medi Gun (Battle Scarred)
@@ -2954,19 +3284,26 @@ Strange Killstreak Silver Botkiller Sniper Rifle Mk.II
 Strange Killstreak Shovel
 Macaw Masked Scattergun (Field-Tested)
 Haunted Baphomet Trotters
+Specialized Killstreak Wildwood SMG (Minimal Wear)
 Festive Crusader's Crossbow
+Specialized Killstreak Cow Mangler 5000
 Piña Polished Disciplinary Action (Minimal Wear)
 Killstreak Tide Turner
+Haunted Dark Helm
 Forest Fire Mk.II Reserve Shooter (Field-Tested)
 Strange Cotton Head
+Specialized Killstreak Bonesaw
 Strange Killstreak Bat
+Down Under Duster
 Haunted Exorcizor
 Dead Reckoner Mk.II Jag (Minimal Wear)
 Strange Escape Plan
+Strange El Caballero
 Strange Killstreak Rescue Ranger
 Haunted Under Cover
 Dead Reckoner Mk.II Crusader's Crossbow (Well-Worn)
 Strange Harlequin's Hooves
+Specialized Killstreak Bazaar Bargain
 Vintage Killstreak Force-A-Nature
 Anodized Aloha Reserve Shooter (Well-Worn)
 Strange Part: Engineers Killed
@@ -2977,18 +3314,23 @@ Vintage Batter's Helmet
 Phlogistinator Strangifier
 Strange Killstreak Coffin Nail Sniper Rifle (Field-Tested)
 Anodized Aloha Scorch Shot (Field-Tested)
+Strange Part: Long-Distance Kills
 Genuine Backbiter's Billycock
 High Roller's SMG (Well-Worn)
 Strange Scottish Resistance
 Killstreak Disciplinary Action
 Genuine Der Maschinensoldaten-Helm
 Genuine Xeno Suit
+The Essential Accessories
 Strange Killstreak Scorch Shot
 Strange Dead Ringer
 Commissar's Coat
 Genuine Last Straw
+Bonk Varnished War Paint (Battle Scarred)
+Strange Diamond Botkiller Medi Gun Mk.I
 Vintage Killstreak Killing Gloves of Boxing
 Strange Antique Annihilator Minigun (Well-Worn)
+Specialized Killstreak Winger
 Clover Camo'd War Paint (Battle Scarred)
 Star Crossed Scattergun (Well-Worn)
 Bank Rolled War Paint (Field-Tested)
@@ -2999,11 +3341,20 @@ Strange Brain Candy Minigun (Well-Worn)
 Feathered Fiend
 Strange Low Profile SMG (Field-Tested)
 Lil' Bitey
+Strange Killstreak Rust Botkiller Flame Thrower Mk.I
 Strange Metal Slug
 Pestering Jester
+Strange Civil Servant Medi Gun (Factory New)
 Mannana Peeled Knife (Field-Tested)
 Vintage Gunslinger
+Outback Intellectual Strangifier
+Vintage Modest Pile of Hat
+Strange Killstreak Eyelander
+An Air of Debonair
+Strange Airborne Attire
 Strange Big Elfin Deal
+Specialized Killstreak Boston Basher
+Strange Anodized Aloha War Paint (Battle Scarred)
 Genuine Merc Medal
 Strange Outta' Sight
 Vintage Specialized Killstreak Warrior's Spirit
@@ -3012,32 +3363,47 @@ Genuine Deadliest Duckling
 Dead Reckoner Mk.II War Paint (Minimal Wear)
 Strange Flare Gun
 Sandstone Special Pistol (Minimal Wear)
+Specialized Killstreak Pretty Boy's Pocket Pistol
 Cop Caller
+Strange Bolted Birdcage
+Killstreak Flame Thrower
 Strange Killstreak Shahanshah
 Piña Polished Holy Mackerel (Field-Tested)
 Bovine Blazemaker Mk.II Loch-n-Load (Field-Tested)
 Bomb Beanie
 Genuine Killstreak Widowmaker
 Strange Filter: Harvest (Community)
+Strange Iron Bomber
 Strange Part: Low-Health Kills
 Vintage Prussian Pickelhaube
 Strange Triad Trinket
 Genuine Crafty Hair
 Strange Blitzkrieg Pistol (Minimal Wear)
+Strange Specialized Killstreak Shahanshah
 Haunted Spellbinder's Bonnet
+Strange Part: Demomen Killed
 Killstreak Low Profile SMG (Factory New)
 Dead Reckoner Mk.II Air Strike (Minimal Wear)
 Strange Civil Servant Medi Gun (Well-Worn)
+Strange Specialized Killstreak Revolver
+Genuine Bushman's Boonie
 Vintage Ullapool Caber
 Strange Black Box
 Strange Killstreak Killing Gloves of Boxing
+Strange Specialized Killstreak Frontier Justice
+Strange Professional Killstreak Gloves of Running Urgently
+Strange Brain Candy Minigun (Battle Scarred)
 Cardboard Boxed War Paint (Minimal Wear)
+Toss-Proof Towel Strangifier
 Haunted Blazing Bull
 Haunted Hollowhead
 Strange Universal Translator
+Killstreak Blitzkrieg SMG (Factory New)
+Specialized Killstreak Low Profile SMG (Field-Tested)
 The Bread Bite
 Genuine Battle Bob
 Strange Minigun
+Strange Part: Soldiers Killed
 Storm Stompers
 Strange Pure Tin Capotain
 Killstreak Dressed to Kill Sniper Rifle (Minimal Wear)
@@ -3045,11 +3411,15 @@ El Caballero
 Strange Specialized Killstreak Cleaner's Carbine
 Operator's Overalls
 Gargoyle Case
+Strange Specialized Killstreak Pretty Boy's Pocket Pistol
 Killstreak Festive Ubersaw
 Strange Specialized Killstreak Ambassador
+Specialized Killstreak Natascha
 Pumpkin Patch Minigun (Battle Scarred)
 Haunted Tail From the Crypt
 Strange Killstreak Brass Beast
+Strange Specialized Killstreak Backburner
+Strange Black Knight's Bascinet
 Vaccinator Strangifier
 Killstreak Dressed to Kill Shotgun (Well-Worn)
 Killstreak Wildwood Revolver (Well-Worn)
@@ -3062,25 +3432,31 @@ Strange Siberian Facehugger
 The Diplomat
 Strange Specialized Killstreak Sydney Sleeper
 Vintage Specialized Killstreak Scotsman's Skullcutter
+Sandvich Safe Strangifier
 Genuine Specialized Killstreak Fan O'War
 Strange Killstreak Silver Botkiller Sniper Rifle Mk.I
 Vintage Killstreak Ullapool Caber
 Strange Messenger's Mail Bag
 Strange Filter: Sunshine (Community)
 Bamboo Brushed Shotgun (Minimal Wear)
+Vintage Specialized Killstreak Killing Gloves of Boxing
 Haunted Monster's Stompers
 Strange Filter: Turbine (Community)
 Strange Killstreak Old Country Revolver (Minimal Wear)
+Strange Killstreak Jag
 Strange Cop Caller
 Top Shelf Revolver (Field-Tested)
 The Ebenezer
 Dead Reckoner Mk.II Minigun (Well-Worn)
 Bloom Buffed Amputator (Well-Worn)
 Vintage Killstreak Chargin' Targe
+Strange Civic Duty Shotgun (Factory New)
 Strange Coffin Nail Medi Gun (Field-Tested)
 Genuine Grizzled Growth
 Bovine Blazemaker Mk.II Sniper Rifle (Battle Scarred)
 Killstreak Coffin Nail Sniper Rifle (Field-Tested)
+Strange Specialized Killstreak Festive Gloves of Running Urgently
+Strange Killstreak Festive SMG
 Haunted Surgeon's Space Suit
 Strange Specialized Killstreak Enforcer
 Strange Wrangler
@@ -3092,6 +3468,7 @@ Scot Bonnet
 Torcher's Tabard
 Boneyard Revolver (Well-Worn)
 Strange Pocket Saxton
+Bushman's Bristles
 Strange Filter: Freight (Community)
 Captain Space Mann
 Killstreak Citizen Pain Minigun (Well-Worn)
@@ -3100,11 +3477,13 @@ Dead Reckoner Mk.II Sniper Rifle (Battle Scarred)
 Blue Mew Rocket Launcher (Minimal Wear)
 Haunted One-Way Ticket
 Charred Chainmail
+Strange Specialized Killstreak Cow Mangler 5000
 Strange Family Business
 Strange Coffin Nail Minigun (Minimal Wear)
 Dead Reckoner Mk.II Scotsman's Skullcutter (Battle Scarred)
 Strange Civic Duty Shotgun (Battle Scarred)
 Iron Lung
+Clover Camo'd Sniper Rifle (Minimal Wear)
 Strange El Patron
 Aged Moustache Grey
 Dead Reckoner Mk.II War Paint (Battle Scarred)
@@ -3112,14 +3491,21 @@ Pumpkin Patch Stickybomb Launcher (Battle Scarred)
 Strange Titanium Towel
 Strange Filter: Lakeside (Community)
 Strange Killstreak Amputator
+Killstreak Team Sprayer SMG (Minimal Wear)
 Strange Specialized Killstreak Fan O'War
 Mannana Peeled Grenade Launcher (Field-Tested)
 Bloom Buffed Shotgun (Well-Worn)
+Strange Anodized Aloha War Paint (Well-Worn)
 Dead Reckoner Mk.II Crusader's Crossbow (Battle Scarred)
 Haunted Shaman's Skull
 Leopard Printed Claidheamh Mòr (Field-Tested)
 Quack Canvassed Scattergun (Field-Tested)
+Haunted Spooky Sleeves
 Dead Reckoner Mk.II Detonator (Battle Scarred)
+Strange Specialized Killstreak Festive SMG
+Strange Killstreak Pomson 6000
+Strange Old Man Frost
+Strange Killstreak Mayor Revolver (Factory New)
 Bovine Blazemaker Mk.II Ubersaw (Battle Scarred)
 Night Owl Sniper Rifle (Factory New)
 Merc's Pride Scarf Strangifier Chemistry Set
@@ -3142,8 +3528,12 @@ Star Crossed Powerjack (Battle Scarred)
 Pizza Polished Degreaser (Field-Tested)
 Strange Filter: Watergate (Community)
 Vintage Texas Slim's Dome Shine
+Sax Waxed Bazaar Bargain (Minimal Wear)
+Specialized Killstreak Scottish Handshake
+Strange Killstreak L'Etranger
 Strange Mountebank's Masque
 Haunted Raven's Visage
+Holstered Heaters
 Strange Big Topper
 Strange Dressed to Kill Stickybomb Launcher (Minimal Wear)
 Strange Classy Capper
@@ -3152,29 +3542,39 @@ Backwoods Boomstick Mk.II Claidheamh Mòr (Factory New)
 Leopard Printed Soda Popper (Well-Worn)
 Vintage Specialized Killstreak Equalizer
 Strange Crocodile Smile
+Merc Stained Shotgun (Minimal Wear)
 Bovine Blazemaker Mk.II Shotgun (Field-Tested)
+Strange Killstreak Flower Power Revolver (Well-Worn)
 Bovine Blazemaker Mk.II Black Box (Battle Scarred)
 Dead Reckoner Mk.II Pistol (Battle Scarred)
 Dead Reckoner Mk.II Back Scratcher (Minimal Wear)
+Killstreak Macabre Web Revolver (Well-Worn)
 Killstreak Torqued to Hell Wrench (Battle Scarred)
 Spirit of the Bombing Past
 Dead Reckoner Mk.II Shotgun (Minimal Wear)
 Dead Reckoner Mk.II Brass Beast (Minimal Wear)
 Bloom Buffed Shotgun (Minimal Wear)
+Merc Stained Wrench (Well-Worn)
+Strange Respectless Robo-Glove
 Quack Canvassed Disciplinary Action (Field-Tested)
 Woodland Warrior Rocket Launcher (Battle Scarred)
 Strange Dressed to Kill Pistol (Well-Worn)
+Strange Tipped Lid
 Bovine Blazemaker Mk.II Scorch Shot (Field-Tested)
 Leopard Printed Pistol (Battle Scarred)
 Strange Koala Compact
+Killstreak Woodland Warrior Rocket Launcher (Well-Worn)
 The Sack Fulla Smissmas
 Vintage Killstreak Sun-on-a-Stick
 Bloom Buffed Powerjack (Field-Tested)
+Killstreak High Roller's SMG (Minimal Wear)
 Bamboo Brushed Sniper Rifle (Minimal Wear)
 Strange Most Dangerous Mane
 Killstreak Wildwood Sniper Rifle (Field-Tested)
+Strange Vintage Camera Beard
 Anodized Aloha Air Strike (Well-Worn)
 Dead Reckoner Mk.II Wrench (Field-Tested)
+Genuine Jungle Booty
 Star Crossed Sniper Rifle (Field-Tested)
 Haunted Cauterizer's Caudal Appendage
 Strange Killstreak Chargin' Targe
@@ -3182,12 +3582,16 @@ Star Crossed Stickybomb Launcher (Field-Tested)
 Killstreak Flower Power Scattergun (Minimal Wear)
 Dead Reckoner Mk.II Soda Popper (Minimal Wear)
 Dead Reckoner Mk.II Revolver (Factory New)
+Genuine Specialized Killstreak Short Circuit
 Bamboo Brushed Tomislav (Field-Tested)
 Bloom Buffed Air Strike (Field-Tested)
 Strange Filter: Junction (Community)
 Bamboo Brushed Loose Cannon (Well-Worn)
 Anodized Aloha Tomislav (Battle Scarred)
 Boneyard Sniper Rifle (Field-Tested)
+Bovine Blazemaker Mk.II War Paint (Factory New)
+Bovine Blazemaker Mk.II Rocket Launcher (Factory New)
+Strange Killstreak Low Profile SMG (Field-Tested)
 Dead Reckoner Mk.II Panic Attack (Well-Worn)
 Leopard Printed Jag (Well-Worn)
 Strange Specialized Killstreak Pain Train
@@ -3196,6 +3600,7 @@ Dream Piped Tomislav (Minimal Wear)
 Leopard Printed Rocket Launcher (Field-Tested)
 Killstreak Bogtrotter Sniper Rifle (Battle Scarred)
 Killstreak Spruce Deuce Scattergun (Battle Scarred)
+Rat Stompers Strangifier
 Mannana Peeled Shotgun (Well-Worn)
 Strange Filter: Moonshine Event (Community)
 Killstreak Dressed to Kill Sniper Rifle (Battle Scarred)
@@ -3205,6 +3610,7 @@ Bloom Buffed Shahanshah (Well-Worn)
 Boneyard Knife (Battle Scarred)
 Woodsy Widowmaker Mk.II Disciplinary Action (Well-Worn)
 Tiger Buffed Persian Persuader (Well-Worn)
+Dead Reckoner Mk.II Detonator (Minimal Wear)
 Mannana Peeled Family Business (Battle Scarred)
 Killstreak Civic Duty Shotgun (Battle Scarred)
 Cardboard Boxed Tomislav (Well-Worn)

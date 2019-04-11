@@ -777,3 +777,715 @@
 
 16:50:43 INFO:root_logger	Starting script...
 16:50:43 DEBUG:root_logger	DISPLAY=False, SORT=False, current_page=100, num_iterations=100
+16:57:38 INFO:root_logger	Starting script...
+16:57:38 DEBUG:root_logger	DISPLAY=False, SORT=False, current_page=100, num_iterations=100
+16:57:52 DEBUG:root_logger	Initalized scraper
+16:57:52 INFO:root_logger	Iterating for 2 times
+16:57:52 INFO:root_logger	Current Page - 100, Final Page - 101
+16:57:52 INFO:root_logger	Filling items from page #100
+16:57:56 INFO:root_logger	Fetched items from page #100 (1/100)
+16:58:02 DEBUG:root_logger	Cant find element for item Killstreak Blitzkrieg SMG (Minimal Wear)
+16:58:03 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:58:08 DEBUG:root_logger	Cant find element for item Festive Bogtrotter Sniper Rifle (Field-Tested)
+16:58:08 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:58:10 DEBUG:root_logger	Cant find element for item Festive Bogtrotter Sniper Rifle (Field-Tested)
+16:58:10 DEBUG:root_logger	Failed twice - Index #2 popped from list
+16:58:15 DEBUG:root_logger	Cant find element for item Festive Wildwood Revolver (Battle Scarred)
+16:58:15 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:58:17 DEBUG:root_logger	Cant find element for item Festive Wildwood Revolver (Battle Scarred)
+16:58:17 DEBUG:root_logger	Failed twice - Index #3 popped from list
+16:58:23 DEBUG:root_logger	Cant find element for item Festive Black Dahlia Pistol (Minimal Wear)
+16:58:23 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:58:25 DEBUG:root_logger	Cant find element for item Festive Black Dahlia Pistol (Minimal Wear)
+16:58:25 DEBUG:root_logger	Failed twice - Index #4 popped from list
+16:58:38 DEBUG:root_logger	Cant find element for item Festive Flower Power Scattergun (Minimal Wear)
+16:58:38 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:58:40 DEBUG:root_logger	Cant find element for item Festive Flower Power Scattergun (Minimal Wear)
+16:58:40 DEBUG:root_logger	Failed twice - Index #7 popped from list
+16:58:42 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Minigun (Battle Scarred)
+16:58:42 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:58:44 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Minigun (Battle Scarred)
+16:58:44 DEBUG:root_logger	Failed twice - Index #7 popped from list
+16:58:46 DEBUG:root_logger	Cant find element for item Festive Wrapped Reviver Medi Gun (Minimal Wear)
+16:58:46 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:58:48 DEBUG:root_logger	Cant find element for item Festive Wrapped Reviver Medi Gun (Minimal Wear)
+16:58:48 DEBUG:root_logger	Failed twice - Index #7 popped from list
+16:59:01 DEBUG:root_logger	Cant find element for item Bovine Blazemaker Mk.II Jag (Factory New)
+16:59:01 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:59:03 DEBUG:root_logger	Cant find element for item Bovine Blazemaker Mk.II Jag (Factory New)
+16:59:03 DEBUG:root_logger	Failed twice - Index #10 popped from list
+16:59:24 DEBUG:root_logger	Cant find element for item Festive Nutcracker Pistol (Well-Worn)
+16:59:24 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:59:26 DEBUG:root_logger	Cant find element for item Festive Nutcracker Pistol (Well-Worn)
+16:59:26 DEBUG:root_logger	Failed twice - Index #15 popped from list
+16:59:39 DEBUG:root_logger	Cant find element for item Festive Nutcracker Wrench (Minimal Wear)
+16:59:39 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:59:42 DEBUG:root_logger	Cant find element for item Festive Nutcracker Wrench (Minimal Wear)
+16:59:42 DEBUG:root_logger	Failed twice - Index #18 popped from list
+16:59:43 DEBUG:root_logger	Cant find element for item Festive Macabre Web Minigun (Field-Tested)
+16:59:43 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:59:45 DEBUG:root_logger	Cant find element for item Festive Macabre Web Minigun (Field-Tested)
+16:59:45 DEBUG:root_logger	Failed twice - Index #18 popped from list
+16:59:47 DEBUG:root_logger	Cant find element for item Festive Blasted Bombardier Stickybomb Launcher (Minimal Wear)
+16:59:47 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:59:49 DEBUG:root_logger	Cant find element for item Festive Blasted Bombardier Stickybomb Launcher (Minimal Wear)
+16:59:49 DEBUG:root_logger	Failed twice - Index #18 popped from list
+16:59:51 DEBUG:root_logger	Cant find element for item Festive Macabre Web Pistol (Field-Tested)
+16:59:51 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+16:59:53 DEBUG:root_logger	Cant find element for item Festive Macabre Web Pistol (Field-Tested)
+16:59:53 DEBUG:root_logger	Failed twice - Index #18 popped from list
+17:00:16 INFO:root_logger	fillRealPrices() exited correctly
+17:00:16 INFO:root_logger	Filling items from page #101
+17:00:18 INFO:root_logger	Fetched items from page #101 (2/100)
+17:00:19 DEBUG:root_logger	Cant find element for item Festive Boneyard Revolver (Field-Tested)
+17:00:19 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:00:21 DEBUG:root_logger	Cant find element for item Festive Boneyard Revolver (Field-Tested)
+17:00:21 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:00:54 DEBUG:root_logger	Cant find element for item Festive Blue Mew Scattergun (Field-Tested)
+17:00:54 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:00:56 DEBUG:root_logger	Cant find element for item Festive Blue Mew Scattergun (Field-Tested)
+17:00:56 DEBUG:root_logger	Failed twice - Index #8 popped from list
+17:01:22 DEBUG:root_logger	Cant find element for item Strange Festive Civic Duty Shotgun (Well-Worn)
+17:01:22 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:01:24 DEBUG:root_logger	Cant find element for item Strange Festive Civic Duty Shotgun (Well-Worn)
+17:01:24 DEBUG:root_logger	Failed twice - Index #14 popped from list
+17:02:28 DEBUG:root_logger	Cant find element for item Strange Festive Brick House Minigun (Field-Tested)
+17:02:28 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:02:30 DEBUG:root_logger	Cant find element for item Strange Festive Brick House Minigun (Field-Tested)
+17:02:30 DEBUG:root_logger	Failed twice - Index #30 popped from list
+17:02:31 DEBUG:root_logger	Cant find element for item Festive Blue Mew SMG (Factory New)
+17:02:31 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:02:34 DEBUG:root_logger	Cant find element for item Festive Blue Mew SMG (Factory New)
+17:02:34 DEBUG:root_logger	Failed twice - Index #30 popped from list
+17:02:35 DEBUG:root_logger	Cant find element for item Festive Team Sprayer SMG (Field-Tested)
+17:02:35 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:02:37 DEBUG:root_logger	Cant find element for item Festive Team Sprayer SMG (Field-Tested)
+17:02:37 DEBUG:root_logger	Failed twice - Index #30 popped from list
+17:02:37 INFO:root_logger	fillRealPrices() exited correctly
+17:02:37 DEBUG:root_logger	Saved lists
+17:02:37 INFO:root_logger	Iterating for 2 times
+17:02:37 INFO:root_logger	Current Page - 102, Final Page - 103
+17:02:37 INFO:root_logger	Filling items from page #102
+17:02:39 INFO:root_logger	Fetched items from page #102 (3/100)
+17:03:00 DEBUG:root_logger	Cant find element for item Strange Festive Low Profile SMG (Well-Worn)
+17:03:00 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:03:02 DEBUG:root_logger	Cant find element for item Strange Festive Low Profile SMG (Well-Worn)
+17:03:02 DEBUG:root_logger	Failed twice - Index #5 popped from list
+17:03:26 DEBUG:root_logger	Cant find element for item Woodland Warrior Mk.II Air Strike (Field-Tested)
+17:03:26 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:03:28 DEBUG:root_logger	Cant find element for item Woodland Warrior Mk.II Air Strike (Field-Tested)
+17:03:28 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:03:55 DEBUG:root_logger	Cant find element for item Festive Flower Power Medi Gun (Well-Worn)
+17:03:55 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:03:57 DEBUG:root_logger	Cant find element for item Festive Flower Power Medi Gun (Well-Worn)
+17:03:57 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:03:58 DEBUG:root_logger	Cant find element for item Festive Flower Power Shotgun (Well-Worn)
+17:03:58 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:04:00 DEBUG:root_logger	Cant find element for item Festive Flower Power Shotgun (Well-Worn)
+17:04:00 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:04:02 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Shotgun (Field-Tested)
+17:04:02 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:04:04 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Shotgun (Field-Tested)
+17:04:04 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:04:13 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Medi Gun (Battle Scarred)
+17:04:13 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:04:15 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Medi Gun (Battle Scarred)
+17:04:15 DEBUG:root_logger	Failed twice - Index #19 popped from list
+17:04:16 DEBUG:root_logger	Cant find element for item Festive Hickory Hole-Puncher Pistol (Minimal Wear)
+17:04:16 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:04:19 DEBUG:root_logger	Cant find element for item Festive Hickory Hole-Puncher Pistol (Minimal Wear)
+17:04:19 DEBUG:root_logger	Failed twice - Index #19 popped from list
+17:04:20 DEBUG:root_logger	Cant find element for item Festive Airwolf Wrench (Battle Scarred)
+17:04:20 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:04:22 DEBUG:root_logger	Cant find element for item Festive Airwolf Wrench (Battle Scarred)
+17:04:22 DEBUG:root_logger	Failed twice - Index #19 popped from list
+17:04:43 DEBUG:root_logger	Cant find element for item Festive Country Crusher Scattergun (Battle Scarred)
+17:04:43 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:04:45 DEBUG:root_logger	Cant find element for item Festive Country Crusher Scattergun (Battle Scarred)
+17:04:45 DEBUG:root_logger	Failed twice - Index #24 popped from list
+17:04:46 DEBUG:root_logger	Cant find element for item Festive Corsair Medi Gun (Battle Scarred)
+17:04:46 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:04:48 DEBUG:root_logger	Cant find element for item Festive Corsair Medi Gun (Battle Scarred)
+17:04:48 DEBUG:root_logger	Failed twice - Index #24 popped from list
+17:04:56 INFO:root_logger	fillRealPrices() exited correctly
+17:04:56 INFO:root_logger	Filling items from page #103
+17:04:59 INFO:root_logger	Fetched items from page #103 (4/100)
+17:05:01 DEBUG:root_logger	Cant find element for item Forest Fire Mk.II War Paint
+17:05:01 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:05:03 DEBUG:root_logger	Cant find element for item Forest Fire Mk.II War Paint
+17:05:03 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:05:05 DEBUG:root_logger	Cant find element for item Night Owl Mk.II Scattergun
+17:05:05 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:05:07 DEBUG:root_logger	Cant find element for item Night Owl Mk.II Scattergun
+17:05:07 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:05:47 DEBUG:root_logger	Cant find element for item Strange Festive Natascha
+17:05:47 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:05:49 DEBUG:root_logger	Cant find element for item Strange Festive Natascha
+17:05:49 DEBUG:root_logger	Failed twice - Index #10 popped from list
+17:05:50 DEBUG:root_logger	Cant find element for item Festive Wildwood Sniper Rifle (Well-Worn)
+17:05:50 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:05:52 DEBUG:root_logger	Cant find element for item Festive Wildwood Sniper Rifle (Well-Worn)
+17:05:52 DEBUG:root_logger	Failed twice - Index #10 popped from list
+17:06:01 DEBUG:root_logger	Cant find element for item Festive Smalltown Bringdown Rocket Launcher (Battle Scarred)
+17:06:01 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:06:03 DEBUG:root_logger	Cant find element for item Festive Smalltown Bringdown Rocket Launcher (Battle Scarred)
+17:06:03 DEBUG:root_logger	Failed twice - Index #12 popped from list
+17:06:05 DEBUG:root_logger	Cant find element for item Festive Killstreak Shot in the Dark Sniper Rifle (Field-Tested)
+17:06:05 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:06:07 DEBUG:root_logger	Cant find element for item Festive Killstreak Shot in the Dark Sniper Rifle (Field-Tested)
+17:06:07 DEBUG:root_logger	Failed twice - Index #12 popped from list
+17:06:12 DEBUG:root_logger	Cant find element for item Festive Nutcracker Scattergun (Well-Worn)
+17:06:12 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:06:14 DEBUG:root_logger	Cant find element for item Festive Nutcracker Scattergun (Well-Worn)
+17:06:14 DEBUG:root_logger	Failed twice - Index #13 popped from list
+17:06:16 DEBUG:root_logger	Cant find element for item Strange Coffin Nail Sniper Rifle (Minimal Wear)
+17:06:16 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:06:18 DEBUG:root_logger	Cant find element for item Strange Coffin Nail Sniper Rifle (Minimal Wear)
+17:06:18 DEBUG:root_logger	Failed twice - Index #13 popped from list
+17:06:43 DEBUG:root_logger	Cant find element for item Strange Leopard Printed Minigun (Minimal Wear)
+17:06:43 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:06:45 DEBUG:root_logger	Cant find element for item Strange Leopard Printed Minigun (Minimal Wear)
+17:06:45 DEBUG:root_logger	Failed twice - Index #19 popped from list
+17:07:06 DEBUG:root_logger	Cant find element for item Festive Blue Mew Knife (Minimal Wear)
+17:07:06 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:07:08 DEBUG:root_logger	Cant find element for item Festive Blue Mew Knife (Minimal Wear)
+17:07:08 DEBUG:root_logger	Failed twice - Index #24 popped from list
+17:07:09 DEBUG:root_logger	Cant find element for item Festive Mayor Revolver (Battle Scarred)
+17:07:09 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:07:11 DEBUG:root_logger	Cant find element for item Festive Mayor Revolver (Battle Scarred)
+17:07:11 DEBUG:root_logger	Failed twice - Index #24 popped from list
+17:07:13 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Sniper Rifle (Well-Worn)
+17:07:13 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:07:15 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Sniper Rifle (Well-Worn)
+17:07:15 DEBUG:root_logger	Failed twice - Index #24 popped from list
+17:07:15 INFO:root_logger	fillRealPrices() exited correctly
+17:07:15 DEBUG:root_logger	Saved lists
+17:07:15 INFO:root_logger	Iterating for 2 times
+17:07:15 INFO:root_logger	Current Page - 104, Final Page - 105
+17:07:15 INFO:root_logger	Filling items from page #104
+17:07:18 INFO:root_logger	Fetched items from page #104 (5/100)
+17:07:23 DEBUG:root_logger	Cant find element for item Festive Mister Cuddles Minigun (Minimal Wear)
+17:07:23 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:07:25 DEBUG:root_logger	Cant find element for item Festive Mister Cuddles Minigun (Minimal Wear)
+17:07:25 DEBUG:root_logger	Failed twice - Index #1 popped from list
+17:07:27 DEBUG:root_logger	Cant find element for item Festive Woodsy Widowmaker SMG (Factory New)
+17:07:27 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:07:29 DEBUG:root_logger	Cant find element for item Festive Woodsy Widowmaker SMG (Factory New)
+17:07:29 DEBUG:root_logger	Failed twice - Index #1 popped from list
+17:07:42 DEBUG:root_logger	Cant find element for item Strange Festive Blitzkrieg SMG (Minimal Wear)
+17:07:42 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:07:44 DEBUG:root_logger	Cant find element for item Strange Festive Blitzkrieg SMG (Minimal Wear)
+17:07:44 DEBUG:root_logger	Failed twice - Index #4 popped from list
+17:07:45 DEBUG:root_logger	Cant find element for item Festive Macabre Web Stickybomb Launcher (Minimal Wear)
+17:07:45 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:07:47 DEBUG:root_logger	Cant find element for item Festive Macabre Web Stickybomb Launcher (Minimal Wear)
+17:07:47 DEBUG:root_logger	Failed twice - Index #4 popped from list
+17:08:04 DEBUG:root_logger	Cant find element for item Festive Killstreak Flower Power Shotgun (Battle Scarred)
+17:08:04 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:08:06 DEBUG:root_logger	Cant find element for item Festive Killstreak Flower Power Shotgun (Battle Scarred)
+17:08:06 DEBUG:root_logger	Failed twice - Index #8 popped from list
+17:08:19 DEBUG:root_logger	Cant find element for item Festive Airwolf Sniper Rifle (Field-Tested)
+17:08:19 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:08:22 DEBUG:root_logger	Cant find element for item Festive Airwolf Sniper Rifle (Field-Tested)
+17:08:22 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:08:34 DEBUG:root_logger	ValueError in "2"
+17:08:43 DEBUG:root_logger	Cant find element for item Festive Pink Elephant Stickybomb Launcher (Well-Worn)
+17:08:43 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:08:45 DEBUG:root_logger	Cant find element for item Festive Pink Elephant Stickybomb Launcher (Well-Worn)
+17:08:45 DEBUG:root_logger	Failed twice - Index #16 popped from list
+17:09:25 DEBUG:root_logger	Cant find element for item Night Owl Mk.II Loose Cannon
+17:09:25 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:09:27 DEBUG:root_logger	Cant find element for item Night Owl Mk.II Loose Cannon
+17:09:27 DEBUG:root_logger	Failed twice - Index #26 popped from list
+17:09:35 INFO:root_logger	fillRealPrices() exited correctly
+17:09:35 INFO:root_logger	Filling items from page #105
+17:09:36 INFO:root_logger	Fetched items from page #105 (6/100)
+17:09:46 DEBUG:root_logger	Cant find element for item Festive Killstreak Airwolf Wrench (Field-Tested)
+17:09:46 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:09:48 DEBUG:root_logger	Cant find element for item Festive Killstreak Airwolf Wrench (Field-Tested)
+17:09:48 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:09:49 DEBUG:root_logger	Cant find element for item Festive Civil Servant Medi Gun (Minimal Wear)
+17:09:49 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:09:51 DEBUG:root_logger	Cant find element for item Festive Civil Servant Medi Gun (Minimal Wear)
+17:09:51 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:09:57 DEBUG:root_logger	Cant find element for item Festive High Roller's Rocket Launcher (Battle Scarred)
+17:09:57 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:09:59 DEBUG:root_logger	Cant find element for item Festive High Roller's Rocket Launcher (Battle Scarred)
+17:09:59 DEBUG:root_logger	Failed twice - Index #3 popped from list
+17:10:04 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Flame Thrower (Well-Worn)
+17:10:04 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:10:06 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Flame Thrower (Well-Worn)
+17:10:06 DEBUG:root_logger	Failed twice - Index #4 popped from list
+17:10:42 DEBUG:root_logger	ValueError in "5"
+17:10:54 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Scattergun (Well-Worn)
+17:10:54 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:10:56 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Scattergun (Well-Worn)
+17:10:56 DEBUG:root_logger	Failed twice - Index #16 popped from list
+17:11:02 DEBUG:root_logger	Cant find element for item Festive Blitzkrieg Knife (Battle Scarred)
+17:11:02 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:11:04 DEBUG:root_logger	Cant find element for item Festive Blitzkrieg Knife (Battle Scarred)
+17:11:04 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:11:09 DEBUG:root_logger	Cant find element for item Festive Woodland Warrior Rocket Launcher (Minimal Wear)
+17:11:09 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:11:11 DEBUG:root_logger	Cant find element for item Festive Woodland Warrior Rocket Launcher (Minimal Wear)
+17:11:11 DEBUG:root_logger	Failed twice - Index #18 popped from list
+17:11:20 DEBUG:root_logger	Cant find element for item Plaid Potshotter Mk.II Minigun
+17:11:20 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:11:22 DEBUG:root_logger	Cant find element for item Plaid Potshotter Mk.II Minigun
+17:11:22 DEBUG:root_logger	Failed twice - Index #20 popped from list
+17:11:28 DEBUG:root_logger	Cant find element for item Quack Canvassed Panic Attack (Well-Worn)
+17:11:28 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:11:30 DEBUG:root_logger	Cant find element for item Quack Canvassed Panic Attack (Well-Worn)
+17:11:30 DEBUG:root_logger	Failed twice - Index #21 popped from list
+17:11:53 INFO:root_logger	fillRealPrices() exited correctly
+17:11:54 DEBUG:root_logger	Saved lists
+17:11:54 INFO:root_logger	Iterating for 2 times
+17:11:54 INFO:root_logger	Current Page - 106, Final Page - 107
+17:11:54 INFO:root_logger	Filling items from page #106
+17:11:56 INFO:root_logger	Fetched items from page #106 (7/100)
+17:11:57 DEBUG:root_logger	Cant find element for item Festive Shot to Hell Pistol (Well-Worn)
+17:11:57 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:11:59 DEBUG:root_logger	Cant find element for item Festive Shot to Hell Pistol (Well-Worn)
+17:11:59 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:12:04 DEBUG:root_logger	Cant find element for item Festive Autumn Rocket Launcher (Battle Scarred)
+17:12:04 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:12:07 DEBUG:root_logger	Cant find element for item Festive Autumn Rocket Launcher (Battle Scarred)
+17:12:07 DEBUG:root_logger	Failed twice - Index #1 popped from list
+17:12:16 DEBUG:root_logger	Cant find element for item Festive Backcountry Blaster Scattergun (Factory New)
+17:12:16 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:12:18 DEBUG:root_logger	Cant find element for item Festive Backcountry Blaster Scattergun (Factory New)
+17:12:18 DEBUG:root_logger	Failed twice - Index #3 popped from list
+17:13:37 DEBUG:root_logger	Cant find element for item Festive Killstreak Backwoods Boomstick Shotgun (Well-Worn)
+17:13:37 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:13:39 DEBUG:root_logger	Cant find element for item Festive Killstreak Backwoods Boomstick Shotgun (Well-Worn)
+17:13:39 DEBUG:root_logger	Failed twice - Index #23 popped from list
+17:13:40 DEBUG:root_logger	Cant find element for item Festive Low Profile SMG (Battle Scarred)
+17:13:40 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:13:42 DEBUG:root_logger	Cant find element for item Festive Low Profile SMG (Battle Scarred)
+17:13:42 DEBUG:root_logger	Failed twice - Index #23 popped from list
+17:13:59 DEBUG:root_logger	Cant find element for item Festive Citizen Pain Minigun (Well-Worn)
+17:13:59 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:01 DEBUG:root_logger	Cant find element for item Festive Citizen Pain Minigun (Well-Worn)
+17:14:01 DEBUG:root_logger	Failed twice - Index #27 popped from list
+17:14:10 DEBUG:root_logger	Cant find element for item Autumn Mk.II Back Scratcher
+17:14:10 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:12 DEBUG:root_logger	Cant find element for item Autumn Mk.II Back Scratcher
+17:14:12 DEBUG:root_logger	Failed twice - Index #29 popped from list
+17:14:12 INFO:root_logger	fillRealPrices() exited correctly
+17:14:12 INFO:root_logger	Filling items from page #107
+17:14:14 INFO:root_logger	Fetched items from page #107 (8/100)
+17:14:19 DEBUG:root_logger	Cant find element for item Leopard Printed Back Scratcher (Field-Tested)
+17:14:19 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:21 DEBUG:root_logger	Cant find element for item Leopard Printed Back Scratcher (Field-Tested)
+17:14:21 DEBUG:root_logger	Failed twice - Index #1 popped from list
+17:14:27 DEBUG:root_logger	Cant find element for item Festive Blitzkrieg Pistol (Battle Scarred)
+17:14:27 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:29 DEBUG:root_logger	Cant find element for item Festive Blitzkrieg Pistol (Battle Scarred)
+17:14:29 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:14:30 DEBUG:root_logger	Cant find element for item Festive Corsair Scattergun (Minimal Wear)
+17:14:30 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:32 DEBUG:root_logger	Cant find element for item Festive Corsair Scattergun (Minimal Wear)
+17:14:32 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:14:34 DEBUG:root_logger	Cant find element for item Festive Carpet Bomber Stickybomb Launcher (Minimal Wear)
+17:14:34 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:36 DEBUG:root_logger	Cant find element for item Festive Carpet Bomber Stickybomb Launcher (Minimal Wear)
+17:14:36 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:14:37 DEBUG:root_logger	Cant find element for item Vintage Festive Natascha
+17:14:37 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:39 DEBUG:root_logger	Cant find element for item Vintage Festive Natascha
+17:14:39 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:14:44 DEBUG:root_logger	Cant find element for item Festive Night Terror Scattergun (Battle Scarred)
+17:14:44 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:46 DEBUG:root_logger	Cant find element for item Festive Night Terror Scattergun (Battle Scarred)
+17:14:46 DEBUG:root_logger	Failed twice - Index #3 popped from list
+17:14:48 DEBUG:root_logger	Cant find element for item Festive Blue Mew Knife (Battle Scarred)
+17:14:48 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:14:50 DEBUG:root_logger	Cant find element for item Festive Blue Mew Knife (Battle Scarred)
+17:14:50 DEBUG:root_logger	Failed twice - Index #3 popped from list
+17:15:03 DEBUG:root_logger	Cant find element for item Strange Festive Low Profile SMG (Battle Scarred)
+17:15:03 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:15:05 DEBUG:root_logger	Cant find element for item Strange Festive Low Profile SMG (Battle Scarred)
+17:15:05 DEBUG:root_logger	Failed twice - Index #6 popped from list
+17:15:11 DEBUG:root_logger	Cant find element for item Festive Macabre Web Revolver (Field-Tested)
+17:15:11 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:15:13 DEBUG:root_logger	Cant find element for item Festive Macabre Web Revolver (Field-Tested)
+17:15:13 DEBUG:root_logger	Failed twice - Index #7 popped from list
+17:15:22 DEBUG:root_logger	Cant find element for item Festive Woodsy Widowmaker SMG (Battle Scarred)
+17:15:22 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:15:24 DEBUG:root_logger	Cant find element for item Festive Woodsy Widowmaker SMG (Battle Scarred)
+17:15:24 DEBUG:root_logger	Failed twice - Index #9 popped from list
+17:15:52 DEBUG:root_logger	Cant find element for item Festive Backwoods Boomstick Shotgun (Battle Scarred)
+17:15:52 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:15:54 DEBUG:root_logger	Cant find element for item Festive Backwoods Boomstick Shotgun (Battle Scarred)
+17:15:54 DEBUG:root_logger	Failed twice - Index #16 popped from list
+17:15:56 DEBUG:root_logger	Cant find element for item Festive Macabre Web Pistol (Minimal Wear)
+17:15:56 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:15:58 DEBUG:root_logger	Cant find element for item Festive Macabre Web Pistol (Minimal Wear)
+17:15:58 DEBUG:root_logger	Failed twice - Index #16 popped from list
+17:16:03 DEBUG:root_logger	Cant find element for item Festive Black Dahlia Pistol (Battle Scarred)
+17:16:03 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:05 DEBUG:root_logger	Cant find element for item Festive Black Dahlia Pistol (Battle Scarred)
+17:16:05 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:16:07 DEBUG:root_logger	Cant find element for item Strange Festive Fire Axe
+17:16:07 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:09 DEBUG:root_logger	Cant find element for item Strange Festive Fire Axe
+17:16:09 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:16:10 DEBUG:root_logger	Cant find element for item Festive Blitzkrieg Pistol (Factory New)
+17:16:10 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:12 DEBUG:root_logger	Cant find element for item Festive Blitzkrieg Pistol (Factory New)
+17:16:12 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:16:14 DEBUG:root_logger	Cant find element for item Festive Local Hero Pistol (Factory New)
+17:16:14 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:16 DEBUG:root_logger	Cant find element for item Festive Local Hero Pistol (Factory New)
+17:16:16 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:16:25 DEBUG:root_logger	Cant find element for item Festive Killstreak Night Owl Sniper Rifle (Field-Tested)
+17:16:25 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:27 DEBUG:root_logger	Cant find element for item Festive Killstreak Night Owl Sniper Rifle (Field-Tested)
+17:16:27 DEBUG:root_logger	Failed twice - Index #19 popped from list
+17:16:27 INFO:root_logger	fillRealPrices() exited correctly
+17:16:27 DEBUG:root_logger	Saved lists
+17:16:27 INFO:root_logger	Iterating for 2 times
+17:16:27 INFO:root_logger	Current Page - 108, Final Page - 109
+17:16:27 INFO:root_logger	Filling items from page #108
+17:16:29 INFO:root_logger	Fetched items from page #108 (9/100)
+17:16:30 DEBUG:root_logger	Cant find element for item Strange Festive Dressed to Kill Knife (Minimal Wear)
+17:16:30 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:32 DEBUG:root_logger	Cant find element for item Strange Festive Dressed to Kill Knife (Minimal Wear)
+17:16:32 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:16:53 DEBUG:root_logger	Cant find element for item Festive Dead Reckoner Revolver (Field-Tested)
+17:16:53 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:55 DEBUG:root_logger	Cant find element for item Festive Dead Reckoner Revolver (Field-Tested)
+17:16:55 DEBUG:root_logger	Failed twice - Index #5 popped from list
+17:16:56 DEBUG:root_logger	Cant find element for item Festive Turbine Torcher Flame Thrower (Factory New)
+17:16:56 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:16:59 DEBUG:root_logger	Cant find element for item Festive Turbine Torcher Flame Thrower (Factory New)
+17:16:59 DEBUG:root_logger	Failed twice - Index #5 popped from list
+17:17:00 DEBUG:root_logger	Cant find element for item Festive Killstreak Night Owl Sniper Rifle (Well-Worn)
+17:17:00 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:17:02 DEBUG:root_logger	Cant find element for item Festive Killstreak Night Owl Sniper Rifle (Well-Worn)
+17:17:02 DEBUG:root_logger	Failed twice - Index #5 popped from list
+17:17:11 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Pistol (Minimal Wear)
+17:17:11 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:17:13 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Pistol (Minimal Wear)
+17:17:13 DEBUG:root_logger	Failed twice - Index #7 popped from list
+17:17:23 DEBUG:root_logger	Cant find element for item Strange Festive American Pastoral Rocket Launcher (Well-Worn)
+17:17:23 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:17:25 DEBUG:root_logger	Cant find element for item Strange Festive American Pastoral Rocket Launcher (Well-Worn)
+17:17:25 DEBUG:root_logger	Failed twice - Index #9 popped from list
+17:17:26 DEBUG:root_logger	Cant find element for item Festive Country Crusher Scattergun (Well-Worn)
+17:17:26 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:17:28 DEBUG:root_logger	Cant find element for item Festive Country Crusher Scattergun (Well-Worn)
+17:17:28 DEBUG:root_logger	Failed twice - Index #9 popped from list
+17:17:29 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Grenade Launcher (Minimal Wear)
+17:17:29 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:17:32 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Grenade Launcher (Minimal Wear)
+17:17:32 DEBUG:root_logger	Failed twice - Index #9 popped from list
+17:17:48 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Sniper Rifle (Minimal Wear)
+17:17:48 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:17:51 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Sniper Rifle (Minimal Wear)
+17:17:51 DEBUG:root_logger	Failed twice - Index #13 popped from list
+17:18:00 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Sniper Rifle (Battle Scarred)
+17:18:00 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:18:02 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Sniper Rifle (Battle Scarred)
+17:18:02 DEBUG:root_logger	Failed twice - Index #15 popped from list
+17:18:45 INFO:root_logger	fillRealPrices() exited correctly
+17:18:45 INFO:root_logger	Filling items from page #109
+17:18:46 INFO:root_logger	Fetched items from page #109 (10/100)
+17:19:11 DEBUG:root_logger	Cant find element for item Strange Festive Antique Annihilator Minigun (Minimal Wear)
+17:19:11 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:19:13 DEBUG:root_logger	Cant find element for item Strange Festive Antique Annihilator Minigun (Minimal Wear)
+17:19:13 DEBUG:root_logger	Failed twice - Index #6 popped from list
+17:19:23 DEBUG:root_logger	Cant find element for item Festive High Roller's Rocket Launcher (Minimal Wear)
+17:19:23 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:19:25 DEBUG:root_logger	Cant find element for item Festive High Roller's Rocket Launcher (Minimal Wear)
+17:19:25 DEBUG:root_logger	Failed twice - Index #8 popped from list
+17:19:26 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Medi Gun (Minimal Wear)
+17:19:26 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:19:28 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Medi Gun (Minimal Wear)
+17:19:28 DEBUG:root_logger	Failed twice - Index #8 popped from list
+17:19:49 DEBUG:root_logger	Cant find element for item Festive Spruce Deuce Scattergun (Factory New)
+17:19:49 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:19:51 DEBUG:root_logger	Cant find element for item Festive Spruce Deuce Scattergun (Factory New)
+17:19:51 DEBUG:root_logger	Failed twice - Index #13 popped from list
+17:19:57 DEBUG:root_logger	Cant find element for item Festive Flower Power Shotgun (Minimal Wear)
+17:19:57 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:19:59 DEBUG:root_logger	Cant find element for item Festive Flower Power Shotgun (Minimal Wear)
+17:19:59 DEBUG:root_logger	Failed twice - Index #14 popped from list
+17:20:00 DEBUG:root_logger	Cant find element for item Strange Festive Forest Fire Flame Thrower (Well-Worn)
+17:20:00 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:02 DEBUG:root_logger	Cant find element for item Strange Festive Forest Fire Flame Thrower (Well-Worn)
+17:20:02 DEBUG:root_logger	Failed twice - Index #14 popped from list
+17:20:04 DEBUG:root_logger	Cant find element for item Festive Civil Servant Medi Gun (Battle Scarred)
+17:20:04 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:06 DEBUG:root_logger	Cant find element for item Festive Civil Servant Medi Gun (Battle Scarred)
+17:20:06 DEBUG:root_logger	Failed twice - Index #14 popped from list
+17:20:07 DEBUG:root_logger	Cant find element for item Festive Blue Mew Rocket Launcher (Battle Scarred)
+17:20:07 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:10 DEBUG:root_logger	Cant find element for item Festive Blue Mew Rocket Launcher (Battle Scarred)
+17:20:10 DEBUG:root_logger	Failed twice - Index #14 popped from list
+17:20:11 DEBUG:root_logger	Cant find element for item Festive Low Profile SMG (Minimal Wear)
+17:20:11 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:13 DEBUG:root_logger	Cant find element for item Festive Low Profile SMG (Minimal Wear)
+17:20:13 DEBUG:root_logger	Failed twice - Index #14 popped from list
+17:20:22 DEBUG:root_logger	Cant find element for item Strange Festive Nutcracker Wrench (Minimal Wear)
+17:20:22 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:25 DEBUG:root_logger	Cant find element for item Strange Festive Nutcracker Wrench (Minimal Wear)
+17:20:25 DEBUG:root_logger	Failed twice - Index #16 popped from list
+17:20:30 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Wrench (Battle Scarred)
+17:20:30 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:32 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Wrench (Battle Scarred)
+17:20:32 DEBUG:root_logger	Failed twice - Index #17 popped from list
+17:20:41 DEBUG:root_logger	Cant find element for item Strange Festive Woodsy Widowmaker SMG (Well-Worn)
+17:20:41 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:43 DEBUG:root_logger	Cant find element for item Strange Festive Woodsy Widowmaker SMG (Well-Worn)
+17:20:43 DEBUG:root_logger	Failed twice - Index #19 popped from list
+17:20:53 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Scattergun (Minimal Wear)
+17:20:53 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:55 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Scattergun (Minimal Wear)
+17:20:55 DEBUG:root_logger	Failed twice - Index #21 popped from list
+17:20:56 DEBUG:root_logger	Cant find element for item Festive Airwolf Sniper Rifle (Battle Scarred)
+17:20:56 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:20:58 DEBUG:root_logger	Cant find element for item Festive Airwolf Sniper Rifle (Battle Scarred)
+17:20:58 DEBUG:root_logger	Failed twice - Index #21 popped from list
+17:21:02 INFO:root_logger	fillRealPrices() exited correctly
+17:21:02 DEBUG:root_logger	Saved lists
+17:21:02 INFO:root_logger	Iterating for 2 times
+17:21:02 INFO:root_logger	Current Page - 110, Final Page - 111
+17:21:02 INFO:root_logger	Filling items from page #110
+17:21:04 INFO:root_logger	Fetched items from page #110 (11/100)
+17:21:29 DEBUG:root_logger	Cant find element for item Festive Civic Duty Shotgun (Battle Scarred)
+17:21:29 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:21:31 DEBUG:root_logger	Cant find element for item Festive Civic Duty Shotgun (Battle Scarred)
+17:21:31 DEBUG:root_logger	Failed twice - Index #6 popped from list
+17:21:44 DEBUG:root_logger	Cant find element for item Strange Civic Duty Mk.II Air Strike
+17:21:44 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:21:46 DEBUG:root_logger	Cant find element for item Strange Civic Duty Mk.II Air Strike
+17:21:46 DEBUG:root_logger	Failed twice - Index #9 popped from list
+17:22:11 DEBUG:root_logger	Cant find element for item Pizza Polished Air Strike (Well-Worn)
+17:22:11 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:22:13 DEBUG:root_logger	Cant find element for item Pizza Polished Air Strike (Well-Worn)
+17:22:13 DEBUG:root_logger	Failed twice - Index #15 popped from list
+17:22:57 DEBUG:root_logger	Cant find element for item Strange Anodized Aloha Wrench (Well-Worn)
+17:22:57 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:23:00 DEBUG:root_logger	Cant find element for item Strange Anodized Aloha Wrench (Well-Worn)
+17:23:00 DEBUG:root_logger	Failed twice - Index #26 popped from list
+17:23:23 INFO:root_logger	fillRealPrices() exited correctly
+17:23:23 INFO:root_logger	Filling items from page #111
+17:23:24 INFO:root_logger	Fetched items from page #111 (12/100)
+17:23:30 DEBUG:root_logger	Cant find element for item Festive Night Owl Sniper Rifle (Minimal Wear)
+17:23:30 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:23:32 DEBUG:root_logger	Cant find element for item Festive Night Owl Sniper Rifle (Minimal Wear)
+17:23:32 DEBUG:root_logger	Failed twice - Index #1 popped from list
+17:24:08 DEBUG:root_logger	Cant find element for item Killstreak Turbine Torcher Flame Thrower (Well-Worn)
+17:24:08 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:24:10 DEBUG:root_logger	Cant find element for item Killstreak Turbine Torcher Flame Thrower (Well-Worn)
+17:24:10 DEBUG:root_logger	Failed twice - Index #10 popped from list
+17:24:16 DEBUG:root_logger	Cant find element for item Festive Wildwood Medi Gun (Battle Scarred)
+17:24:16 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:24:18 DEBUG:root_logger	Cant find element for item Festive Wildwood Medi Gun (Battle Scarred)
+17:24:18 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:24:19 DEBUG:root_logger	Cant find element for item Strange Festive Masked Mender Medi Gun (Well-Worn)
+17:24:19 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:24:21 DEBUG:root_logger	Cant find element for item Strange Festive Masked Mender Medi Gun (Well-Worn)
+17:24:21 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:24:23 DEBUG:root_logger	Cant find element for item Festive Macabre Web Scattergun (Well-Worn)
+17:24:23 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:24:25 DEBUG:root_logger	Cant find element for item Festive Macabre Web Scattergun (Well-Worn)
+17:24:25 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:24:26 DEBUG:root_logger	Cant find element for item Strange Festive Backcountry Blaster Scattergun (Field-Tested)
+17:24:26 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:24:29 DEBUG:root_logger	Cant find element for item Strange Festive Backcountry Blaster Scattergun (Field-Tested)
+17:24:29 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:24:34 DEBUG:root_logger	Cant find element for item Festive Plaid Potshotter SMG (Minimal Wear)
+17:24:34 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:24:36 DEBUG:root_logger	Cant find element for item Festive Plaid Potshotter SMG (Minimal Wear)
+17:24:36 DEBUG:root_logger	Failed twice - Index #12 popped from list
+17:25:01 DEBUG:root_logger	Cant find element for item Night Owl Mk.II Pistol
+17:25:01 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:25:03 DEBUG:root_logger	Cant find element for item Night Owl Mk.II Pistol
+17:25:03 DEBUG:root_logger	Failed twice - Index #18 popped from list
+17:25:16 DEBUG:root_logger	Cant find element for item Civic Duty Mk.II Rescue Ranger
+17:25:16 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:25:18 DEBUG:root_logger	Cant find element for item Civic Duty Mk.II Rescue Ranger
+17:25:18 DEBUG:root_logger	Failed twice - Index #21 popped from list
+17:25:31 DEBUG:root_logger	ValueError in "1"
+17:25:42 INFO:root_logger	fillRealPrices() exited correctly
+17:25:42 DEBUG:root_logger	Saved lists
+17:25:42 INFO:root_logger	Iterating for 2 times
+17:25:42 INFO:root_logger	Current Page - 112, Final Page - 113
+17:25:42 INFO:root_logger	Filling items from page #112
+17:25:43 INFO:root_logger	Fetched items from page #112 (13/100)
+17:25:49 DEBUG:root_logger	Cant find element for item Festive Night Owl Sniper Rifle (Battle Scarred)
+17:25:49 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:25:51 DEBUG:root_logger	Cant find element for item Festive Night Owl Sniper Rifle (Battle Scarred)
+17:25:51 DEBUG:root_logger	Failed twice - Index #1 popped from list
+17:25:56 DEBUG:root_logger	Cant find element for item Festive Butcher Bird Grenade Launcher (Minimal Wear)
+17:25:56 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:25:58 DEBUG:root_logger	Cant find element for item Festive Butcher Bird Grenade Launcher (Minimal Wear)
+17:25:58 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:26:35 DEBUG:root_logger	Cant find element for item Festive King of the Jungle Minigun (Factory New)
+17:26:35 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:26:37 DEBUG:root_logger	Cant find element for item Festive King of the Jungle Minigun (Factory New)
+17:26:37 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:27:14 DEBUG:root_logger	Cant find element for item Strange Festive Citizen Pain Minigun (Field-Tested)
+17:27:14 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:27:16 DEBUG:root_logger	Cant find element for item Strange Festive Citizen Pain Minigun (Field-Tested)
+17:27:16 DEBUG:root_logger	Failed twice - Index #20 popped from list
+17:27:37 DEBUG:root_logger	Cant find element for item Strange Festive Coffin Nail Revolver (Battle Scarred)
+17:27:37 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:27:39 DEBUG:root_logger	Cant find element for item Strange Festive Coffin Nail Revolver (Battle Scarred)
+17:27:39 DEBUG:root_logger	Failed twice - Index #25 popped from list
+17:27:44 DEBUG:root_logger	Cant find element for item Festive Macabre Web Minigun (Battle Scarred)
+17:27:44 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:27:46 DEBUG:root_logger	Cant find element for item Festive Macabre Web Minigun (Battle Scarred)
+17:27:46 DEBUG:root_logger	Failed twice - Index #26 popped from list
+17:27:52 DEBUG:root_logger	Cant find element for item Festive Torqued to Hell Wrench (Field-Tested)
+17:27:52 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:27:54 DEBUG:root_logger	Cant find element for item Festive Torqued to Hell Wrench (Field-Tested)
+17:27:54 DEBUG:root_logger	Failed twice - Index #27 popped from list
+17:28:02 INFO:root_logger	fillRealPrices() exited correctly
+17:28:02 INFO:root_logger	Filling items from page #113
+17:28:03 INFO:root_logger	Fetched items from page #113 (14/100)
+17:28:24 DEBUG:root_logger	Cant find element for item Festive Stabbed to Hell Knife (Minimal Wear)
+17:28:24 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:28:26 DEBUG:root_logger	Cant find element for item Festive Stabbed to Hell Knife (Minimal Wear)
+17:28:26 DEBUG:root_logger	Failed twice - Index #5 popped from list
+17:29:10 DEBUG:root_logger	ValueError in "2"
+17:29:23 DEBUG:root_logger	Cant find element for item Strange Festive Woodsy Widowmaker SMG (Field-Tested)
+17:29:23 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:29:25 DEBUG:root_logger	Cant find element for item Strange Festive Woodsy Widowmaker SMG (Field-Tested)
+17:29:25 DEBUG:root_logger	Failed twice - Index #19 popped from list
+17:29:42 DEBUG:root_logger	Cant find element for item Festive Killstreak Torqued to Hell Wrench (Well-Worn)
+17:29:42 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:29:44 DEBUG:root_logger	Cant find element for item Festive Killstreak Torqued to Hell Wrench (Well-Worn)
+17:29:44 DEBUG:root_logger	Failed twice - Index #23 popped from list
+17:30:13 DEBUG:root_logger	Cant find element for item Festive Aqua Marine Rocket Launcher (Factory New)
+17:30:13 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:30:15 DEBUG:root_logger	Cant find element for item Festive Aqua Marine Rocket Launcher (Factory New)
+17:30:15 DEBUG:root_logger	Failed twice - Index #30 popped from list
+17:30:23 INFO:root_logger	fillRealPrices() exited correctly
+17:30:23 DEBUG:root_logger	Saved lists
+17:30:23 INFO:root_logger	Iterating for 2 times
+17:30:23 INFO:root_logger	Current Page - 114, Final Page - 115
+17:30:23 INFO:root_logger	Filling items from page #114
+17:30:24 INFO:root_logger	Fetched items from page #114 (15/100)
+17:30:25 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Shotgun (Minimal Wear)
+17:30:25 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:30:28 DEBUG:root_logger	Cant find element for item Festive Coffin Nail Shotgun (Minimal Wear)
+17:30:28 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:30:41 DEBUG:root_logger	Cant find element for item Strange Festive Shovel
+17:30:41 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:30:43 DEBUG:root_logger	Cant find element for item Strange Festive Shovel
+17:30:43 DEBUG:root_logger	Failed twice - Index #3 popped from list
+17:30:45 DEBUG:root_logger	Cant find element for item Festive Forest Fire Flame Thrower (Factory New)
+17:30:45 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:30:47 DEBUG:root_logger	Cant find element for item Festive Forest Fire Flame Thrower (Factory New)
+17:30:47 DEBUG:root_logger	Failed twice - Index #3 popped from list
+17:31:04 DEBUG:root_logger	Cant find element for item Strange Festive King of the Jungle Minigun (Well-Worn)
+17:31:04 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:31:06 DEBUG:root_logger	Cant find element for item Strange Festive King of the Jungle Minigun (Well-Worn)
+17:31:06 DEBUG:root_logger	Failed twice - Index #7 popped from list
+17:31:19 DEBUG:root_logger	Cant find element for item Festive Butcher Bird Minigun (Minimal Wear)
+17:31:19 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:31:21 DEBUG:root_logger	Cant find element for item Festive Butcher Bird Minigun (Minimal Wear)
+17:31:21 DEBUG:root_logger	Failed twice - Index #10 popped from list
+17:32:25 DEBUG:root_logger	Cant find element for item Festive Antique Annihilator Minigun (Factory New)
+17:32:25 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:32:27 DEBUG:root_logger	Cant find element for item Festive Antique Annihilator Minigun (Factory New)
+17:32:27 DEBUG:root_logger	Failed twice - Index #26 popped from list
+17:32:36 DEBUG:root_logger	Cant find element for item Festive Old Country Revolver (Well-Worn)
+17:32:36 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:32:38 DEBUG:root_logger	Cant find element for item Festive Old Country Revolver (Well-Worn)
+17:32:38 DEBUG:root_logger	Failed twice - Index #28 popped from list
+17:32:40 DEBUG:root_logger	Cant find element for item Festive Corsair Scattergun (Battle Scarred)
+17:32:40 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:32:42 DEBUG:root_logger	Cant find element for item Festive Corsair Scattergun (Battle Scarred)
+17:32:42 DEBUG:root_logger	Failed twice - Index #28 popped from list
+17:32:42 INFO:root_logger	fillRealPrices() exited correctly
+17:32:42 INFO:root_logger	Filling items from page #115
+17:32:44 INFO:root_logger	Fetched items from page #115 (16/100)
+17:32:45 DEBUG:root_logger	Cant find element for item Strange Festive King of the Jungle Minigun (Field-Tested)
+17:32:45 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:32:47 DEBUG:root_logger	Cant find element for item Strange Festive King of the Jungle Minigun (Field-Tested)
+17:32:47 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:32:49 DEBUG:root_logger	Cant find element for item Festive Warhawk Flame Thrower (Field-Tested)
+17:32:49 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:32:51 DEBUG:root_logger	Cant find element for item Festive Warhawk Flame Thrower (Field-Tested)
+17:32:51 DEBUG:root_logger	Failed twice - Index #0 popped from list
+17:32:56 DEBUG:root_logger	Cant find element for item Vintage Festive Scottish Resistance
+17:32:56 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:32:58 DEBUG:root_logger	Cant find element for item Vintage Festive Scottish Resistance
+17:32:58 DEBUG:root_logger	Failed twice - Index #1 popped from list
+17:33:07 DEBUG:root_logger	Cant find element for item Killstreak Coffin Nail Stickybomb Launcher (Field-Tested)
+17:33:07 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:33:09 DEBUG:root_logger	Cant find element for item Killstreak Coffin Nail Stickybomb Launcher (Field-Tested)
+17:33:09 DEBUG:root_logger	Failed twice - Index #3 popped from list
+17:33:50 DEBUG:root_logger	Cant find element for item Dead Reckoner Mk.II Revolver (Battle Scarred)
+17:33:50 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:33:52 DEBUG:root_logger	Cant find element for item Dead Reckoner Mk.II Revolver (Battle Scarred)
+17:33:52 DEBUG:root_logger	Failed twice - Index #13 popped from list
+17:34:01 DEBUG:root_logger	Cant find element for item Civic Duty Mk.II Bazaar Bargain
+17:34:01 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:34:03 DEBUG:root_logger	Cant find element for item Civic Duty Mk.II Bazaar Bargain
+17:34:03 DEBUG:root_logger	Failed twice - Index #15 popped from list
+17:34:37 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Medi Gun (Well-Worn)
+17:34:37 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:34:39 DEBUG:root_logger	Cant find element for item Festive Dressed to Kill Medi Gun (Well-Worn)
+17:34:39 DEBUG:root_logger	Failed twice - Index #23 popped from list
+17:34:48 DEBUG:root_logger	Cant find element for item Festive Autumn Flame Thrower (Minimal Wear)
+17:34:48 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:34:50 DEBUG:root_logger	Cant find element for item Festive Autumn Flame Thrower (Minimal Wear)
+17:34:50 DEBUG:root_logger	Failed twice - Index #25 popped from list
+17:34:51 DEBUG:root_logger	Cant find element for item Specialized Killstreak Mayor Revolver (Battle Scarred)
+17:34:51 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:34:53 DEBUG:root_logger	Cant find element for item Specialized Killstreak Mayor Revolver (Battle Scarred)
+17:34:53 DEBUG:root_logger	Failed twice - Index #25 popped from list
+17:35:02 INFO:root_logger	fillRealPrices() exited correctly
+17:35:02 DEBUG:root_logger	Saved lists
+17:35:02 INFO:root_logger	Iterating for 2 times
+17:35:02 INFO:root_logger	Current Page - 116, Final Page - 117
+17:35:02 INFO:root_logger	Filling items from page #116
+17:35:03 INFO:root_logger	Fetched items from page #116 (17/100)
+17:35:12 DEBUG:root_logger	Cant find element for item Strange Festive Nutcracker Wrench (Field-Tested)
+17:35:12 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:35:14 DEBUG:root_logger	Cant find element for item Strange Festive Nutcracker Wrench (Field-Tested)
+17:35:14 DEBUG:root_logger	Failed twice - Index #2 popped from list
+17:35:32 DEBUG:root_logger	Cant find element for item Cardboard Boxed Shahanshah (Field-Tested)
+17:35:32 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:35:34 DEBUG:root_logger	Cant find element for item Cardboard Boxed Shahanshah (Field-Tested)
+17:35:34 DEBUG:root_logger	Failed twice - Index #6 popped from list
+17:35:55 DEBUG:root_logger	Cant find element for item Strange Festive Coffin Nail Sniper Rifle (Field-Tested)
+17:35:55 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:35:57 DEBUG:root_logger	Cant find element for item Strange Festive Coffin Nail Sniper Rifle (Field-Tested)
+17:35:57 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:35:58 DEBUG:root_logger	Cant find element for item Strange Festive Dressed to Kill Knife (Field-Tested)
+17:35:58 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:36:01 DEBUG:root_logger	Cant find element for item Strange Festive Dressed to Kill Knife (Field-Tested)
+17:36:01 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:36:02 DEBUG:root_logger	Cant find element for item Strange Festive Smalltown Bringdown Rocket Launcher (Minimal Wear)
+17:36:02 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:36:04 DEBUG:root_logger	Cant find element for item Strange Festive Smalltown Bringdown Rocket Launcher (Minimal Wear)
+17:36:04 DEBUG:root_logger	Failed twice - Index #11 popped from list
+17:36:25 DEBUG:root_logger	Cant find element for item Civil Servant Mk.II Black Box
+17:36:25 DEBUG:root_logger	Loop iteration #1 unsuccessful; stop=True
+17:36:28 DEBUG:root_logger	Cant find element for item Civil Servant Mk.II Black Box
+17:36:28 DEBUG:root_logger	Failed twice - Index #16 popped from list
+17:36:29 DEBUG:root_logger	Cant find element for item Woodsy Widowmaker Mk.II Stickybomb Launcher (Field-Tested)
+17:36:29 CRITICAL:root_logger	Null found in page source
+17:36:29 CRITICAL:root_logger	iteration=16, page=116, pages completed=16
+17:36:29 CRITICAL:root_logger	Failure in fillRealPrices()
+17:36:29 DEBUG:root_logger	shutdown() called on Scraper instance
+17:36:31 INFO:root_logger	2332.7060215473175 seconds elapsed
+17:36:31 INFO:root_logger	Start next run at page #116
+17:36:31 INFO:root_logger	446 queries recorded
+
+----------------------------------------------------------------------
+
+18:16:11 INFO:root_logger	Starting script...
+18:16:11 DEBUG:root_logger	DISPLAY=True, SORT=True, current_page=116, num_iterations=100
+18:16:11 DEBUG:root_logger	Finished loading lists.
+18:16:11 DEBUG:root_logger	Total items in list - 3643
+18:16:12 INFO:root_logger	24 duplicates found in list
+
+----------------------------------------------------------------------
+
