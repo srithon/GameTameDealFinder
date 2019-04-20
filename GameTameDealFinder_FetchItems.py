@@ -23,7 +23,7 @@ from collections import defaultdict  # https://stackoverflow.com/questions/11236
 log_formatter = logging.Formatter('%(asctime)s %(levelname)s:%(name)s\t%(message)s',
                                   datefmt='%H:%M:%S')
 
-log_handler = logging.FileHandler(filename='gametame_logger.log')
+log_handler = logging.FileHandler(filename='gametame_fetch_items.log')
 log_handler.setFormatter(log_formatter)
 
 log_handler.setLevel(logging.DEBUG)
@@ -83,9 +83,7 @@ class Scraper:
         self.current_point_prices = list()
         self.current_real_prices = list()
 
-        self.page = current_page
-
-        self.query_count = 0
+        self.counter = 0
 
         logger.debug('Initalized scraper')
 
@@ -93,7 +91,7 @@ class Scraper:
         logger.debug('shutdown() called on Scraper instance')
         self.browser.quit()
 
-    def fillItems(self, page, n):
+    def fillItems(self, page):
         global item_list
         global point_price_list
         global num_iterations
@@ -114,10 +112,22 @@ class Scraper:
             item_list.append(link[0].text)
             point_price_list.append(int(price[0].text[0:price[0].text.find(' ')]))
 
-        print('Fetched items from page #{} ({}/{})'.format(page, page - current_page, num_iterations))
-        save_lists()
+        print('Fetched items from page #{}'.format(page))
+
+        if self.counter == 9:
+            save_lists()
+            self.counter = 0
+
+        self.counter += 1
+        sleep(0.1)
 
 init_time = time()
+
+
+def clear_lists():
+    item_list.clear()
+    point_price_list.clear()
+
 
 # https://stackoverflow.com/questions/11236006/identify-duplicate-values-in-a-list-in-python
 def remove_duplicates():
@@ -171,8 +181,7 @@ def save_lists():
     item_list_file.close()
     point_price_list_file.close()
 
-    item_list.clear()
-    point_price_list.clear()
+    clear_lists()
 
 def load_lists():
     try:
@@ -195,12 +204,22 @@ def load_lists():
 
 def main():
     s = Scraper()
-    for i in range(1, 250):
-        s.fillItems(i)
+    for i in range(112, 375):
+        try:
+            s.fillItems(i)
+        except Exception as e:
+            print(e)
+            break
+    clear_lists()
     load_lists()
     remove_duplicates()
     save_lists()
-    
-main()
 
-logger.close()
+try:
+    main()
+except Exception as e:
+    print(e)
+
+os.system('taskkill /f /im geckodriver.exe /T')
+
+logger_handler.close()

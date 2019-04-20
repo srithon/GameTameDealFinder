@@ -1,0 +1,84 @@
+18:51:39 INFO:root_logger	Starting script...
+18:52:15 INFO:root_logger	Starting script...
+18:52:26 INFO:root_logger	Starting script...
+18:54:00 INFO:root_logger	Starting script...
+18:54:28 INFO:root_logger	Starting script...
+18:54:38 INFO:root_logger	Starting script...
+19:07:42 INFO:root_logger	Starting script...
+19:07:56 INFO:root_logger	Starting script...
+19:34:36 INFO:root_logger	Starting script...
+19:34:36 INFO:root_logger	Time passed - 1555727676.588811
+19:36:14 INFO:root_logger	Starting script...
+19:39:30 INFO:root_logger	Starting script...
+19:39:44 INFO:root_logger	Time passed - 1555727984.6098604
+19:40:50 INFO:root_logger	Starting script...
+19:44:03 INFO:root_logger	Starting script...
+19:47:53 INFO:root_logger	Starting script...
+20:07:03 INFO:root_logger	Starting script...
+20:07:19 INFO:root_logger	157.230.186.93:3128
+20:07:19 INFO:root_logger	155.138.239.76:3128
+20:07:19 INFO:root_logger	157.230.92.96:3128
+20:07:19 INFO:root_logger	142.93.40.135:3128
+20:07:19 INFO:root_logger	68.183.37.227:3128
+20:07:19 INFO:root_logger	178.128.48.12:3128
+20:07:19 INFO:root_logger	178.128.234.188:3128
+20:07:19 INFO:root_logger	178.128.225.119:3128
+20:07:19 INFO:root_logger	159.65.136.121:3128
+20:07:20 INFO:root_logger	138.197.173.5:3128
+20:07:20 INFO:root_logger	95.179.135.66:3128
+20:07:20 INFO:root_logger	138.197.171.89:3128
+20:07:20 INFO:root_logger	159.89.122.3:3128
+20:07:20 INFO:root_logger	68.183.44.51:3128
+20:07:20 INFO:root_logger	206.189.148.7:3128
+20:07:20 INFO:root_logger	167.99.167.73:3128
+20:07:20 INFO:root_logger	142.93.198.34:3128
+20:07:20 INFO:root_logger	68.183.238.101:3128
+20:07:20 INFO:root_logger	157.230.42.46:3128
+20:07:20 INFO:root_logger	68.183.189.45:3128
+20:07:21 INFO:root_logger	Time passed - 1555729641.125295
+20:07:48 INFO:root_logger	Starting script...
+20:08:02 INFO:root_logger	157.230.186.93:3128
+20:08:02 INFO:root_logger	155.138.239.76:3128
+20:08:02 INFO:root_logger	157.230.92.96:3128
+20:08:02 INFO:root_logger	142.93.40.135:3128
+20:08:03 INFO:root_logger	68.183.37.227:3128
+20:08:03 INFO:root_logger	178.128.48.12:3128
+20:08:03 INFO:root_logger	178.128.234.188:3128
+20:08:03 INFO:root_logger	178.128.225.119:3128
+20:08:03 INFO:root_logger	159.65.136.121:3128
+20:08:03 INFO:root_logger	138.197.173.5:3128
+20:08:03 INFO:root_logger	95.179.135.66:3128
+20:08:03 INFO:root_logger	138.197.171.89:3128
+20:08:03 INFO:root_logger	159.89.122.3:3128
+20:08:03 INFO:root_logger	68.183.44.51:3128
+20:08:03 INFO:root_logger	206.189.148.7:3128
+20:08:03 INFO:root_logger	167.99.167.73:3128
+20:08:03 INFO:root_logger	142.93.198.34:3128
+20:08:03 INFO:root_logger	68.183.238.101:3128
+20:08:03 INFO:root_logger	157.230.42.46:3128
+20:08:03 INFO:root_logger	68.183.189.45:3128
+20:08:04 INFO:root_logger	Time passed - 1555729684.409154
+20:09:20 INFO:root_logger	Starting script...
+20:09:35 INFO:root_logger	157.230.186.93:3128
+20:09:35 INFO:root_logger	155.138.239.76:3128
+20:09:35 INFO:root_logger	157.230.92.96:3128
+20:09:35 INFO:root_logger	142.93.40.135:3128
+20:09:35 INFO:root_logger	68.183.37.227:3128
+20:09:35 INFO:root_logger	178.128.48.12:3128
+20:09:35 INFO:root_logger	178.128.234.188:3128
+20:09:35 INFO:root_logger	178.128.225.119:3128
+20:09:35 INFO:root_logger	159.65.136.121:3128
+20:09:35 INFO:root_logger	138.197.173.5:3128
+20:09:35 INFO:root_logger	95.179.135.66:3128
+20:09:35 INFO:root_logger	138.197.171.89:3128
+20:09:35 INFO:root_logger	159.89.122.3:3128
+20:09:35 INFO:root_logger	68.183.44.51:3128
+20:09:35 INFO:root_logger	206.189.148.7:3128
+20:09:36 INFO:root_logger	167.99.167.73:3128
+20:09:36 INFO:root_logger	142.93.198.34:3128
+20:09:36 INFO:root_logger	68.183.238.101:3128
+20:09:36 INFO:root_logger	157.230.42.46:3128
+20:09:36 INFO:root_logger	68.183.189.45:3128
+20:09:37 ERROR:root_logger	Expecting value: line 1 column 1 (char 0)
+20:09:37 INFO:root_logger	Time passed - 0.8633408546447754
+20:09:37 INFO:root_logger	Counter = 0
