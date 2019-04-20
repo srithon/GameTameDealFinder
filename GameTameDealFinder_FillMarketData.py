@@ -15,7 +15,7 @@ from selenium import webdriver
 from random import random
 
 
-delay = 3.0
+delay = 2.5
 
 
 
@@ -40,22 +40,42 @@ logger.info('Starting script...')
 
 item_list = list()
 
+point_price_list = list()
+
 #  item_list_file.close()
 
 real_price_list = list()
 
+last_item = None
+
 try:
-    with open('real_price_list_file.txt') as file:
-        line_start = sum(1 for line in file)
+    with open('item_list_file_active.txt', 'r') as file:
+        for line in file:
+            pass
+        last_item = line
+except KeyboardInterrupt as e:
+    print('Exiting...')
+    sys.exit()
 except Exception as e:
     print(e)
-    line_start = 0
 
-print(line_start)
+try:
+    with open('point_price_list_file_complete.txt') as file:
+        for line in file:
+            point_price_list.append(line)
+except Exception as e:
+    print(e)
 
-with open("item_list_file.txt", "r") as item_list_file:
-    for _ in range(line_start):
-        next(item_list_file)
+#  print(line_start)
+
+with open("item_list_file_complete.txt", "r") as item_list_file:
+    #for _ in range(line_start):
+    if last_item != None:
+        for line in item_list_file:
+            if line == last_item:
+                break
+            else:
+                next(item_list_file)
     for line in item_list_file:
         item_list.append(line.rstrip())
 
@@ -74,18 +94,25 @@ proxies = list()
 def save_lists():
     global real_price_list
 
-    real_price_list_file = open("real_price_list_file.txt", "a+")
+    with open("real_price_list_file.txt", "a+") as real_price_list_file:
+        for price in real_price_list:
+            real_price_list_file.write(str(price) + '\n')
 
-    for price in real_price_list:
-        real_price_list_file.write(str(price) + '\n')
+    with open('item_list_file_active.txt', 'a+') as active_item_list_file:
+        for item in item_list[:(len(real_price_list))]:
+            active_item_list_file.write(item + '\n')
 
-    real_price_list_file.close()
+    with open('point_price_list_file_active.txt', 'a+') as active_point_price_file:
+        for item in point_price_list[:(len(real_price_list))]:
+            active_point_price_file.write(item + '\n')
 
     trim_lists()
 
 def trim_lists():
     global item_list, real_price_list
+    print('Last Item Saved - ' + item_list[len(real_price_list) - 1])
     del item_list[:len(real_price_list)]
+    del point_price_list[:len(real_price_list)]
     real_price_list.clear()
 
 
@@ -132,7 +159,7 @@ def get_proxy_dict(current_proxy):
 
 
 def main(delay):
-    global init_time, item_list, real_price_list, s, proxies
+    global init_time, item_list, real_price_list, s, proxies, active_item_list
     proxies = get_proxies()
     if proxies == None:
         logger.error('No proxies found!')
@@ -157,10 +184,16 @@ def main(delay):
                     except Exception as e:
                         print(e)
                         logger.error(e)
+                        item_list.pop(i)
+                        i -= 1
+                        continue
+                except KeyboardInterrupt as e:
+                    print('Exiting...')
+                    sys.exit()
                 except:
                     logger.debug('Failed to get response. Retrying. item = {}'.format(item))
                     sleep(delay)
-                    init_time += delay_time
+                    init_time += delay
                     continue
                 sleep(delay)
                 if 'null' in r.text:
@@ -168,10 +201,13 @@ def main(delay):
                     logger.error('NULL IN SOURCE')
                     logger.info('Counter = {}'.format(counter))
                     proxy_dict = get_proxy_dict(get_new_proxy())
-                    #  break
+                    i -= 1
+                    continue
                 counter += 1
                 print('Completed iteration #{}'.format(counter))
                 if (counter % 36 == 0):
+                    print('Saving lists...')
+                    logger.info('Saving lists...')
                     save_lists()
                     broken = True
                     break
@@ -200,4 +236,4 @@ logger.info('Counter = {}'.format(count))
 
 s = None
 
-logger.close()
+log_handler.close()

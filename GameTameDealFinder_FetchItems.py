@@ -171,8 +171,8 @@ def save_lists():
     global item_list
     global point_price_list
 
-    item_list_file = open("item_list_file.txt", "a+")
-    point_price_list_file = open("point_price_list_file.txt", "a+")
+    item_list_file = open("item_list_file_complete.txt", "a+")
+    point_price_list_file = open("point_price_list_file_complete.txt", "a+")
 
     for i in range(0, len(item_list)):
         item_list_file.write(item_list[i] + '\n')
@@ -185,7 +185,7 @@ def save_lists():
 
 def load_lists():
     try:
-        point_price_list_file = open("point_price_list_file.txt", "r")
+        point_price_list_file = open("point_price_list_file_complete.txt", "r")
         for line in point_price_list_file:
             point_price_list.append(float(line.rstrip()))
     except FileNotFoundError:
@@ -194,7 +194,7 @@ def load_lists():
     point_price_list_file.close()
 
     try:
-        item_list_file = open("item_list_file.txt", "r")
+        item_list_file = open("item_list_file_complete.txt", "r")
         for line in item_list_file:
             item_list.append(line.rstrip())
     except FileNotFoundError:

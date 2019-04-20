@@ -239,3 +239,190 @@
 21:10:15 INFO:root_logger	142.93.198.34:3128
 21:10:15 INFO:root_logger	68.183.238.101:3128
 21:10:15 INFO:root_logger	157.230.42.46:3128
+21:11:19 INFO:root_logger	Starting script...
+21:11:34 INFO:root_logger	79.124.72.245:53281
+21:11:34 INFO:root_logger	157.230.186.93:3128
+21:11:34 INFO:root_logger	155.138.239.76:3128
+21:11:34 INFO:root_logger	157.230.92.96:3128
+21:11:34 INFO:root_logger	142.93.40.135:3128
+21:11:34 INFO:root_logger	68.183.37.227:3128
+21:11:35 INFO:root_logger	178.128.48.12:3128
+21:11:35 INFO:root_logger	178.128.234.188:3128
+21:11:35 INFO:root_logger	178.128.225.119:3128
+21:11:35 INFO:root_logger	159.65.136.121:3128
+21:11:35 INFO:root_logger	138.197.173.5:3128
+21:11:35 INFO:root_logger	95.179.135.66:3128
+21:11:35 INFO:root_logger	138.197.171.89:3128
+21:11:35 INFO:root_logger	159.89.122.3:3128
+21:11:35 INFO:root_logger	68.183.44.51:3128
+21:11:35 INFO:root_logger	206.189.148.7:3128
+21:11:35 INFO:root_logger	167.99.167.73:3128
+21:11:35 INFO:root_logger	142.93.198.34:3128
+21:11:35 INFO:root_logger	68.183.238.101:3128
+21:11:35 INFO:root_logger	157.230.42.46:3128
+21:14:33 INFO:root_logger	Starting script...
+21:14:56 INFO:root_logger	185.132.133.209:8080
+21:14:56 INFO:root_logger	159.65.8.166:3128
+21:14:56 INFO:root_logger	157.230.186.93:3128
+21:14:56 INFO:root_logger	155.138.239.76:3128
+21:14:56 INFO:root_logger	157.230.92.96:3128
+21:14:56 INFO:root_logger	142.93.40.135:3128
+21:14:56 INFO:root_logger	68.183.37.227:3128
+21:14:56 INFO:root_logger	178.128.48.12:3128
+21:14:56 INFO:root_logger	178.128.234.188:3128
+21:14:56 INFO:root_logger	178.128.225.119:3128
+21:14:56 INFO:root_logger	159.65.136.121:3128
+21:14:56 INFO:root_logger	138.197.173.5:3128
+21:14:56 INFO:root_logger	95.179.135.66:3128
+21:14:56 INFO:root_logger	138.197.171.89:3128
+21:14:56 INFO:root_logger	159.89.122.3:3128
+21:14:56 INFO:root_logger	68.183.44.51:3128
+21:14:56 INFO:root_logger	206.189.148.7:3128
+21:14:56 INFO:root_logger	167.99.167.73:3128
+21:14:56 INFO:root_logger	142.93.198.34:3128
+21:14:56 INFO:root_logger	68.183.238.101:3128
+21:29:30 INFO:root_logger	Starting script...
+21:29:50 INFO:root_logger	159.65.8.166:3128
+21:29:50 INFO:root_logger	157.230.186.93:3128
+21:29:50 INFO:root_logger	155.138.239.76:3128
+21:29:50 INFO:root_logger	157.230.92.96:3128
+21:29:50 INFO:root_logger	142.93.40.135:3128
+21:29:51 INFO:root_logger	68.183.37.227:3128
+21:29:51 INFO:root_logger	178.128.48.12:3128
+21:29:51 INFO:root_logger	178.128.234.188:3128
+21:29:51 INFO:root_logger	178.128.225.119:3128
+21:29:51 INFO:root_logger	159.65.136.121:3128
+21:29:51 INFO:root_logger	138.197.173.5:3128
+21:29:51 INFO:root_logger	95.179.135.66:3128
+21:29:51 INFO:root_logger	138.197.171.89:3128
+21:29:51 INFO:root_logger	159.89.122.3:3128
+21:29:51 INFO:root_logger	68.183.44.51:3128
+21:29:51 INFO:root_logger	206.189.148.7:3128
+21:29:51 INFO:root_logger	167.99.167.73:3128
+21:29:51 INFO:root_logger	142.93.198.34:3128
+21:29:51 INFO:root_logger	68.183.238.101:3128
+21:29:51 INFO:root_logger	157.230.42.46:3128
+21:31:59 INFO:root_logger	Saving lists...
+21:34:04 INFO:root_logger	Saving lists...
+21:36:10 INFO:root_logger	Saving lists...
+21:38:16 INFO:root_logger	Saving lists...
+21:40:24 INFO:root_logger	Saving lists...
+21:42:32 INFO:root_logger	Saving lists...
+21:44:39 INFO:root_logger	Saving lists...
+21:45:29 ERROR:root_logger	'NoneType' object is not subscriptable
+21:45:32 ERROR:root_logger	NULL IN SOURCE
+21:45:32 INFO:root_logger	Counter = 266
+21:46:46 INFO:root_logger	Saving lists...
+21:48:21 ERROR:root_logger	'lowest_price'
+21:48:52 INFO:root_logger	Saving lists...
+21:50:58 INFO:root_logger	Saving lists...
+21:52:57 ERROR:root_logger	'lowest_price'
+21:53:04 INFO:root_logger	Saving lists...
+21:55:12 INFO:root_logger	Saving lists...
+21:57:23 INFO:root_logger	Saving lists...
+21:59:30 INFO:root_logger	Saving lists...
+22:21:39 INFO:root_logger	Starting script...
+22:22:00 INFO:root_logger	138.204.117.191:31121
+22:22:00 INFO:root_logger	202.5.51.133:32362
+22:22:00 INFO:root_logger	118.175.207.180:40017
+22:22:00 INFO:root_logger	185.132.178.132:8080
+22:22:01 INFO:root_logger	104.236.54.196:8080
+22:22:01 INFO:root_logger	138.204.179.162:44088
+22:22:01 INFO:root_logger	104.236.47.73:8080
+22:22:01 INFO:root_logger	119.40.95.122:34897
+22:22:01 INFO:root_logger	88.199.42.14:8080
+22:22:01 INFO:root_logger	159.192.97.181:23500
+22:22:01 INFO:root_logger	178.32.80.235:8080
+22:22:01 INFO:root_logger	138.59.33.43:63141
+22:22:01 INFO:root_logger	180.180.156.111:34238
+22:22:01 INFO:root_logger	85.187.17.39:53281
+22:22:01 INFO:root_logger	81.30.211.104:44341
+22:22:01 INFO:root_logger	190.152.71.230:54354
+22:22:01 INFO:root_logger	198.23.143.59:8080
+22:22:01 INFO:root_logger	144.139.133.9:32744
+22:22:01 INFO:root_logger	47.74.8.220:3128
+22:22:01 INFO:root_logger	194.44.236.48:36506
+22:22:56 ERROR:root_logger	'lowest_price'
+22:23:59 INFO:root_logger	Saving lists...
+22:25:52 INFO:root_logger	Saving lists...
+22:29:05 INFO:root_logger	Starting script...
+22:29:10 INFO:root_logger	Time passed - 4.990602970123291
+22:30:44 INFO:root_logger	Starting script...
+22:30:59 INFO:root_logger	138.204.117.191:31121
+22:30:59 INFO:root_logger	202.5.51.133:32362
+22:31:00 INFO:root_logger	118.175.207.180:40017
+22:31:00 INFO:root_logger	185.132.178.132:8080
+22:31:00 INFO:root_logger	104.236.54.196:8080
+22:31:00 INFO:root_logger	138.204.179.162:44088
+22:31:00 INFO:root_logger	104.236.47.73:8080
+22:31:00 INFO:root_logger	119.40.95.122:34897
+22:31:00 INFO:root_logger	88.199.42.14:8080
+22:31:00 INFO:root_logger	159.192.97.181:23500
+22:31:00 INFO:root_logger	178.32.80.235:8080
+22:31:00 INFO:root_logger	138.59.33.43:63141
+22:31:00 INFO:root_logger	180.180.156.111:34238
+22:31:00 INFO:root_logger	85.187.17.39:53281
+22:31:00 INFO:root_logger	81.30.211.104:44341
+22:31:00 INFO:root_logger	190.152.71.230:54354
+22:31:00 INFO:root_logger	198.23.143.59:8080
+22:31:00 INFO:root_logger	144.139.133.9:32744
+22:31:00 INFO:root_logger	47.74.8.220:3128
+22:31:00 INFO:root_logger	194.44.236.48:36506
+22:31:22 DEBUG:root_logger	Failed to get response. Retrying. item = Civic Duty Mk.II Sniper Rifle (Field-Tested)
+22:31:24 INFO:root_logger	Time passed - 23.53428339958191
+22:31:24 INFO:root_logger	Counter = 0
+22:32:52 INFO:root_logger	Starting script...
+22:33:08 INFO:root_logger	103.54.30.173:44054
+22:33:08 INFO:root_logger	95.37.225.206:53281
+22:33:08 INFO:root_logger	94.179.135.230:57866
+22:33:08 INFO:root_logger	47.74.8.220:3128
+22:33:08 INFO:root_logger	117.206.155.170:35116
+22:33:08 INFO:root_logger	109.110.73.106:37748
+22:33:08 INFO:root_logger	36.91.129.164:3128
+22:33:08 INFO:root_logger	116.212.157.29:57725
+22:33:09 INFO:root_logger	203.77.239.18:37002
+22:33:09 INFO:root_logger	118.173.232.160:39079
+22:33:09 INFO:root_logger	177.54.200.10:32120
+22:33:09 INFO:root_logger	185.132.133.185:8080
+22:33:09 INFO:root_logger	182.52.51.4:40347
+22:33:09 INFO:root_logger	72.76.229.105:80
+22:33:09 INFO:root_logger	167.249.161.13:56289
+22:33:09 INFO:root_logger	95.78.174.9:50843
+22:33:09 INFO:root_logger	45.232.224.80:60797
+22:33:09 INFO:root_logger	158.58.133.13:21213
+22:33:09 INFO:root_logger	182.163.103.99:56552
+22:33:09 INFO:root_logger	186.42.224.222:34570
+22:35:11 INFO:root_logger	Saving lists...
+22:35:22 DEBUG:root_logger	Failed to get response. Retrying. item = Civil Servant Mk.II Shotgun (Well-Worn)
+22:35:26 DEBUG:root_logger	Failed to get response. Retrying. item = Civil Servant Mk.II Brass Beast (Minimal Wear)
+22:35:50 DEBUG:root_logger	Failed to get response. Retrying. item = Civic Duty Mk.II Amputator (Well-Worn)
+22:36:02 INFO:root_logger	Starting script...
+22:36:25 INFO:root_logger	103.54.30.173:44054
+22:36:25 INFO:root_logger	95.37.225.206:53281
+22:36:25 INFO:root_logger	94.179.135.230:57866
+22:36:25 INFO:root_logger	47.74.8.220:3128
+22:36:25 INFO:root_logger	117.206.155.170:35116
+22:36:25 INFO:root_logger	109.110.73.106:37748
+22:36:25 INFO:root_logger	36.91.129.164:3128
+22:36:25 INFO:root_logger	116.212.157.29:57725
+22:36:25 INFO:root_logger	203.77.239.18:37002
+22:36:25 INFO:root_logger	118.173.232.160:39079
+22:36:25 INFO:root_logger	177.54.200.10:32120
+22:36:25 INFO:root_logger	185.132.133.185:8080
+22:36:25 INFO:root_logger	182.52.51.4:40347
+22:36:25 INFO:root_logger	72.76.229.105:80
+22:36:25 INFO:root_logger	167.249.161.13:56289
+22:36:25 INFO:root_logger	95.78.174.9:50843
+22:36:25 INFO:root_logger	45.232.224.80:60797
+22:36:25 INFO:root_logger	158.58.133.13:21213
+22:36:25 INFO:root_logger	182.163.103.99:56552
+22:36:25 INFO:root_logger	186.42.224.222:34570
+22:36:28 DEBUG:root_logger	Failed to get response. Retrying. item = Nutcracker Wrench (Well-Worn)
+22:36:51 DEBUG:root_logger	Failed to get response. Retrying. item = Dressed to Kill Sniper Rifle (Well-Worn)
+22:37:15 DEBUG:root_logger	Failed to get response. Retrying. item = Nutcracker Scattergun (Well-Worn)
+22:39:26 INFO:root_logger	Saving lists...
+22:41:29 INFO:root_logger	Saving lists...
+22:43:33 INFO:root_logger	Saving lists...
+22:45:35 INFO:root_logger	Saving lists...
+22:47:37 INFO:root_logger	Saving lists...
+22:47:52 DEBUG:root_logger	Failed to get response. Retrying. item = Brain Candy Minigun (Well-Worn)
