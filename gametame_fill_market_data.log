@@ -426,3 +426,57 @@
 22:45:35 INFO:root_logger	Saving lists...
 22:47:37 INFO:root_logger	Saving lists...
 22:47:52 DEBUG:root_logger	Failed to get response. Retrying. item = Brain Candy Minigun (Well-Worn)
+23:18:24 INFO:root_logger	Starting script...
+23:18:45 INFO:root_logger	151.106.8.226:8080
+23:18:45 INFO:root_logger	159.65.8.166:3128
+23:18:45 INFO:root_logger	157.230.186.93:3128
+23:18:45 INFO:root_logger	155.138.239.76:3128
+23:18:45 INFO:root_logger	157.230.92.96:3128
+23:18:45 INFO:root_logger	142.93.40.135:3128
+23:18:45 INFO:root_logger	178.128.48.12:3128
+23:18:45 INFO:root_logger	178.128.234.188:3128
+23:18:45 INFO:root_logger	178.128.225.119:3128
+23:18:45 INFO:root_logger	159.65.136.121:3128
+23:18:45 INFO:root_logger	138.197.173.5:3128
+23:18:45 INFO:root_logger	95.179.135.66:3128
+23:18:45 INFO:root_logger	138.197.171.89:3128
+23:18:45 INFO:root_logger	159.89.122.3:3128
+23:18:45 INFO:root_logger	68.183.44.51:3128
+23:18:45 INFO:root_logger	206.189.148.7:3128
+23:18:45 INFO:root_logger	167.99.167.73:3128
+23:18:45 INFO:root_logger	142.93.198.34:3128
+23:18:45 INFO:root_logger	157.230.42.46:3128
+23:18:46 INFO:root_logger	68.183.189.45:3128
+23:20:34 INFO:root_logger	Saving lists...
+23:21:48 ERROR:root_logger	'NoneType' object is not subscriptable
+23:21:48 ERROR:root_logger	'NoneType' object is not subscriptable
+23:22:21 INFO:root_logger	Saving lists...
+23:22:48 ERROR:root_logger	'NoneType' object is not subscriptable
+23:22:49 ERROR:root_logger	'NoneType' object is not subscriptable
+23:23:48 ERROR:root_logger	'NoneType' object is not subscriptable
+23:23:48 ERROR:root_logger	'NoneType' object is not subscriptable
+23:24:09 INFO:root_logger	Saving lists...
+23:25:57 INFO:root_logger	Saving lists...
+23:38:50 INFO:root_logger	Starting script...
+23:39:12 INFO:root_logger	159.65.8.166:3128
+23:39:12 INFO:root_logger	157.230.186.93:3128
+23:39:12 INFO:root_logger	155.138.239.76:3128
+23:39:12 INFO:root_logger	157.230.92.96:3128
+23:39:12 INFO:root_logger	142.93.40.135:3128
+23:39:12 INFO:root_logger	178.128.48.12:3128
+23:39:12 INFO:root_logger	178.128.234.188:3128
+23:39:12 INFO:root_logger	178.128.225.119:3128
+23:39:12 INFO:root_logger	159.65.136.121:3128
+23:39:12 INFO:root_logger	138.197.173.5:3128
+23:39:12 INFO:root_logger	95.179.135.66:3128
+23:39:12 INFO:root_logger	138.197.171.89:3128
+23:39:12 INFO:root_logger	159.89.122.3:3128
+23:39:12 INFO:root_logger	68.183.44.51:3128
+23:39:12 INFO:root_logger	206.189.148.7:3128
+23:39:12 INFO:root_logger	167.99.167.73:3128
+23:39:12 INFO:root_logger	142.93.198.34:3128
+23:39:12 INFO:root_logger	68.183.238.101:3128
+23:39:12 INFO:root_logger	157.230.42.46:3128
+23:39:12 INFO:root_logger	68.183.189.45:3128
+23:40:13 ERROR:root_logger	'NoneType' object is not subscriptable
+23:41:01 INFO:root_logger	Saving lists...

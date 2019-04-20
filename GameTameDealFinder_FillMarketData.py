@@ -48,7 +48,7 @@ real_price_list = list()
 
 last_item = None
 
-try:
+"""try:
     with open('item_list_file_active.txt', 'r') as file:
         for line in file:
             pass
@@ -57,10 +57,20 @@ except KeyboardInterrupt as e:
     print('Exiting...')
     sys.exit()
 except Exception as e:
+    print(e)"""
+
+try:
+    with open('progress_file.txt', 'r') as progress:
+        for line in file:
+            last_item = line
+except KeyboardInterrupt as e:
+    print(e)
+    sys.exit()
+except Exception as e:
     print(e)
 
 try:
-    with open('point_price_list_file_complete.txt') as file:
+    with open('point_price_list_file_complete.txt', 'r') as file:
         for line in file:
             point_price_list.append(line)
 except Exception as e:
@@ -104,13 +114,15 @@ def save_lists():
 
     with open('point_price_list_file_active.txt', 'a+') as active_point_price_file:
         for item in point_price_list[:(len(real_price_list))]:
-            active_point_price_file.write(item + '\n')
+            active_point_price_file.write(item)
 
     trim_lists()
 
 def trim_lists():
     global item_list, real_price_list
     print('Last Item Saved - ' + item_list[len(real_price_list) - 1])
+    with open('progress_file.txt', 'w+') as progress_file:
+        progress_file.write(item_list[len(real_price_list) - 1])
     del item_list[:len(real_price_list)]
     del point_price_list[:len(real_price_list)]
     real_price_list.clear()
@@ -185,6 +197,7 @@ def main(delay):
                         print(e)
                         logger.error(e)
                         item_list.pop(i)
+                        point_price_list.pop(i)
                         i -= 1
                         continue
                 except KeyboardInterrupt as e:
