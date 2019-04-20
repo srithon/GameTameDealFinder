@@ -45,7 +45,7 @@ item_list = list()
 real_price_list = list()
 
 try:
-    with open('real_price_list.txt') as file:
+    with open('real_price_list_file.txt') as file:
         line_start = sum(1 for line in file)
 except Exception as e:
     print(e)
@@ -140,33 +140,42 @@ def main(delay):
     proxy_dict = get_proxy_dict(get_new_proxy())
     s = requests.Session()
     init_time = time()
-    counter = 1
+    counter = 0
     try:
-        for item in item_list:
-            try:
-                r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item, proxies = proxy_dict)
+        broken = True
+        
+        while broken:
+            broken = False
+            for i in range(len(item_list)):
+                item = item_list[i]
                 try:
-                    price = float(r.json()['lowest_price'])
-                    real_price_list.append(price)
-                except Exception as e:
-                    print(e)
-                    logger.error(e)
-            except:
-                logger.debug('Failed to get response. Retrying. item = {}'.format(item))
+                    r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item, proxies = proxy_dict)
+                    try:
+                        price = float((r.json()['lowest_price'])[1:])
+                        real_price_list.append(price)
+                        print('( {} : {} )'.format(item, price))
+                    except Exception as e:
+                        print(e)
+                        logger.error(e)
+                except:
+                    logger.debug('Failed to get response. Retrying. item = {}'.format(item))
+                    sleep(delay)
+                    init_time += delay_time
+                    continue
                 sleep(delay)
-                init_time += delay_time
-                continue
-            sleep(delay)
-            if 'null' in r.text:
-                print('null in source')
-                logger.error('NULL IN SOURCE')
-                logger.info('Counter = {}'.format(counter))
-                proxy_dict = get_proxy_dict(get_new_proxy())
-                #  break
-            if (counter % 37 == 0): # 36 + 1; 0 % 36 == 0, didn't want to save first time
-                save_lists()
-            counter += 1
-            print('Completed iteration #{}'.format(counter))
+                if 'null' in r.text:
+                    print('null in source')
+                    logger.error('NULL IN SOURCE')
+                    logger.info('Counter = {}'.format(counter))
+                    proxy_dict = get_proxy_dict(get_new_proxy())
+                    #  break
+                counter += 1
+                print('Completed iteration #{}'.format(counter))
+                if (counter % 36 == 0):
+                    save_lists()
+                    broken = True
+                    break
+            
     except Exception as e:
         print(e)
     return counter

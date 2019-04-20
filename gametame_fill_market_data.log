@@ -82,3 +82,160 @@
 20:09:37 ERROR:root_logger	Expecting value: line 1 column 1 (char 0)
 20:09:37 INFO:root_logger	Time passed - 0.8633408546447754
 20:09:37 INFO:root_logger	Counter = 0
+20:11:40 INFO:root_logger	Starting script...
+20:11:56 INFO:root_logger	157.230.186.93:3128
+20:11:56 INFO:root_logger	155.138.239.76:3128
+20:11:56 INFO:root_logger	157.230.92.96:3128
+20:11:56 INFO:root_logger	142.93.40.135:3128
+20:11:56 INFO:root_logger	68.183.37.227:3128
+20:11:56 INFO:root_logger	178.128.48.12:3128
+20:11:56 INFO:root_logger	178.128.234.188:3128
+20:11:57 INFO:root_logger	178.128.225.119:3128
+20:11:57 INFO:root_logger	159.65.136.121:3128
+20:11:57 INFO:root_logger	138.197.173.5:3128
+20:11:57 INFO:root_logger	95.179.135.66:3128
+20:11:57 INFO:root_logger	138.197.171.89:3128
+20:11:57 INFO:root_logger	159.89.122.3:3128
+20:11:57 INFO:root_logger	68.183.44.51:3128
+20:11:57 INFO:root_logger	206.189.148.7:3128
+20:11:57 INFO:root_logger	167.99.167.73:3128
+20:11:57 INFO:root_logger	142.93.198.34:3128
+20:11:57 INFO:root_logger	68.183.238.101:3128
+20:11:57 INFO:root_logger	157.230.42.46:3128
+20:11:57 INFO:root_logger	68.183.189.45:3128
+20:11:59 ERROR:root_logger	the JSON object must be str, bytes or bytearray, not 'dict'
+20:12:02 ERROR:root_logger	the JSON object must be str, bytes or bytearray, not 'dict'
+20:12:06 ERROR:root_logger	the JSON object must be str, bytes or bytearray, not 'dict'
+20:29:12 INFO:root_logger	Starting script...
+20:29:32 INFO:root_logger	157.230.186.93:3128
+20:29:32 INFO:root_logger	155.138.239.76:3128
+20:29:32 INFO:root_logger	157.230.92.96:3128
+20:29:32 INFO:root_logger	142.93.40.135:3128
+20:29:32 INFO:root_logger	68.183.37.227:3128
+20:29:32 INFO:root_logger	178.128.48.12:3128
+20:29:32 INFO:root_logger	178.128.234.188:3128
+20:29:32 INFO:root_logger	178.128.225.119:3128
+20:29:32 INFO:root_logger	159.65.136.121:3128
+20:29:32 INFO:root_logger	138.197.173.5:3128
+20:29:32 INFO:root_logger	95.179.135.66:3128
+20:29:32 INFO:root_logger	138.197.171.89:3128
+20:29:32 INFO:root_logger	159.89.122.3:3128
+20:29:32 INFO:root_logger	68.183.44.51:3128
+20:29:32 INFO:root_logger	206.189.148.7:3128
+20:29:32 INFO:root_logger	167.99.167.73:3128
+20:29:32 INFO:root_logger	142.93.198.34:3128
+20:29:32 INFO:root_logger	68.183.238.101:3128
+20:29:32 INFO:root_logger	157.230.42.46:3128
+20:29:32 INFO:root_logger	68.183.189.45:3128
+20:29:35 ERROR:root_logger	could not convert string to float: '$0.03'
+20:29:39 ERROR:root_logger	could not convert string to float: '$0.03'
+20:29:43 ERROR:root_logger	could not convert string to float: '$0.03'
+20:29:47 ERROR:root_logger	could not convert string to float: '$0.03'
+20:32:14 INFO:root_logger	Starting script...
+20:32:29 INFO:root_logger	95.179.135.66:3128
+20:32:29 INFO:root_logger	68.183.228.73:3128
+20:32:29 INFO:root_logger	104.236.47.73:8080
+20:32:29 INFO:root_logger	96.9.90.83:53766
+20:32:29 INFO:root_logger	222.124.154.19:23500
+20:32:29 INFO:root_logger	124.41.211.177:44265
+20:32:29 INFO:root_logger	93.170.194.252:42706
+20:32:29 INFO:root_logger	118.173.232.5:34413
+20:32:30 INFO:root_logger	157.230.92.96:3128
+20:32:30 INFO:root_logger	68.183.37.227:3128
+20:32:30 INFO:root_logger	159.65.136.121:3128
+20:32:30 INFO:root_logger	206.189.148.7:3128
+20:32:30 INFO:root_logger	167.99.167.73:3128
+20:32:30 INFO:root_logger	103.216.82.198:46123
+20:32:30 INFO:root_logger	103.216.82.196:6666
+20:32:30 INFO:root_logger	62.249.140.198:41555
+20:32:30 INFO:root_logger	185.37.168.42:33051
+20:32:30 INFO:root_logger	153.92.5.239:80
+20:32:30 INFO:root_logger	221.120.163.253:42764
+20:32:30 INFO:root_logger	212.25.44.96:53281
+20:32:34 ERROR:root_logger	could not convert string to float: '$0.03'
+20:32:38 ERROR:root_logger	could not convert string to float: '$0.03'
+20:32:41 ERROR:root_logger	could not convert string to float: '$0.03'
+20:33:18 INFO:root_logger	Starting script...
+20:33:34 INFO:root_logger	95.179.135.66:3128
+20:33:34 INFO:root_logger	68.183.228.73:3128
+20:33:34 INFO:root_logger	104.236.47.73:8080
+20:33:34 INFO:root_logger	96.9.90.83:53766
+20:33:34 INFO:root_logger	222.124.154.19:23500
+20:33:34 INFO:root_logger	124.41.211.177:44265
+20:33:34 INFO:root_logger	93.170.194.252:42706
+20:33:34 INFO:root_logger	118.173.232.5:34413
+20:33:34 INFO:root_logger	157.230.92.96:3128
+20:33:34 INFO:root_logger	68.183.37.227:3128
+20:33:34 INFO:root_logger	159.65.136.121:3128
+20:33:34 INFO:root_logger	206.189.148.7:3128
+20:33:34 INFO:root_logger	167.99.167.73:3128
+20:33:34 INFO:root_logger	103.216.82.198:46123
+20:33:34 INFO:root_logger	103.216.82.196:6666
+20:33:34 INFO:root_logger	62.249.140.198:41555
+20:33:34 INFO:root_logger	185.37.168.42:33051
+20:33:34 INFO:root_logger	153.92.5.239:80
+20:33:34 INFO:root_logger	221.120.163.253:42764
+20:33:34 INFO:root_logger	212.25.44.96:53281
+20:55:50 INFO:root_logger	Starting script...
+20:56:12 INFO:root_logger	157.230.186.93:3128
+20:56:12 INFO:root_logger	155.138.239.76:3128
+20:56:12 INFO:root_logger	157.230.92.96:3128
+20:56:12 INFO:root_logger	142.93.40.135:3128
+20:56:12 INFO:root_logger	68.183.37.227:3128
+20:56:12 INFO:root_logger	178.128.48.12:3128
+20:56:12 INFO:root_logger	178.128.234.188:3128
+20:56:12 INFO:root_logger	178.128.225.119:3128
+20:56:12 INFO:root_logger	159.65.136.121:3128
+20:56:12 INFO:root_logger	138.197.173.5:3128
+20:56:12 INFO:root_logger	95.179.135.66:3128
+20:56:12 INFO:root_logger	138.197.171.89:3128
+20:56:12 INFO:root_logger	159.89.122.3:3128
+20:56:12 INFO:root_logger	68.183.44.51:3128
+20:56:12 INFO:root_logger	206.189.148.7:3128
+20:56:12 INFO:root_logger	167.99.167.73:3128
+20:56:12 INFO:root_logger	142.93.198.34:3128
+20:56:12 INFO:root_logger	68.183.238.101:3128
+20:56:12 INFO:root_logger	157.230.42.46:3128
+20:56:12 INFO:root_logger	68.183.189.45:3128
+21:01:57 INFO:root_logger	Starting script...
+21:02:17 INFO:root_logger	79.124.72.245:53281
+21:02:18 INFO:root_logger	157.230.186.93:3128
+21:02:18 INFO:root_logger	155.138.239.76:3128
+21:02:18 INFO:root_logger	157.230.92.96:3128
+21:02:18 INFO:root_logger	142.93.40.135:3128
+21:02:18 INFO:root_logger	68.183.37.227:3128
+21:02:18 INFO:root_logger	178.128.48.12:3128
+21:02:18 INFO:root_logger	178.128.234.188:3128
+21:02:18 INFO:root_logger	178.128.225.119:3128
+21:02:18 INFO:root_logger	159.65.136.121:3128
+21:02:18 INFO:root_logger	138.197.173.5:3128
+21:02:18 INFO:root_logger	95.179.135.66:3128
+21:02:18 INFO:root_logger	138.197.171.89:3128
+21:02:18 INFO:root_logger	159.89.122.3:3128
+21:02:18 INFO:root_logger	68.183.44.51:3128
+21:02:18 INFO:root_logger	206.189.148.7:3128
+21:02:18 INFO:root_logger	167.99.167.73:3128
+21:02:18 INFO:root_logger	142.93.198.34:3128
+21:02:18 INFO:root_logger	68.183.238.101:3128
+21:02:18 INFO:root_logger	157.230.42.46:3128
+21:09:52 INFO:root_logger	Starting script...
+21:10:15 INFO:root_logger	79.124.72.245:53281
+21:10:15 INFO:root_logger	157.230.186.93:3128
+21:10:15 INFO:root_logger	155.138.239.76:3128
+21:10:15 INFO:root_logger	157.230.92.96:3128
+21:10:15 INFO:root_logger	142.93.40.135:3128
+21:10:15 INFO:root_logger	68.183.37.227:3128
+21:10:15 INFO:root_logger	178.128.48.12:3128
+21:10:15 INFO:root_logger	178.128.234.188:3128
+21:10:15 INFO:root_logger	178.128.225.119:3128
+21:10:15 INFO:root_logger	159.65.136.121:3128
+21:10:15 INFO:root_logger	138.197.173.5:3128
+21:10:15 INFO:root_logger	95.179.135.66:3128
+21:10:15 INFO:root_logger	138.197.171.89:3128
+21:10:15 INFO:root_logger	159.89.122.3:3128
+21:10:15 INFO:root_logger	68.183.44.51:3128
+21:10:15 INFO:root_logger	206.189.148.7:3128
+21:10:15 INFO:root_logger	167.99.167.73:3128
+21:10:15 INFO:root_logger	142.93.198.34:3128
+21:10:15 INFO:root_logger	68.183.238.101:3128
+21:10:15 INFO:root_logger	157.230.42.46:3128
