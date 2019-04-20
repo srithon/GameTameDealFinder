@@ -1,4 +1,4 @@
-from selenium import webdriver
+import requests
 
 from time import sleep, time
 
@@ -36,35 +36,24 @@ item_list_file.close()
 
 init_time = 0
 
-def main(delay_time):
-    global init_time, item_list
-    firefox_profile = webdriver.FirefoxProfile()
-    firefox_profile.set_preference("browser.privatebrowsing.autostart", True)
-    firefox_profile.set_preference('permissions.default.stylesheet', 2)
-    # Disable images
-    firefox_profile.set_preference('permissions.default.image', 2)
-    # Disable Flash
-    firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so',
-                                   'false')
-    firefox_profile.set_preference('javascript.enabled', False)
+s = None
 
-    firefox_options = webdriver.FirefoxOptions()
-    firefox_options.add_argument('--headless')
-    
-    driver = webdriver.Firefox(firefox_profile=firefox_profile, firefox_options=firefox_options)
+def main(delay_time):
+    global init_time, item_list, s
+    s = requests.Session()
     init_time = time()
     counter = 0
     try:
         for item in item_list:
             try:
-                driver.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item)
+                r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item)
+                print(r.text)
             except:
-                sleep(1.0)
-                init_time += 1.0
+                sleep(delay_time)
+                init_time += delay_time
                 continue
             sleep(delay_time)
-            source = driver.page_source
-            if 'null' in source:
+            if 'null' in r.text:
                 print('null in source')
                 logger.error('NULL IN SOURCE')
                 break
@@ -76,13 +65,18 @@ def main(delay_time):
 
 last_count = 0
 
-for i in range(100, 200, 2):
-    delay = i / 10.0
+for i in range(3000, 4500, 200):
+    delay = i / 100.0
     print('delay = {}'.format(delay))
     logger.info('Current delay = {}'.format(delay))
     
     try:
         count = main(delay)
+    except Exception as e:
+        print(e)
+
+    try:
+        s.close()
     except Exception as e:
         print(e)
 
@@ -92,7 +86,6 @@ for i in range(100, 200, 2):
     logger.info('Time passed - {}'.format(final_time - init_time))
     logger.info('Counter = {}'.format(count))
     logger.info('\n')
-    os.system('taskkill /f /im geckodriver.exe /T')
     sleep_time = 30.0 * (delay * delay)
     print('Pausing for {}'.format(sleep_time))
     logger.info('Pausing for {}'.format(sleep_time))
@@ -117,3 +110,5 @@ for i in range(100, 200, 2):
         break
     
     sleep(sleep_time)
+
+    s = None
