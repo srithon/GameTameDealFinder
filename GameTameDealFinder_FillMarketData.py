@@ -48,7 +48,7 @@ real_price_list = list()
 
 last_item = None
 
-"""try:
+try:
     with open('item_list_file_active.txt', 'r') as file:
         for line in file:
             pass
@@ -57,39 +57,51 @@ except KeyboardInterrupt as e:
     print('Exiting...')
     sys.exit()
 except Exception as e:
-    print(e)"""
+    print(e)
 
-try:
+print(last_item)
+
+"""try:
     with open('progress_file.txt', 'r') as progress:
-        for line in file:
-            last_item = line
+        for line in progress:
+            last_item = line.strip('\n')
+            print(last_item)
 except KeyboardInterrupt as e:
     print(e)
     sys.exit()
 except Exception as e:
-    print(e)
+    print(e)"""
 
-try:
-    with open('point_price_list_file_complete.txt', 'r') as file:
-        for line in file:
-            point_price_list.append(line)
-except Exception as e:
-    print(e)
+if last_item != None:
+    try:
+        with open("item_list_file_complete.txt", "r") as item_list_file:
+            with open('point_price_list_file_complete.txt', 'r') as point_price_file:
+                current = ''
+                while current != last_item:
+                    current = item_list_file.readline()
+                    next(point_price_file)
+                for line in item_list_file:
+                    item_list.append(line)
+                for line in point_price_file:
+                    point_price_list.append(line)
+    except Exception as e:
+        print(e)
 
 #  print(line_start)
 
-with open("item_list_file_complete.txt", "r") as item_list_file:
-    #for _ in range(line_start):
-    if last_item != None:
+
+"""    if last_item != None:
         for line in item_list_file:
-            if line == last_item:
+            if last_item == line.strip('\n'):
                 break
             else:
                 next(item_list_file)
     for line in item_list_file:
-        item_list.append(line.rstrip())
+        item_list.append(line.rstrip())"""
 
 print(item_list[0])
+
+sys.exit()
 
 #  log_handler.close()
 
