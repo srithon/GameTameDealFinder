@@ -564,3 +564,37 @@
 00:47:29 INFO:root_logger	Starting script...
 09:08:01 INFO:root_logger	Starting script...
 09:08:13 INFO:root_logger	Starting script...
+09:08:48 INFO:root_logger	Starting script...
+09:14:30 INFO:root_logger	Starting script...
+09:15:51 INFO:root_logger	Starting script...
+09:15:58 INFO:root_logger	Time passed - 7.640680313110352
+09:17:14 INFO:root_logger	Starting script...
+09:17:41 INFO:root_logger	157.230.226.224:3128
+09:17:41 INFO:root_logger	167.99.225.208:3128
+09:17:41 INFO:root_logger	38.142.218.58:3128
+09:17:41 INFO:root_logger	178.128.153.253:3128
+09:17:41 INFO:root_logger	68.183.184.56:3128
+09:17:41 INFO:root_logger	165.22.159.6:3128
+09:17:41 INFO:root_logger	67.158.54.103:8080
+09:17:41 INFO:root_logger	157.230.186.93:3128
+09:17:41 INFO:root_logger	155.138.239.76:3128
+09:17:41 INFO:root_logger	178.128.48.12:3128
+09:17:41 INFO:root_logger	178.128.234.188:3128
+09:17:41 INFO:root_logger	178.128.225.119:3128
+09:17:41 INFO:root_logger	159.65.136.121:3128
+09:17:41 INFO:root_logger	138.197.173.5:3128
+09:17:42 INFO:root_logger	95.179.135.66:3128
+09:17:42 INFO:root_logger	138.197.171.89:3128
+09:17:42 INFO:root_logger	159.89.122.3:3128
+09:17:42 INFO:root_logger	169.239.236.27:38302
+09:17:42 INFO:root_logger	206.189.148.7:3128
+09:17:42 INFO:root_logger	167.99.167.73:3128
+09:18:42 ERROR:root_logger	'NoneType' object is not subscriptable
+09:18:43 ERROR:root_logger	'NoneType' object is not subscriptable
+09:19:30 INFO:root_logger	Saving lists...
+09:19:43 ERROR:root_logger	'NoneType' object is not subscriptable
+09:19:43 ERROR:root_logger	'NoneType' object is not subscriptable
+09:20:42 ERROR:root_logger	'NoneType' object is not subscriptable
+09:20:43 ERROR:root_logger	'NoneType' object is not subscriptable
+09:20:43 ERROR:root_logger	'NoneType' object is not subscriptable
+09:21:19 INFO:root_logger	Saving lists...

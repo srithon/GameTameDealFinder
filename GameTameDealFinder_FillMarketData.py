@@ -18,6 +18,11 @@ from random import random
 delay = 2.5
 
 
+# TODO!!!! Bring back progress file
+# so that you can sort the list and
+# still come back!!
+
+
 
 log_formatter = logging.Formatter('%(asctime)s %(levelname)s:%(name)s\t%(message)s',
                                   datefmt='%H:%M:%S')
@@ -61,17 +66,6 @@ except Exception as e:
 
 print(last_item)
 
-"""try:
-    with open('progress_file.txt', 'r') as progress:
-        for line in progress:
-            last_item = line.strip('\n')
-            print(last_item)
-except KeyboardInterrupt as e:
-    print(e)
-    sys.exit()
-except Exception as e:
-    print(e)"""
-
 if last_item != None:
     try:
         with open("item_list_file_complete.txt", "r") as item_list_file:
@@ -86,26 +80,18 @@ if last_item != None:
                     point_price_list.append(line)
     except Exception as e:
         print(e)
-
-#  print(line_start)
-
-
-"""    if last_item != None:
+else:
+    with open("item_list_file_complete.txt", "r") as item_list_file:
         for line in item_list_file:
-            if last_item == line.strip('\n'):
-                break
-            else:
-                next(item_list_file)
-    for line in item_list_file:
-        item_list.append(line.rstrip())"""
+            item_list.append(line.rstrip())
 
-print(item_list[0])
+    with open('point_price_list_file_complete.txt', 'r') as point_price_file:
+        for line in point_price_file:
+            point_price_list.append(line.rstrip())
 
-sys.exit()
+print('{}; {} points'.format(item_list[0], point_price_list[0]))
 
-#  log_handler.close()
-
-#  sys.exit()
+# sys.exit()
 
 init_time = time()
 
@@ -118,7 +104,7 @@ def save_lists():
 
     with open("real_price_list_file.txt", "a+") as real_price_list_file:
         for price in real_price_list:
-            real_price_list_file.write(str(price) + '\n')
+            real_price_list_file.write(str(price))
 
     with open('item_list_file_active.txt', 'a+') as active_item_list_file:
         for item in item_list[:(len(real_price_list))]:
@@ -126,15 +112,13 @@ def save_lists():
 
     with open('point_price_list_file_active.txt', 'a+') as active_point_price_file:
         for item in point_price_list[:(len(real_price_list))]:
-            active_point_price_file.write(item)
+            active_point_price_file.write(item + '\n')
 
     trim_lists()
 
 def trim_lists():
     global item_list, real_price_list
     print('Last Item Saved - ' + item_list[len(real_price_list) - 1])
-    with open('progress_file.txt', 'w+') as progress_file:
-        progress_file.write(item_list[len(real_price_list) - 1])
     del item_list[:len(real_price_list)]
     del point_price_list[:len(real_price_list)]
     real_price_list.clear()
