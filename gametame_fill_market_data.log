@@ -598,3 +598,532 @@
 09:20:43 ERROR:root_logger	'NoneType' object is not subscriptable
 09:20:43 ERROR:root_logger	'NoneType' object is not subscriptable
 09:21:19 INFO:root_logger	Saving lists...
+19:06:31 INFO:root_logger	Starting script...
+19:07:01 INFO:root_logger	Starting script...
+19:07:31 INFO:root_logger	Starting script...
+19:08:20 INFO:root_logger	178.128.153.253:3128
+19:08:20 INFO:root_logger	67.158.54.103:8080
+19:08:20 INFO:root_logger	47.74.8.220:3128
+19:08:20 INFO:root_logger	123.176.96.49:3128
+19:08:20 INFO:root_logger	185.189.102.153:40765
+19:08:20 INFO:root_logger	1.10.189.119:58040
+19:08:20 INFO:root_logger	177.91.127.56:53975
+19:08:20 INFO:root_logger	176.36.164.240:47581
+19:08:20 INFO:root_logger	185.37.211.222:59807
+19:08:20 INFO:root_logger	125.25.45.132:41836
+19:08:20 INFO:root_logger	182.53.197.22:46470
+19:08:20 INFO:root_logger	105.112.83.35:30581
+19:08:20 INFO:root_logger	93.39.228.188:3128
+19:08:20 INFO:root_logger	45.224.86.78:56075
+19:08:20 INFO:root_logger	222.124.173.146:53281
+19:08:20 INFO:root_logger	124.41.211.213:35133
+19:08:20 INFO:root_logger	190.145.158.222:42024
+19:08:20 INFO:root_logger	36.89.189.239:53281
+19:08:20 INFO:root_logger	182.53.197.236:54177
+19:08:20 INFO:root_logger	1.20.100.195:61802
+19:08:23 INFO:root_logger	Time passed - 0.14069128036499023
+19:08:23 INFO:root_logger	Counter = 0
+19:12:55 INFO:root_logger	Starting script...
+19:13:24 INFO:root_logger	178.128.153.253:3128
+19:13:24 INFO:root_logger	67.158.54.103:8080
+19:13:24 INFO:root_logger	47.74.8.220:3128
+19:13:24 INFO:root_logger	123.176.96.49:3128
+19:13:24 INFO:root_logger	177.91.127.56:53975
+19:13:24 INFO:root_logger	185.189.102.153:40765
+19:13:24 INFO:root_logger	1.10.189.119:58040
+19:13:24 INFO:root_logger	176.36.164.240:47581
+19:13:24 INFO:root_logger	185.37.211.222:59807
+19:13:24 INFO:root_logger	125.25.45.132:41836
+19:13:24 INFO:root_logger	182.53.197.22:46470
+19:13:24 INFO:root_logger	105.112.83.35:30581
+19:13:24 INFO:root_logger	93.39.228.188:3128
+19:13:24 INFO:root_logger	45.224.86.78:56075
+19:13:24 INFO:root_logger	222.124.173.146:53281
+19:13:24 INFO:root_logger	124.41.211.213:35133
+19:13:24 INFO:root_logger	190.145.158.222:42024
+19:13:24 INFO:root_logger	36.89.189.239:53281
+19:13:24 INFO:root_logger	182.53.197.236:54177
+19:13:24 INFO:root_logger	1.20.100.195:61802
+19:13:30 ERROR:root_logger	Unread result found
+19:13:33 ERROR:root_logger	Unread result found
+19:13:36 ERROR:root_logger	Unread result found
+19:14:59 INFO:root_logger	Starting script...
+19:15:25 INFO:root_logger	178.128.153.253:3128
+19:15:25 INFO:root_logger	67.158.54.103:8080
+19:15:25 INFO:root_logger	47.74.8.220:3128
+19:15:25 INFO:root_logger	123.176.96.49:3128
+19:15:25 INFO:root_logger	177.91.127.56:53975
+19:15:25 INFO:root_logger	185.189.102.153:40765
+19:15:25 INFO:root_logger	1.10.189.119:58040
+19:15:26 INFO:root_logger	176.36.164.240:47581
+19:15:26 INFO:root_logger	185.37.211.222:59807
+19:15:26 INFO:root_logger	125.25.45.132:41836
+19:15:26 INFO:root_logger	182.53.197.22:46470
+19:15:26 INFO:root_logger	105.112.83.35:30581
+19:15:26 INFO:root_logger	93.39.228.188:3128
+19:15:26 INFO:root_logger	45.224.86.78:56075
+19:15:26 INFO:root_logger	222.124.173.146:53281
+19:15:26 INFO:root_logger	124.41.211.213:35133
+19:15:26 INFO:root_logger	190.145.158.222:42024
+19:15:26 INFO:root_logger	36.89.189.239:53281
+19:15:26 INFO:root_logger	182.53.197.236:54177
+19:15:26 INFO:root_logger	1.20.100.195:61802
+19:15:48 DEBUG:root_logger	Failed to get response. Retrying. item = Tough Break Cosmetic Case
+19:15:56 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"item list" SET PriceValue = 0.03 WHERE ItemName = Tough Break Cosmetic Case' at line 1
+19:15:59 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"item list" SET PriceValue = 0.03 WHERE ItemName = Tough Break Cosmetic Case' at line 1
+19:17:06 INFO:root_logger	Starting script...
+19:17:25 INFO:root_logger	178.128.153.253:3128
+19:17:25 INFO:root_logger	67.158.54.103:8080
+19:17:25 INFO:root_logger	47.74.8.220:3128
+19:17:25 INFO:root_logger	123.176.96.49:3128
+19:17:25 INFO:root_logger	177.91.127.56:53975
+19:17:26 INFO:root_logger	185.189.102.153:40765
+19:17:26 INFO:root_logger	1.10.189.119:58040
+19:17:26 INFO:root_logger	176.36.164.240:47581
+19:17:26 INFO:root_logger	185.37.211.222:59807
+19:17:26 INFO:root_logger	125.25.45.132:41836
+19:17:26 INFO:root_logger	182.53.197.22:46470
+19:17:26 INFO:root_logger	105.112.83.35:30581
+19:17:26 INFO:root_logger	93.39.228.188:3128
+19:17:26 INFO:root_logger	45.224.86.78:56075
+19:17:26 INFO:root_logger	222.124.173.146:53281
+19:17:26 INFO:root_logger	124.41.211.213:35133
+19:17:26 INFO:root_logger	190.145.158.222:42024
+19:17:26 INFO:root_logger	36.89.189.239:53281
+19:17:26 INFO:root_logger	182.53.197.236:54177
+19:17:26 INFO:root_logger	1.20.100.195:61802
+19:17:33 DEBUG:root_logger	Failed to get response. Retrying. item = Tough Break Cosmetic Case
+19:17:39 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Break Cosmetic Case' at line 1
+19:17:55 INFO:root_logger	Starting script...
+19:18:14 INFO:root_logger	178.128.153.253:3128
+19:18:14 INFO:root_logger	67.158.54.103:8080
+19:18:14 INFO:root_logger	47.74.8.220:3128
+19:18:14 INFO:root_logger	123.176.96.49:3128
+19:18:14 INFO:root_logger	177.91.127.56:53975
+19:18:14 INFO:root_logger	185.189.102.153:40765
+19:18:14 INFO:root_logger	1.10.189.119:58040
+19:18:14 INFO:root_logger	176.36.164.240:47581
+19:18:14 INFO:root_logger	185.37.211.222:59807
+19:18:14 INFO:root_logger	125.25.45.132:41836
+19:18:14 INFO:root_logger	182.53.197.22:46470
+19:18:14 INFO:root_logger	105.112.83.35:30581
+19:18:14 INFO:root_logger	93.39.228.188:3128
+19:18:14 INFO:root_logger	45.224.86.78:56075
+19:18:14 INFO:root_logger	222.124.173.146:53281
+19:18:14 INFO:root_logger	124.41.211.213:35133
+19:18:14 INFO:root_logger	190.145.158.222:42024
+19:18:14 INFO:root_logger	36.89.189.239:53281
+19:18:15 INFO:root_logger	182.53.197.236:54177
+19:18:15 INFO:root_logger	1.20.100.195:61802
+19:18:16 DEBUG:root_logger	Failed to get response. Retrying. item = Tough Break Cosmetic Case
+19:18:19 DEBUG:root_logger	Failed to get response. Retrying. item = Tough Break Cosmetic Case
+19:18:23 DEBUG:root_logger	Failed to get response. Retrying. item = Tough Break Cosmetic Case
+19:18:26 DEBUG:root_logger	Failed to get response. Retrying. item = Tough Break Cosmetic Case
+19:18:30 ERROR:root_logger	Expecting value: line 1 column 1 (char 0)
+19:18:33 ERROR:root_logger	Expecting value: line 1 column 1 (char 0)
+19:20:34 INFO:root_logger	Starting script...
+19:20:52 INFO:root_logger	178.128.153.253:3128
+19:20:52 INFO:root_logger	67.158.54.103:8080
+19:20:52 INFO:root_logger	47.74.8.220:3128
+19:20:52 INFO:root_logger	123.176.96.49:3128
+19:20:52 INFO:root_logger	177.91.127.56:53975
+19:20:52 INFO:root_logger	185.189.102.153:40765
+19:20:52 INFO:root_logger	1.10.189.119:58040
+19:20:52 INFO:root_logger	176.36.164.240:47581
+19:20:52 INFO:root_logger	185.37.211.222:59807
+19:20:52 INFO:root_logger	125.25.45.132:41836
+19:20:52 INFO:root_logger	182.53.197.22:46470
+19:20:52 INFO:root_logger	105.112.83.35:30581
+19:20:52 INFO:root_logger	93.39.228.188:3128
+19:20:52 INFO:root_logger	45.224.86.78:56075
+19:20:52 INFO:root_logger	222.124.173.146:53281
+19:20:52 INFO:root_logger	124.41.211.213:35133
+19:20:52 INFO:root_logger	190.145.158.222:42024
+19:20:52 INFO:root_logger	36.89.189.239:53281
+19:20:52 INFO:root_logger	182.53.197.236:54177
+19:20:52 INFO:root_logger	1.20.100.195:61802
+19:21:14 DEBUG:root_logger	Failed to get response. Retrying. item = Tough Break Cosmetic Case
+19:21:22 INFO:root_logger	Time passed - 26.479992389678955
+19:21:22 INFO:root_logger	Counter = 1
+19:25:48 INFO:root_logger	Starting script...
+19:26:07 INFO:root_logger	178.128.153.253:3128
+19:26:07 INFO:root_logger	67.158.54.103:8080
+19:26:08 INFO:root_logger	47.74.8.220:3128
+19:26:08 INFO:root_logger	123.176.96.49:3128
+19:26:08 INFO:root_logger	177.91.127.56:53975
+19:26:08 INFO:root_logger	185.189.102.153:40765
+19:26:08 INFO:root_logger	1.10.189.119:58040
+19:26:08 INFO:root_logger	176.36.164.240:47581
+19:26:08 INFO:root_logger	185.37.211.222:59807
+19:26:08 INFO:root_logger	125.25.45.132:41836
+19:26:08 INFO:root_logger	182.53.197.22:46470
+19:26:08 INFO:root_logger	105.112.83.35:30581
+19:26:08 INFO:root_logger	93.39.228.188:3128
+19:26:08 INFO:root_logger	45.224.86.78:56075
+19:26:08 INFO:root_logger	222.124.173.146:53281
+19:26:08 INFO:root_logger	124.41.211.213:35133
+19:26:08 INFO:root_logger	190.145.158.222:42024
+19:26:08 INFO:root_logger	36.89.189.239:53281
+19:26:08 INFO:root_logger	182.53.197.236:54177
+19:26:08 INFO:root_logger	1.20.100.195:61802
+19:26:14 INFO:root_logger	Time passed - 4.853588104248047
+19:26:14 INFO:root_logger	Counter = 1
+19:27:07 INFO:root_logger	Starting script...
+19:27:26 INFO:root_logger	178.128.153.253:3128
+19:27:26 INFO:root_logger	67.158.54.103:8080
+19:27:26 INFO:root_logger	47.74.8.220:3128
+19:27:26 INFO:root_logger	123.176.96.49:3128
+19:27:26 INFO:root_logger	177.91.127.56:53975
+19:27:26 INFO:root_logger	185.189.102.153:40765
+19:27:26 INFO:root_logger	1.10.189.119:58040
+19:27:26 INFO:root_logger	176.36.164.240:47581
+19:27:26 INFO:root_logger	185.37.211.222:59807
+19:27:26 INFO:root_logger	125.25.45.132:41836
+19:27:27 INFO:root_logger	182.53.197.22:46470
+19:27:27 INFO:root_logger	105.112.83.35:30581
+19:27:27 INFO:root_logger	93.39.228.188:3128
+19:27:27 INFO:root_logger	45.224.86.78:56075
+19:27:27 INFO:root_logger	222.124.173.146:53281
+19:27:27 INFO:root_logger	124.41.211.213:35133
+19:27:27 INFO:root_logger	190.145.158.222:42024
+19:27:27 INFO:root_logger	36.89.189.239:53281
+19:27:27 INFO:root_logger	182.53.197.236:54177
+19:27:27 INFO:root_logger	1.20.100.195:61802
+19:27:44 INFO:root_logger	Time passed - 16.95050048828125
+19:27:44 INFO:root_logger	Counter = 1
+19:34:42 INFO:root_logger	Starting script...
+19:35:11 INFO:root_logger	178.128.153.253:3128
+19:35:11 INFO:root_logger	67.158.54.103:8080
+19:35:11 INFO:root_logger	123.176.96.49:3128
+19:35:11 INFO:root_logger	177.91.127.56:53975
+19:35:11 INFO:root_logger	47.74.8.220:3128
+19:35:11 INFO:root_logger	178.218.89.97:4550
+19:35:11 INFO:root_logger	185.189.102.153:40765
+19:35:12 INFO:root_logger	1.10.189.119:58040
+19:35:12 INFO:root_logger	176.36.164.240:47581
+19:35:12 INFO:root_logger	185.37.211.222:59807
+19:35:12 INFO:root_logger	125.25.45.132:41836
+19:35:12 INFO:root_logger	182.53.197.22:46470
+19:35:12 INFO:root_logger	105.112.83.35:30581
+19:35:12 INFO:root_logger	93.39.228.188:3128
+19:35:12 INFO:root_logger	45.224.86.78:56075
+19:35:12 INFO:root_logger	222.124.173.146:53281
+19:35:12 INFO:root_logger	124.41.211.213:35133
+19:35:12 INFO:root_logger	190.145.158.222:42024
+19:35:12 INFO:root_logger	36.89.189.239:53281
+19:35:12 INFO:root_logger	182.53.197.236:54177
+19:36:25 DEBUG:root_logger	Failed to get response. Retrying. item = Reinforced Robot Bomb Stabilizer
+19:38:50 DEBUG:root_logger	Failed to get response. Retrying. item = Reinforced Robot Bomb Stabilizer
+19:39:30 DEBUG:root_logger	Failed to get response. Retrying. item = Reinforced Robot Bomb Stabilizer
+19:39:53 DEBUG:root_logger	Failed to get response. Retrying. item = Reinforced Robot Bomb Stabilizer
+19:40:04 INFO:root_logger	Time passed - 280.50064754486084
+19:40:04 INFO:root_logger	Counter = 1
+19:40:22 INFO:root_logger	Starting script...
+19:40:22 INFO:root_logger	Starting script...
+19:40:41 INFO:root_logger	Time passed - 19.58943271636963
+19:40:41 INFO:root_logger	Time passed - 19.58943271636963
+19:42:06 INFO:root_logger	Starting script...
+19:42:34 INFO:root_logger	178.128.153.253:3128
+19:42:34 INFO:root_logger	67.158.54.103:8080
+19:42:34 INFO:root_logger	123.176.96.49:3128
+19:42:34 INFO:root_logger	195.9.188.78:53281
+19:42:34 INFO:root_logger	139.255.123.90:39561
+19:42:34 INFO:root_logger	177.91.127.56:53975
+19:42:34 INFO:root_logger	47.74.8.220:3128
+19:42:34 INFO:root_logger	178.218.89.97:4550
+19:42:34 INFO:root_logger	185.189.102.153:40765
+19:42:34 INFO:root_logger	1.10.189.119:58040
+19:42:34 INFO:root_logger	176.36.164.240:47581
+19:42:34 INFO:root_logger	185.37.211.222:59807
+19:42:34 INFO:root_logger	125.25.45.132:41836
+19:42:34 INFO:root_logger	182.53.197.22:46470
+19:42:34 INFO:root_logger	105.112.83.35:30581
+19:42:34 INFO:root_logger	93.39.228.188:3128
+19:42:34 INFO:root_logger	45.224.86.78:56075
+19:42:34 INFO:root_logger	222.124.173.146:53281
+19:42:34 INFO:root_logger	124.41.211.213:35133
+19:42:34 INFO:root_logger	190.145.158.222:42024
+19:43:49 ERROR:root_logger	Expecting value: line 1 column 1 (char 0)
+19:45:32 ERROR:root_logger	
+19:46:05 INFO:root_logger	Starting script...
+19:46:34 INFO:root_logger	178.128.153.253:3128
+19:46:34 INFO:root_logger	67.158.54.103:8080
+19:46:34 INFO:root_logger	123.176.96.49:3128
+19:46:34 INFO:root_logger	195.9.188.78:53281
+19:46:34 INFO:root_logger	139.255.123.90:39561
+19:46:34 INFO:root_logger	177.91.127.56:53975
+19:46:34 INFO:root_logger	47.74.8.220:3128
+19:46:34 INFO:root_logger	178.218.89.97:4550
+19:46:34 INFO:root_logger	185.189.102.153:40765
+19:46:34 INFO:root_logger	1.10.189.119:58040
+19:46:35 INFO:root_logger	176.36.164.240:47581
+19:46:35 INFO:root_logger	185.37.211.222:59807
+19:46:35 INFO:root_logger	125.25.45.132:41836
+19:46:35 INFO:root_logger	182.53.197.22:46470
+19:46:35 INFO:root_logger	105.112.83.35:30581
+19:46:35 INFO:root_logger	93.39.228.188:3128
+19:46:35 INFO:root_logger	45.224.86.78:56075
+19:46:35 INFO:root_logger	222.124.173.146:53281
+19:46:35 INFO:root_logger	124.41.211.213:35133
+19:46:35 INFO:root_logger	190.145.158.222:42024
+19:50:26 INFO:root_logger	Time passed - 230.15830445289612
+19:50:26 INFO:root_logger	Counter = 1
+19:55:16 INFO:root_logger	Starting script...
+19:55:49 INFO:root_logger	185.132.178.137:8080
+19:55:49 INFO:root_logger	178.128.153.253:3128
+19:55:49 INFO:root_logger	67.158.54.103:8080
+19:55:49 INFO:root_logger	188.129.161.55:36631
+19:55:49 INFO:root_logger	123.176.96.49:3128
+19:55:49 INFO:root_logger	1.179.148.9:60520
+19:55:49 INFO:root_logger	125.26.99.227:41278
+19:55:49 INFO:root_logger	217.25.238.175:8080
+19:55:49 INFO:root_logger	195.9.188.78:53281
+19:55:49 INFO:root_logger	139.255.123.90:39561
+19:55:49 INFO:root_logger	177.91.127.56:53975
+19:55:49 INFO:root_logger	47.74.8.220:3128
+19:55:49 INFO:root_logger	178.218.89.97:4550
+19:55:49 INFO:root_logger	185.189.102.153:40765
+19:55:49 INFO:root_logger	1.10.189.119:58040
+19:55:49 INFO:root_logger	80.48.119.28:8080
+19:55:49 INFO:root_logger	5.202.74.50:80
+19:55:50 INFO:root_logger	5.202.148.24:80
+19:55:50 INFO:root_logger	5.202.121.130:80
+19:55:50 INFO:root_logger	138.197.108.5:3128
+19:55:52 INFO:root_logger	Time passed - 0.8822674751281738
+19:55:52 INFO:root_logger	Counter = 0
+20:06:04 INFO:root_logger	Starting script...
+20:06:31 INFO:root_logger	109.199.133.161:23500
+20:06:31 INFO:root_logger	95.46.140.162:53281
+20:06:31 INFO:root_logger	95.170.208.42:8080
+20:06:31 INFO:root_logger	200.192.237.162:57382
+20:06:31 INFO:root_logger	185.189.199.75:23500
+20:06:31 INFO:root_logger	45.115.175.20:34406
+20:06:31 INFO:root_logger	103.94.171.238:60322
+20:06:31 INFO:root_logger	190.152.14.122:49121
+20:06:31 INFO:root_logger	118.174.196.217:46880
+20:06:31 INFO:root_logger	190.210.15.194:32302
+20:06:31 INFO:root_logger	190.147.137.66:43233
+20:06:31 INFO:root_logger	157.230.43.245:3128
+20:06:31 INFO:root_logger	131.255.35.193:36922
+20:06:31 INFO:root_logger	13.233.182.0:80
+20:06:31 INFO:root_logger	36.66.224.204:33695
+20:06:32 INFO:root_logger	188.242.224.144:56391
+20:06:32 INFO:root_logger	122.102.26.42:8888
+20:06:32 INFO:root_logger	81.163.62.136:41258
+20:06:32 INFO:root_logger	134.119.207.6:1080
+20:06:32 INFO:root_logger	185.199.82.178:53281
+20:06:33 DEBUG:root_logger	Used up all proxies! Refreshing
+20:06:55 INFO:root_logger	109.199.133.161:23500
+20:06:55 INFO:root_logger	95.46.140.162:53281
+20:06:55 INFO:root_logger	95.170.208.42:8080
+20:06:55 INFO:root_logger	200.192.237.162:57382
+20:06:55 INFO:root_logger	185.189.199.75:23500
+20:06:55 INFO:root_logger	45.115.175.20:34406
+20:06:55 INFO:root_logger	103.94.171.238:60322
+20:06:55 INFO:root_logger	190.152.14.122:49121
+20:06:55 INFO:root_logger	118.174.196.217:46880
+20:06:55 INFO:root_logger	190.210.15.194:32302
+20:06:55 INFO:root_logger	190.147.137.66:43233
+20:06:55 INFO:root_logger	157.230.43.245:3128
+20:06:55 INFO:root_logger	131.255.35.193:36922
+20:06:55 INFO:root_logger	13.233.182.0:80
+20:06:55 INFO:root_logger	36.66.224.204:33695
+20:06:55 INFO:root_logger	188.242.224.144:56391
+20:06:55 INFO:root_logger	122.102.26.42:8888
+20:06:55 INFO:root_logger	81.163.62.136:41258
+20:06:55 INFO:root_logger	134.119.207.6:1080
+20:06:55 INFO:root_logger	185.199.82.178:53281
+20:06:56 INFO:root_logger	Time passed - 0.5466785430908203
+20:06:56 INFO:root_logger	Counter = 0
+20:09:16 INFO:root_logger	Starting script...
+20:09:35 INFO:root_logger	109.199.133.161:23500
+20:09:35 INFO:root_logger	95.46.140.162:53281
+20:09:35 INFO:root_logger	95.170.208.42:8080
+20:09:35 INFO:root_logger	200.192.237.162:57382
+20:09:35 INFO:root_logger	185.189.199.75:23500
+20:09:35 INFO:root_logger	45.115.175.20:34406
+20:09:35 INFO:root_logger	103.94.171.238:60322
+20:09:35 INFO:root_logger	190.152.14.122:49121
+20:09:35 INFO:root_logger	118.174.196.217:46880
+20:09:35 INFO:root_logger	190.210.15.194:32302
+20:09:35 INFO:root_logger	190.147.137.66:43233
+20:09:35 INFO:root_logger	157.230.43.245:3128
+20:09:35 INFO:root_logger	131.255.35.193:36922
+20:09:35 INFO:root_logger	13.233.182.0:80
+20:09:35 INFO:root_logger	36.66.224.204:33695
+20:09:35 INFO:root_logger	188.242.224.144:56391
+20:09:35 INFO:root_logger	122.102.26.42:8888
+20:09:35 INFO:root_logger	81.163.62.136:41258
+20:09:35 INFO:root_logger	134.119.207.6:1080
+20:09:35 INFO:root_logger	185.199.82.178:53281
+20:11:56 ERROR:root_logger	'lowest_price'
+20:11:59 ERROR:root_logger	'lowest_price'
+20:12:02 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:12:05 ERROR:root_logger	'lowest_price'
+20:12:08 ERROR:root_logger	'lowest_price'
+20:12:11 ERROR:root_logger	'lowest_price'
+20:12:14 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:12:17 ERROR:root_logger	'lowest_price'
+20:12:20 ERROR:root_logger	'lowest_price'
+20:12:23 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:12:26 ERROR:root_logger	'lowest_price'
+20:12:28 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:12:31 ERROR:root_logger	'lowest_price'
+20:12:34 ERROR:root_logger	'lowest_price'
+20:12:38 ERROR:root_logger	'lowest_price'
+20:12:41 ERROR:root_logger	'lowest_price'
+20:12:43 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:12:46 ERROR:root_logger	'lowest_price'
+20:12:49 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:12:52 ERROR:root_logger	'lowest_price'
+20:12:55 ERROR:root_logger	'lowest_price'
+20:12:58 ERROR:root_logger	'lowest_price'
+20:13:01 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:13:04 ERROR:root_logger	'lowest_price'
+20:13:07 ERROR:root_logger	'lowest_price'
+20:13:09 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:13:12 ERROR:root_logger	'lowest_price'
+20:32:31 INFO:root_logger	Starting script...
+20:32:55 INFO:root_logger	109.232.106.236:38312
+20:32:55 INFO:root_logger	103.88.234.251:44320
+20:32:55 INFO:root_logger	103.240.161.107:57893
+20:32:56 INFO:root_logger	178.128.153.253:3128
+20:32:56 INFO:root_logger	123.176.96.49:3128
+20:32:56 INFO:root_logger	203.173.92.250:61598
+20:32:56 INFO:root_logger	95.78.160.156:31829
+20:32:56 INFO:root_logger	130.255.12.24:31004
+20:32:56 INFO:root_logger	91.203.114.105:50731
+20:32:56 INFO:root_logger	185.132.179.109:8080
+20:32:56 INFO:root_logger	171.100.29.202:8080
+20:32:56 INFO:root_logger	93.186.251.135:3128
+20:32:56 INFO:root_logger	191.103.219.225:48612
+20:32:56 INFO:root_logger	35.237.74.44:3128
+20:32:56 INFO:root_logger	62.4.60.50:53281
+20:32:56 INFO:root_logger	114.134.184.216:61904
+20:32:56 INFO:root_logger	178.77.197.96:55555
+20:32:56 INFO:root_logger	103.65.193.249:55417
+20:32:56 INFO:root_logger	201.217.247.99:80
+20:32:56 INFO:root_logger	151.106.10.103:8080
+20:34:16 ERROR:root_logger	'lowest_price'
+20:34:19 ERROR:root_logger	'lowest_price'
+20:34:22 ERROR:root_logger	'lowest_price'
+20:34:25 ERROR:root_logger	'lowest_price'
+20:34:28 ERROR:root_logger	'lowest_price'
+20:36:41 INFO:root_logger	Starting script...
+20:37:00 INFO:root_logger	109.232.106.236:38312
+20:37:00 INFO:root_logger	103.88.234.251:44320
+20:37:00 INFO:root_logger	103.240.161.107:57893
+20:37:01 INFO:root_logger	178.128.153.253:3128
+20:37:01 INFO:root_logger	123.176.96.49:3128
+20:37:01 INFO:root_logger	203.173.92.250:61598
+20:37:01 INFO:root_logger	95.78.160.156:31829
+20:37:01 INFO:root_logger	130.255.12.24:31004
+20:37:01 INFO:root_logger	91.203.114.105:50731
+20:37:01 INFO:root_logger	185.132.179.109:8080
+20:37:01 INFO:root_logger	171.100.29.202:8080
+20:37:01 INFO:root_logger	93.186.251.135:3128
+20:37:01 INFO:root_logger	191.103.219.225:48612
+20:37:01 INFO:root_logger	35.237.74.44:3128
+20:37:01 INFO:root_logger	62.4.60.50:53281
+20:37:01 INFO:root_logger	114.134.184.216:61904
+20:37:01 INFO:root_logger	178.77.197.96:55555
+20:37:01 INFO:root_logger	103.65.193.249:55417
+20:37:01 INFO:root_logger	201.217.247.99:80
+20:37:01 INFO:root_logger	151.106.10.103:8080
+20:37:10 ERROR:root_logger	'lowest_price'
+20:37:13 ERROR:root_logger	'lowest_price'
+20:37:17 ERROR:root_logger	'lowest_price'
+20:37:20 ERROR:root_logger	'lowest_price'
+20:38:01 INFO:root_logger	Starting script...
+20:38:19 INFO:root_logger	109.232.106.236:38312
+20:38:20 INFO:root_logger	103.88.234.251:44320
+20:38:20 INFO:root_logger	103.240.161.107:57893
+20:38:20 INFO:root_logger	178.128.153.253:3128
+20:38:20 INFO:root_logger	123.176.96.49:3128
+20:38:20 INFO:root_logger	203.173.92.250:61598
+20:38:20 INFO:root_logger	95.78.160.156:31829
+20:38:20 INFO:root_logger	130.255.12.24:31004
+20:38:20 INFO:root_logger	91.203.114.105:50731
+20:38:20 INFO:root_logger	185.132.179.109:8080
+20:38:20 INFO:root_logger	171.100.29.202:8080
+20:38:20 INFO:root_logger	93.186.251.135:3128
+20:38:20 INFO:root_logger	191.103.219.225:48612
+20:38:20 INFO:root_logger	35.237.74.44:3128
+20:38:20 INFO:root_logger	62.4.60.50:53281
+20:38:20 INFO:root_logger	114.134.184.216:61904
+20:38:20 INFO:root_logger	178.77.197.96:55555
+20:38:20 INFO:root_logger	103.65.193.249:55417
+20:38:20 INFO:root_logger	201.217.247.99:80
+20:38:20 INFO:root_logger	151.106.10.103:8080
+20:38:51 ERROR:root_logger	'lowest_price'
+20:38:54 ERROR:root_logger	'lowest_price'
+20:38:57 ERROR:root_logger	'lowest_price'
+20:39:00 ERROR:root_logger	'lowest_price'
+20:39:03 ERROR:root_logger	'lowest_price'
+20:39:06 ERROR:root_logger	'lowest_price'
+20:39:09 ERROR:root_logger	'lowest_price'
+20:39:12 ERROR:root_logger	'lowest_price'
+20:39:18 DEBUG:root_logger	Failed to get response. Retrying. item = Vintage Backburner
+20:39:21 ERROR:root_logger	'lowest_price'
+20:39:24 ERROR:root_logger	'lowest_price'
+20:41:40 INFO:root_logger	Starting script...
+20:41:58 INFO:root_logger	186.148.168.91:49186
+20:41:58 INFO:root_logger	178.128.153.253:3128
+20:41:58 INFO:root_logger	123.176.96.49:3128
+20:41:58 INFO:root_logger	193.86.25.202:49353
+20:41:58 INFO:root_logger	37.238.131.254:53281
+20:41:58 INFO:root_logger	93.33.234.116:56793
+20:41:58 INFO:root_logger	134.119.188.151:1080
+20:41:58 INFO:root_logger	103.242.15.86:42862
+20:41:58 INFO:root_logger	110.74.222.97:41865
+20:41:58 INFO:root_logger	197.210.152.162:47924
+20:41:58 INFO:root_logger	134.119.188.158:1080
+20:41:59 INFO:root_logger	109.232.106.236:38312
+20:41:59 INFO:root_logger	103.88.234.251:44320
+20:41:59 INFO:root_logger	103.240.161.107:57893
+20:41:59 INFO:root_logger	203.173.92.250:61598
+20:41:59 INFO:root_logger	95.78.160.156:31829
+20:41:59 INFO:root_logger	130.255.12.24:31004
+20:41:59 INFO:root_logger	91.203.114.105:50731
+20:41:59 INFO:root_logger	185.132.179.109:8080
+20:41:59 INFO:root_logger	171.100.29.202:8080
+20:48:56 INFO:root_logger	Starting script...
+20:49:15 INFO:root_logger	186.148.168.91:49186
+20:49:16 INFO:root_logger	178.128.153.253:3128
+20:49:16 INFO:root_logger	123.176.96.49:3128
+20:49:16 INFO:root_logger	193.86.25.202:49353
+20:49:16 INFO:root_logger	37.238.131.254:53281
+20:49:16 INFO:root_logger	93.33.234.116:56793
+20:49:16 INFO:root_logger	134.119.188.151:1080
+20:49:16 INFO:root_logger	103.242.15.86:42862
+20:49:16 INFO:root_logger	110.74.222.97:41865
+20:49:16 INFO:root_logger	197.210.152.162:47924
+20:49:16 INFO:root_logger	134.119.188.158:1080
+20:49:16 INFO:root_logger	109.232.106.236:38312
+20:49:16 INFO:root_logger	103.88.234.251:44320
+20:49:16 INFO:root_logger	103.240.161.107:57893
+20:49:16 INFO:root_logger	203.173.92.250:61598
+20:49:16 INFO:root_logger	95.78.160.156:31829
+20:49:16 INFO:root_logger	130.255.12.24:31004
+20:49:16 INFO:root_logger	91.203.114.105:50731
+20:49:16 INFO:root_logger	185.132.179.109:8080
+20:49:16 INFO:root_logger	171.100.29.202:8080
+20:51:22 INFO:root_logger	Saving lists...
+20:53:25 INFO:root_logger	Saving lists...
+20:54:26 ERROR:root_logger	'lowest_price'
+20:55:25 INFO:root_logger	Saving lists...
+20:55:47 ERROR:root_logger	'lowest_price'
+20:57:28 INFO:root_logger	Saving lists...
+20:59:32 INFO:root_logger	Saving lists...
+21:01:32 INFO:root_logger	Saving lists...
+21:02:32 ERROR:root_logger	'lowest_price'
+21:03:35 INFO:root_logger	Saving lists...
+21:04:44 ERROR:root_logger	'lowest_price'
+21:04:44 ERROR:root_logger	'median_price'
+21:04:47 ERROR:root_logger	'lowest_price'
+21:04:47 ERROR:root_logger	'median_price'
+21:04:51 ERROR:root_logger	'lowest_price'
+21:04:51 ERROR:root_logger	'median_price'
+21:08:17 INFO:root_logger	Starting script...
+21:08:35 INFO:root_logger	Time passed - 17.626677989959717
+21:09:24 INFO:root_logger	Starting script...

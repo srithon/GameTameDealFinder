@@ -58,6 +58,15 @@ options = webdriver.FirefoxOptions()
 
 options.add_argument('--headless')
 
+
+
+connection = mysql.connector.connect(host='localhost',
+                             database='gametamedealfinder',
+                             user='root',
+                             password='LrD3FZGUz5JXy5c')
+
+
+
 class Scraper:
     def __init__(self):
         global firefox_profile
@@ -129,44 +138,6 @@ def clear_lists():
     point_price_list.clear()
 
 
-# https://stackoverflow.com/questions/11236006/identify-duplicate-values-in-a-list-in-python
-def remove_duplicates():
-    global item_list
-    global point_price_list
-
-    """i = 0
-
-    while i < len(item_list) - 2:
-        i += 1
-        if item_list[i] == item_list[i + 1]:
-            item_list.pop(i + 1)
-            point_price_list.pop(i + 1)
-            money_per_point_list.pop(i + 1)
-            real_price_list.pop(i + 1)
-            i -= 1"""
-
-    D = defaultdict(list)
-
-    for i, item in enumerate(item_list):
-        D[item].append(i)
-    D = {k:v for k,v in D.items() if len(v)>1}
-
-    indices = list()
-
-    for i in reversed(list(D.values())):
-        for j in range(len(i) - 1, 0, -1):
-            indices.append(i[j])
-
-    indices.sort(reverse=True)
-
-    print(indices)
-
-    while len(indices) > 0:
-        item_list.pop(indices[0])
-        point_price_list.pop(indices[0])
-        indices.pop(0)
-
-
 def save_lists():
     global item_list
     global point_price_list
@@ -174,52 +145,39 @@ def save_lists():
     item_list_file = open("item_list_file_complete.txt", "a+")
     point_price_list_file = open("point_price_list_file_complete.txt", "a+")
 
-    for i in range(0, len(item_list)):
-        item_list_file.write(item_list[i] + '\n')
-        point_price_list_file.write(str(point_price_list[i]) + '\n')
+    item_name = item_list.readline().rstrip()
+    point_price = point_list.readline().rstrip()  
+
+    while len(item_name) != 0:
+        sql_insert_query = """ INSERT INTO `ITEM LIST`
+                          (`ITEM NAME`, `POINT VALUE`) VALUES (\"{}\",{})""".format(item_name, point_price)
+        cursor = connection.cursor()
+        result  = cursor.execute(sql_insert_query)
+        item_name = item_list.readline().rstrip()
+        point_price = point_list.readline().rstrip()
 
     item_list_file.close()
     point_price_list_file.close()
 
     clear_lists()
 
-def load_lists():
-    try:
-        point_price_list_file = open("point_price_list_file_complete.txt", "r")
-        for line in point_price_list_file:
-            point_price_list.append(float(line.rstrip()))
-    except FileNotFoundError:
-        pass
-
-    point_price_list_file.close()
-
-    try:
-        item_list_file = open("item_list_file_complete.txt", "r")
-        for line in item_list_file:
-            item_list.append(line.rstrip())
-    except FileNotFoundError:
-        pass
-
-    item_list_file.close()
-
 def main():
     s = Scraper()
-    for i in range(112, 375):
+    for i in range(1, 375):
         try:
             s.fillItems(i)
         except Exception as e:
             print(e)
             break
+    
     clear_lists()
-    load_lists()
-    remove_duplicates()
     save_lists()
 
 try:
     main()
 except Exception as e:
     print(e)
+finally:
+    os.system('taskkill /f /im geckodriver.exe /T')
 
-os.system('taskkill /f /im geckodriver.exe /T')
-
-logger_handler.close()
+    logger_handler.close()

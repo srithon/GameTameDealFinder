@@ -10,6 +10,8 @@ try:
                              user='root',
                              password='LrD3FZGUz5JXy5c')
 
+    cursor = connection.cursor()
+
     with open('item_list_file_complete.txt', 'r') as item_list:
         with open('point_price_list_file_complete.txt', 'r') as point_list:
             item_name = item_list.readline().rstrip()
@@ -17,9 +19,8 @@ try:
             
             while len(item_name) != 0:
                 sql_insert_query = """ INSERT INTO `ITEM LIST`
-                          (`ITEM NAME`, `POINT VALUE`) VALUES (\"{}\",{})""".format(item_name, point_price)
+                          (`ItemName`, `PointValue`) VALUES (\"{}\",{})""".format(item_name, point_price)
                 # print(sql_insert_query)
-                cursor = connection.cursor()
                 result  = cursor.execute(sql_insert_query)
                 item_name = item_list.readline().rstrip()
                 """for i in range(len(item_name)):

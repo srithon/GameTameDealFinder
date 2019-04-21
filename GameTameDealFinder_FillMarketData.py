@@ -1,5 +1,9 @@
 import requests
 
+import mysql.connector
+from mysql.connector import Error
+from mysql.connector import errorcode
+
 from time import sleep, time
 
 import logging
@@ -14,13 +18,18 @@ from selenium import webdriver
 
 from random import random
 
+from requests.exceptions import ProxyError
+
+
+
 
 delay = 2.5
 
 
-# TODO!!!! Bring back progress file
-# so that you can sort the list and
-# still come back!!
+
+
+verbose = False
+
 
 
 
@@ -43,55 +52,14 @@ logger.setLevel(logging.DEBUG)
 
 logger.info('Starting script...')
 
-item_list = list()
+connection = mysql.connector.connect(host='localhost',
+                             database='gametamedealfinder',
+                             user='root',
+                             password='LrD3FZGUz5JXy5c')
 
-point_price_list = list()
+cursor = connection.cursor(buffered=True)
 
-#  item_list_file.close()
-
-real_price_list = list()
-
-last_item = None
-
-try:
-    with open('item_list_file_active.txt', 'r') as file:
-        for line in file:
-            pass
-        last_item = line
-except KeyboardInterrupt as e:
-    print('Exiting...')
-    sys.exit()
-except Exception as e:
-    print(e)
-
-print(last_item)
-
-if last_item != None:
-    try:
-        with open("item_list_file_complete.txt", "r") as item_list_file:
-            with open('point_price_list_file_complete.txt', 'r') as point_price_file:
-                current = ''
-                while current != last_item:
-                    current = item_list_file.readline()
-                    next(point_price_file)
-                for line in item_list_file:
-                    item_list.append(line)
-                for line in point_price_file:
-                    point_price_list.append(line)
-    except Exception as e:
-        print(e)
-else:
-    with open("item_list_file_complete.txt", "r") as item_list_file:
-        for line in item_list_file:
-            item_list.append(line.rstrip())
-
-    with open('point_price_list_file_complete.txt', 'r') as point_price_file:
-        for line in point_price_file:
-            point_price_list.append(line.rstrip())
-
-print('{}; {} points'.format(item_list[0], point_price_list[0]))
-
-# sys.exit()
+proxy_page = 1
 
 init_time = time()
 
@@ -100,31 +68,12 @@ s = None
 proxies = list()
 
 def save_lists():
-    global real_price_list
-
-    with open("real_price_list_file.txt", "a+") as real_price_list_file:
-        for price in real_price_list:
-            real_price_list_file.write(str(price))
-
-    with open('item_list_file_active.txt', 'a+') as active_item_list_file:
-        for item in item_list[:(len(real_price_list))]:
-            active_item_list_file.write(item + '\n')
-
-    with open('point_price_list_file_active.txt', 'a+') as active_point_price_file:
-        for item in point_price_list[:(len(real_price_list))]:
-            active_point_price_file.write(item + '\n')
-
-    trim_lists()
-
-def trim_lists():
-    global item_list, real_price_list
-    print('Last Item Saved - ' + item_list[len(real_price_list) - 1])
-    del item_list[:len(real_price_list)]
-    del point_price_list[:len(real_price_list)]
-    real_price_list.clear()
+    connection.commit()
 
 
 def get_proxies():
+    global proxy_page
+    
     driver = webdriver.Firefox()
     driver.get('https://free-proxy-list.net/')
     search = driver.find_element_by_css_selector('#proxylisttable_filter > label:nth-child(1) > input:nth-child(1)')
@@ -134,6 +83,17 @@ def get_proxies():
     sleep(0.5)
     sort_by_https.click()
     sleep(1.0)
+
+    current_page = 1
+
+    while current_page < proxy_page:
+        next_button = driver.find_element_by_css_selector('#proxylisttable_next > a:nth-child(1)')
+        sleep(0.5)
+        next_button.click()
+        current_page += 1
+
+    proxy_page += 1
+    
     proxies_body = driver.find_element_by_css_selector('#proxylisttable > tbody:nth-child(2)')
     proxies = proxies_body.find_elements_by_xpath('.//tr')
     print('{} proxies found in total'.format(len(proxies)))
@@ -157,8 +117,6 @@ def get_new_proxy():
     if len(proxies) == 0:
         logger.debug('Used up all proxies! Refreshing')
         proxies = get_proxies()
-        # TODO implement support for diff pages on proxy list site
-        # because proxies will be used up
     return proxies.pop(int(random() * len(proxies)))
     
 
@@ -166,8 +124,38 @@ def get_proxy_dict(current_proxy):
     return { "https" : str(current_proxy) }
 
 
+def refresh_database():
+    global items
+    cursor.execute('SELECT ItemName FROM `item list` WHERE PriceValue IS NULL ORDER BY PointValue ASC')
+    items = [item[0] for item in cursor.fetchall()]
+
+
+def shutdown():
+    try:
+        s.close()
+    except Exception as e:
+        print(e)
+
+    if(connection.is_connected()):
+        connection.commit()
+        connection.close()
+        cursor.close()
+        print('Committed and closed')
+
+    final_time = time()
+    print('Time passed - {}'.format(final_time - init_time))
+    logger.info('Time passed - {}'.format(final_time - init_time))
+    logger.info('Counter = {}'.format(count))
+
+    s = None
+
+    log_handler.close()
+
+    sys.exit()
+
+
 def main(delay):
-    global init_time, item_list, real_price_list, s, proxies, active_item_list
+    global init_time, items, proxies
     proxies = get_proxies()
     if proxies == None:
         logger.error('No proxies found!')
@@ -178,27 +166,66 @@ def main(delay):
     counter = 0
     try:
         broken = True
+
+        refresh_database()
         
         while broken:
             broken = False
-            for i in range(len(item_list)):
-                item = item_list[i]
+            item = items[0]
+            while item != None:
+                item = items[0]
+
+                if verbose:
+                    print(item)
+
                 try:
                     r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item, proxies = proxy_dict)
                     try:
-                        price = float((r.json()['lowest_price'])[1:])
-                        real_price_list.append(price)
-                        print('( {} : {} )'.format(item, price))
+                        try:
+                            lowest_price = (r.json()['lowest_price'])[1:]
+                        except KeyError as e:
+                            print(e)
+                            logger.error(e)
+                            try:
+                                lowest_price = (r.json()['median_price'])[1:]
+                            except:
+                                del items[:1]
+                                item = items[0]
+                                print('Gave up on {}'.format(item))
+                                logger.error('Gave up on {}'.format(item))
+                        price = float(lowest_price)
+                        query = 'UPDATE `item list` SET PriceValue = {} WHERE ItemName = \"{}\"'.format(price, item)
+
+                        if verbose:
+                            print(query)
+                            print('( {} : {} )'.format(item, price))
+
+                        cursor.execute(query)
                     except Exception as e:
+                        try:
+                            print('Error in {}'.format(query))
+                        except:
+                            pass
                         print(e)
                         logger.error(e)
-                        item_list.pop(i)
-                        point_price_list.pop(i)
-                        i -= 1
+                        sleep(delay)
+
+                        if random() < 0.25:
+                            del items[:1]
+                            item = items[0]
+                            logger.d('Skipping this garbage')
+                            print('Skipping')
+
                         continue
                 except KeyboardInterrupt as e:
                     print('Exiting...')
-                    sys.exit()
+                    shutdown(True)
+                except requests.exceptions.ProxyError as e:
+                    print('Proxy Error')
+                    logger.error(e)
+                    proxy_dict = get_proxy_dict(get_new_proxy())
+                    sleep(2)
+                    continue
                 except:
                     logger.debug('Failed to get response. Retrying. item = {}'.format(item))
                     sleep(delay)
@@ -210,14 +237,17 @@ def main(delay):
                     logger.error('NULL IN SOURCE')
                     logger.info('Counter = {}'.format(counter))
                     proxy_dict = get_proxy_dict(get_new_proxy())
-                    i -= 1
                     continue
                 counter += 1
-                print('Completed iteration #{}'.format(counter))
-                if (counter % 36 == 0):
+                del items[:1]
+                item = items[0]
+                if verbose:
+                    print('Completed iteration #{}'.format(counter))
+                if (counter % 250 == 0):
                     print('Saving lists...')
                     logger.info('Saving lists...')
                     save_lists()
+                    #  refresh_database()
                     broken = True
                     break
             
@@ -231,18 +261,6 @@ try:
     count = main(delay)
 except Exception as e:
     print(e)
+finally:
+    shutdown()
 
-try:
-    s.close()
-except Exception as e:
-    print(e)
-
-
-final_time = time()
-print('Time passed - {}'.format(final_time - init_time))
-logger.info('Time passed - {}'.format(final_time - init_time))
-logger.info('Counter = {}'.format(count))
-
-s = None
-
-log_handler.close()
