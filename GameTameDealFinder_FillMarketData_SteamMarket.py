@@ -186,6 +186,14 @@ def main(delay):
 
                 try:
                     r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item, proxies = proxy_dict)
+                    
+                    if r.text == 'null':
+                        print('null in source')
+                        logger.error('NULL IN SOURCE')
+                        logger.info('Counter = {}'.format(counter))
+                        proxy_dict = get_proxy_dict(get_new_proxy())
+                        continue
+                    
                     try:
                         lowest_price = None
                         
@@ -201,6 +209,7 @@ def main(delay):
                                 logger.error('Gave up on {}'.format(item))
                                 del items[:1]
                                 item = items[0]
+								sleep(delay)
                                 continue
                         price = float(lowest_price)
                         query = 'UPDATE `item list` SET PriceValue = {} WHERE ItemName = \"{}\"'.format(price, item)
@@ -244,12 +253,6 @@ def main(delay):
                     init_time += delay
                     continue
                 sleep(delay)
-                if 'null' in r.text:
-                    print('null in source')
-                    logger.error('NULL IN SOURCE')
-                    logger.info('Counter = {}'.format(counter))
-                    proxy_dict = get_proxy_dict(get_new_proxy())
-                    continue
                 counter += 1
                 del items[:1]
                 item = items[0]
