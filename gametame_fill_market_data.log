@@ -1127,3 +1127,168 @@
 21:08:17 INFO:root_logger	Starting script...
 21:08:35 INFO:root_logger	Time passed - 17.626677989959717
 21:09:24 INFO:root_logger	Starting script...
+21:09:40 INFO:root_logger	80.240.253.112:46600
+21:09:41 INFO:root_logger	178.128.153.253:3128
+21:09:41 INFO:root_logger	151.106.10.110:8080
+21:09:41 INFO:root_logger	123.176.96.49:3128
+21:09:41 INFO:root_logger	138.197.108.5:3128
+21:09:41 INFO:root_logger	177.53.8.103:50552
+21:09:41 INFO:root_logger	116.90.224.77:21776
+21:09:41 INFO:root_logger	63.226.122.24:8080
+21:09:41 INFO:root_logger	186.250.118.4:42047
+21:09:41 INFO:root_logger	36.37.112.210:42883
+21:09:41 INFO:root_logger	185.132.133.184:8080
+21:09:41 INFO:root_logger	96.9.72.241:51738
+21:09:41 INFO:root_logger	189.51.98.182:56906
+21:09:41 INFO:root_logger	124.41.211.177:44265
+21:09:41 INFO:root_logger	58.187.77.36:61252
+21:09:41 INFO:root_logger	154.79.242.86:45011
+21:09:41 INFO:root_logger	91.214.240.19:57802
+21:09:41 INFO:root_logger	185.132.178.201:8080
+21:09:41 INFO:root_logger	105.235.193.238:36852
+21:09:41 INFO:root_logger	80.48.119.28:8080
+21:10:03 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Backwoods%20Boomstick%20Mk.II%20War%20Paint%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000016192AEBAC8>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+21:10:10 ERROR:root_logger	'lowest_price'
+21:10:10 ERROR:root_logger	Gave up on Blasted Bombardier Stickybomb Launcher (Battle Scarred)
+21:10:10 ERROR:root_logger	local variable 'lowest_price' referenced before assignment
+21:11:58 ERROR:root_logger	'lowest_price'
+21:11:58 ERROR:root_logger	Gave up on Blitzkrieg Revolver (Well-Worn)
+21:15:10 ERROR:root_logger	'lowest_price'
+21:15:39 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Wildwood%20Medi%20Gun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001619271EA20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+21:15:51 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Wildwood%20Medi%20Gun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+21:20:47 ERROR:root_logger	'lowest_price'
+21:30:03 INFO:root_logger	Starting script...
+21:30:20 INFO:root_logger	Time passed - 17.5
+21:38:27 INFO:root_logger	Starting script...
+21:38:46 INFO:root_logger	138.197.108.5:3128
+21:38:46 INFO:root_logger	1.2.169.95:49687
+21:38:46 INFO:root_logger	80.68.121.217:53504
+21:38:46 INFO:root_logger	183.87.153.98:49602
+21:38:47 INFO:root_logger	213.226.11.149:41878
+21:38:47 INFO:root_logger	37.252.64.73:8080
+21:38:47 INFO:root_logger	103.216.95.16:61755
+21:38:47 INFO:root_logger	190.214.52.226:53281
+21:38:47 INFO:root_logger	138.36.1.67:33317
+21:38:47 INFO:root_logger	95.160.17.142:40472
+21:38:47 INFO:root_logger	103.75.34.121:57152
+21:38:47 INFO:root_logger	45.112.57.230:61222
+21:38:47 INFO:root_logger	118.185.94.157:30909
+21:38:47 INFO:root_logger	77.92.226.106:53281
+21:38:47 INFO:root_logger	125.27.10.204:61143
+21:38:47 INFO:root_logger	79.135.81.45:57470
+21:38:47 INFO:root_logger	31.173.211.114:43873
+21:38:47 INFO:root_logger	138.59.143.33:38531
+21:38:47 INFO:root_logger	89.185.204.188:57914
+21:38:47 INFO:root_logger	5.196.243.198:80
+21:38:49 INFO:root_logger	Time passed - 21.90628218650818
+21:39:49 INFO:root_logger	Starting script...
+21:40:11 INFO:root_logger	78.187.203.122:8080
+21:40:11 INFO:root_logger	84.42.253.252:52854
+21:40:11 INFO:root_logger	91.197.132.99:53281
+21:40:11 INFO:root_logger	182.50.64.148:53281
+21:40:12 INFO:root_logger	1.20.103.252:32143
+21:40:12 INFO:root_logger	185.132.179.111:8080
+21:40:12 INFO:root_logger	36.37.113.4:36485
+21:40:12 INFO:root_logger	203.189.143.201:65309
+21:40:12 INFO:root_logger	151.106.10.55:8080
+21:40:12 INFO:root_logger	170.82.180.134:43993
+21:40:12 INFO:root_logger	213.59.251.247:8080
+21:40:12 INFO:root_logger	41.193.192.66:53340
+21:40:12 INFO:root_logger	1.10.187.221:33042
+21:40:12 INFO:root_logger	115.124.78.142:38994
+21:40:12 INFO:root_logger	190.122.130.19:48669
+21:40:12 INFO:root_logger	43.229.72.219:49904
+21:40:12 INFO:root_logger	201.76.96.28:35802
+21:40:12 INFO:root_logger	118.174.233.78:52655
+21:40:12 INFO:root_logger	1.186.192.242:37562
+21:40:12 INFO:root_logger	194.88.153.101:61064
+21:40:20 INFO:root_logger	Time passed - 31.032278299331665
+21:40:20 INFO:root_logger	Time passed - 31.07915425300598
+21:42:40 INFO:root_logger	Starting script...
+21:43:00 INFO:root_logger	81.30.211.104:44341
+21:43:00 INFO:root_logger	103.217.109.118:60793
+21:43:00 INFO:root_logger	105.28.102.9:44200
+21:43:00 INFO:root_logger	87.250.218.12:56733
+21:43:00 INFO:root_logger	103.250.157.46:37013
+21:43:00 INFO:root_logger	122.102.39.225:35564
+21:43:00 INFO:root_logger	80.249.229.64:38147
+21:43:00 INFO:root_logger	187.216.90.46:53281
+21:43:00 INFO:root_logger	118.174.196.185:40047
+21:43:00 INFO:root_logger	138.121.32.26:23500
+21:43:00 INFO:root_logger	195.239.178.110:59548
+21:43:00 INFO:root_logger	91.203.224.177:36731
+21:43:01 INFO:root_logger	103.76.190.178:47492
+21:43:01 INFO:root_logger	185.132.133.196:8080
+21:43:01 INFO:root_logger	80.237.21.22:8080
+21:43:01 INFO:root_logger	1.2.169.12:47678
+21:43:01 INFO:root_logger	118.174.233.23:30895
+21:43:01 INFO:root_logger	178.32.80.232:8080
+21:43:01 INFO:root_logger	194.114.128.149:61213
+21:43:01 INFO:root_logger	123.176.96.49:3128
+21:43:17 ERROR:root_logger	'lowest_price'
+21:43:17 ERROR:root_logger	Gave up on Airwolf Wrench (Field-Tested)
+21:46:11 INFO:root_logger	Time passed - 189.64613676071167
+21:47:44 INFO:root_logger	Starting script...
+21:48:02 INFO:root_logger	81.30.211.104:44341
+21:48:02 INFO:root_logger	103.217.109.118:60793
+21:48:02 INFO:root_logger	105.28.102.9:44200
+21:48:02 INFO:root_logger	87.250.218.12:56733
+21:48:02 INFO:root_logger	103.250.157.46:37013
+21:48:02 INFO:root_logger	122.102.39.225:35564
+21:48:02 INFO:root_logger	80.249.229.64:38147
+21:48:02 INFO:root_logger	187.216.90.46:53281
+21:48:02 INFO:root_logger	118.174.196.185:40047
+21:48:02 INFO:root_logger	138.121.32.26:23500
+21:48:02 INFO:root_logger	195.239.178.110:59548
+21:48:02 INFO:root_logger	91.203.224.177:36731
+21:48:02 INFO:root_logger	103.76.190.178:47492
+21:48:02 INFO:root_logger	185.132.133.196:8080
+21:48:02 INFO:root_logger	80.237.21.22:8080
+21:48:02 INFO:root_logger	1.2.169.12:47678
+21:48:02 INFO:root_logger	118.174.233.23:30895
+21:48:02 INFO:root_logger	178.32.80.232:8080
+21:48:02 INFO:root_logger	194.114.128.149:61213
+21:48:02 INFO:root_logger	123.176.96.49:3128
+21:48:24 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bamboo%20Brushed%20Sniper%20Rifle%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000227C8219278>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+21:48:47 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bamboo%20Brushed%20Sniper%20Rifle%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000227C8219898>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+21:48:55 ERROR:root_logger	'lowest_price'
+21:48:55 ERROR:root_logger	Gave up on Bamboo Brushed Sniper Rifle (Field-Tested)
+21:48:55 ERROR:root_logger	local variable 'lowest_price' referenced before assignment
+21:49:49 ERROR:root_logger	'lowest_price'
+21:49:49 ERROR:root_logger	Gave up on Bovine Blazemaker Mk.II Black Box (Field-Tested)
+21:51:14 INFO:root_logger	Time passed - 191.2739589214325
+21:55:48 INFO:root_logger	Starting script...
+21:56:06 INFO:root_logger	Time passed - 18.343751907348633
+21:57:15 INFO:root_logger	Starting script...
+21:57:34 INFO:root_logger	Time passed - 19.39060926437378
+21:57:55 INFO:root_logger	Starting script...
+21:58:22 INFO:root_logger	Time passed - 26.218748092651367
+22:00:56 INFO:root_logger	Starting script...
+22:01:14 INFO:root_logger	103.105.239.1:37021
+22:01:14 INFO:root_logger	202.150.132.98:63141
+22:01:14 INFO:root_logger	177.241.244.219:56792
+22:01:14 INFO:root_logger	42.115.88.74:40681
+22:01:14 INFO:root_logger	151.106.10.99:8080
+22:01:15 INFO:root_logger	111.118.154.20:53281
+22:01:15 INFO:root_logger	93.170.4.145:39998
+22:01:15 INFO:root_logger	153.149.156.14:80
+22:01:15 INFO:root_logger	185.132.133.188:8080
+22:01:15 INFO:root_logger	62.201.235.30:53281
+22:01:15 INFO:root_logger	186.42.224.222:34570
+22:01:15 INFO:root_logger	201.20.92.102:33490
+22:01:15 INFO:root_logger	176.37.119.45:40370
+22:01:15 INFO:root_logger	195.74.72.3:53281
+22:01:15 INFO:root_logger	81.30.211.104:44341
+22:01:15 INFO:root_logger	87.250.218.12:56733
+22:01:15 INFO:root_logger	80.249.229.64:38147
+22:01:15 INFO:root_logger	103.76.190.178:47492
+22:01:15 INFO:root_logger	1.2.169.12:47678
+22:01:15 INFO:root_logger	178.32.80.232:8080
+22:01:18 ERROR:root_logger	'lowest_price'
+22:01:18 ERROR:root_logger	Gave up on Bamboo Brushed Sniper Rifle (Field-Tested)
+22:01:18 ERROR:root_logger	float() argument must be a string or a number, not 'NoneType'
+22:01:21 ERROR:root_logger	'lowest_price'
+22:01:21 ERROR:root_logger	Gave up on Bovine Blazemaker Mk.II Black Box (Field-Tested)
+22:01:21 ERROR:root_logger	float() argument must be a string or a number, not 'NoneType'
+22:01:24 INFO:root_logger	Time passed - 8.485035181045532
+22:01:24 INFO:root_logger	Counter = 0

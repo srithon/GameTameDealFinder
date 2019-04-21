@@ -28,7 +28,7 @@ delay = 2.5
 
 
 
-verbose = False
+verbose = True
 
 
 
@@ -73,9 +73,12 @@ def save_lists():
 
 def get_proxies():
     global proxy_page
+
+    options = webdriver.FirefoxOptions()
+    options.add_argument('--headless')
     
-    driver = webdriver.Firefox()
-    driver.get('https://free-proxy-list.net/')
+    driver = webdriver.Firefox(firefox_options=options)
+    driver.get('https://free-proxy-list.net/anonymous-proxy.html')
     search = driver.find_element_by_css_selector('#proxylisttable_filter > label:nth-child(1) > input:nth-child(1)')
     search.send_keys('elite proxy')
     sort_by_https = driver.find_element_by_css_selector('th.sorting:nth-child(7)') 
@@ -89,6 +92,7 @@ def get_proxies():
     while current_page < proxy_page:
         next_button = driver.find_element_by_css_selector('#proxylisttable_next > a:nth-child(1)')
         sleep(0.5)
+        driver.execute_script('"window.scrollTo(0, document.body.scrollHeight);"')
         next_button.click()
         current_page += 1
 
@@ -131,6 +135,8 @@ def refresh_database():
 
 
 def shutdown():
+    global s
+    
     try:
         s.close()
     except Exception as e:
@@ -155,7 +161,7 @@ def shutdown():
 
 
 def main(delay):
-    global init_time, items, proxies
+    global init_time, items, proxies, s
     proxies = get_proxies()
     if proxies == None:
         logger.error('No proxies found!')
@@ -181,6 +187,8 @@ def main(delay):
                 try:
                     r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item, proxies = proxy_dict)
                     try:
+                        lowest_price = None
+                        
                         try:
                             lowest_price = (r.json()['lowest_price'])[1:]
                         except KeyError as e:
@@ -189,16 +197,16 @@ def main(delay):
                             try:
                                 lowest_price = (r.json()['median_price'])[1:]
                             except:
-                                del items[:1]
-                                item = items[0]
                                 print('Gave up on {}'.format(item))
                                 logger.error('Gave up on {}'.format(item))
+                                del items[:1]
+                                item = items[0]
+                                continue
                         price = float(lowest_price)
                         query = 'UPDATE `item list` SET PriceValue = {} WHERE ItemName = \"{}\"'.format(price, item)
 
                         if verbose:
                             print(query)
-                            print('( {} : {} )'.format(item, price))
 
                         cursor.execute(query)
                     except Exception as e:
@@ -228,6 +236,10 @@ def main(delay):
                     continue
                 except:
                     logger.debug('Failed to get response. Retrying. item = {}'.format(item))
+
+                    if verbose:
+                        print('Failed to get response. Retrying. item = {}'.format(item))
+
                     sleep(delay)
                     init_time += delay
                     continue
@@ -243,7 +255,7 @@ def main(delay):
                 item = items[0]
                 if verbose:
                     print('Completed iteration #{}'.format(counter))
-                if (counter % 250 == 0):
+                if (counter % 100 == 0):
                     print('Saving lists...')
                     logger.info('Saving lists...')
                     save_lists()
