@@ -20,6 +20,8 @@ from random import random
 
 from requests.exceptions import ProxyError
 
+from json.decoder import JSONDecodeError
+
 
 
 
@@ -67,6 +69,8 @@ s = None
 
 proxies = list()
 
+items = list()
+
 def save_lists():
     connection.commit()
 
@@ -78,7 +82,15 @@ def get_proxies():
     options.add_argument('--headless')
     
     driver = webdriver.Firefox(firefox_options=options)
-    driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+    
+    while True:
+        try:
+            driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+            break
+        except Exception as e:
+            print(e)
+            logger.error(e)
+        
     search = driver.find_element_by_css_selector('#proxylisttable_filter > label:nth-child(1) > input:nth-child(1)')
     search.send_keys('elite proxy')
     sort_by_https = driver.find_element_by_css_selector('th.sorting:nth-child(7)') 
@@ -130,7 +142,9 @@ def get_proxy_dict(current_proxy):
 
 def refresh_database():
     global items
-    cursor.execute('SELECT ItemName FROM `item list` WHERE PriceValue IS NULL ORDER BY PointValue ASC')
+    # cursor.execute('SELECT ItemName FROM `item list steam market` WHERE PriceValue IS NULL ORDER BY PointValue ASC')
+    cursor.execute('SELECT ItemName FROM `item list steam market` WHERE PriceValue IS NOT NULL ORDER BY PointValue ASC')
+    items.clear()
     items = [item[0] for item in cursor.fetchall()]
 
 
@@ -199,6 +213,11 @@ def main(delay):
                         
                         try:
                             lowest_price = (r.json()['lowest_price'])[1:]
+                        except JSONDecodeError as b:
+                            print(b)
+                            logger.error(b)
+                            proxy_dict = get_proxy_dict(get_new_proxy())
+                            continue
                         except KeyError as e:
                             print(e)
                             logger.error(e)
@@ -209,10 +228,10 @@ def main(delay):
                                 logger.error('Gave up on {}'.format(item))
                                 del items[:1]
                                 item = items[0]
-								sleep(delay)
+                                sleep(delay)
                                 continue
                         price = float(lowest_price)
-                        query = 'UPDATE `item list` SET PriceValue = {} WHERE ItemName = \"{}\"'.format(price, item)
+                        query = 'UPDATE `item list steam market` SET PriceValue = {}, TimeUpdated = now() WHERE ItemName = \"{}\"'.format(price, item)
 
                         if verbose:
                             print(query)
@@ -227,7 +246,7 @@ def main(delay):
                         logger.error(e)
                         sleep(delay)
 
-                        if random() < 0.25:
+                        if random() < 0.125:
                             del items[:1]
                             item = items[0]
                             logger.d('Skipping this garbage')
@@ -236,7 +255,7 @@ def main(delay):
                         continue
                 except KeyboardInterrupt as e:
                     print('Exiting...')
-                    shutdown(True)
+                    shutdown()
                 except requests.exceptions.ProxyError as e:
                     print('Proxy Error')
                     logger.error(e)
@@ -252,19 +271,22 @@ def main(delay):
                     sleep(delay)
                     init_time += delay
                     continue
-                sleep(delay)
-                counter += 1
-                del items[:1]
-                item = items[0]
-                if verbose:
-                    print('Completed iteration #{}'.format(counter))
-                if (counter % 100 == 0):
-                    print('Saving lists...')
-                    logger.info('Saving lists...')
-                    save_lists()
-                    #  refresh_database()
-                    broken = True
-                    break
+                try:
+                    sleep(delay)
+                    counter += 1
+                    del items[:1]
+                    item = items[0]
+                    if verbose:
+                        print('Completed iteration #{}'.format(counter))
+                    if (counter % 100 == 0):
+                        print('Saving lists...')
+                        logger.info('Saving lists...')
+                        save_lists()
+                        broken = True
+                        break
+                except KeyboardInterrupt:
+                    print('Exiting...')
+                    shutdown()
             
     except Exception as e:
         print(e)

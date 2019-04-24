@@ -69,6 +69,8 @@ s = None
 
 proxies = list()
 
+items = list()
+
 def save_lists():
     connection.commit()
 
@@ -80,7 +82,15 @@ def get_proxies():
     options.add_argument('--headless')
     
     driver = webdriver.Firefox(firefox_options=options)
-    driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+    
+    while True:
+        try:
+            driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+            break
+        except Exception as e:
+            print(e)
+            logger.error(e)
+        
     search = driver.find_element_by_css_selector('#proxylisttable_filter > label:nth-child(1) > input:nth-child(1)')
     search.send_keys('elite proxy')
     sort_by_https = driver.find_element_by_css_selector('th.sorting:nth-child(7)') 
@@ -133,11 +143,12 @@ def get_proxy_dict(current_proxy):
 def refresh_database():
     global items
     cursor.execute('SELECT name FROM `item list backpack tf` WHERE buyPrice IS NULL ORDER BY pointPrice ASC')
+    items.clear()
     items = [item[0] for item in cursor.fetchall()]
 
 
 def shutdown():
-    global s, counter
+    global s, counter, log_handler
     
     try:
         s.close()
@@ -164,7 +175,9 @@ def shutdown():
 
 def main(delay):
     global init_time, items, proxies, s, counter
+    print('Getting proxies...')
     proxies = get_proxies()
+    print('Finished getting proxies...')
     if proxies == None:
         logger.error('No proxies found!')
         sys.exit()
@@ -198,8 +211,13 @@ def main(delay):
                     for item in json['items']:
                         # print(item)
        
+                        volume = item['volume']
+                        
+                        if len(volume) > 3:
+                            volume.replace(',', '')
+       
                         try:
-                            query = 'UPDATE `item list backpack tf` SET volume = {}, buyPrice = {}, sellPrice = {} WHERE name = \"{}\"'.format(int(item['volume']), item['buyPrice'], item['sellPrice'], item['itemName'])
+                            query = 'UPDATE `item list backpack tf` SET volume = {}, buyPrice = {}, sellPrice = {}, timeUpdated = now() WHERE name = \"{}\"'.format(int(volume), item['buyPrice'], item['sellPrice'], item['itemName'])
                         except Exception as e:
                             print('Error in making query.')
                             print(e)
@@ -210,7 +228,7 @@ def main(delay):
 
                 except KeyboardInterrupt as e:
                     print('Exiting...')
-                    shutdown(True)
+                    shutdown()
                 except requests.exceptions.ProxyError as e:
                     print('Proxy Error')
                     logger.error(e)
@@ -226,19 +244,29 @@ def main(delay):
                     sleep(delay)
                     init_time += delay
                     continue
-                sleep(delay)
-                counter += 1
-                del items[:1]
-                item = items[0]
-                if verbose:
-                    print('Completed iteration #{}'.format(counter))
-                if (counter % 40 == 0):
-                    print('Saving lists...')
-                    logger.info('Saving lists...')
-                    save_lists()
-                    #  refresh_database()
-                    broken = True
-                    break
+                try:
+                    sleep(delay)
+                    counter += 1
+                    del items[:1]
+                    item = items[0]
+                    if verbose:
+                        print('Completed iteration #{}'.format(counter))
+                    if (counter % 40 == 0):
+                        print('Saving lists...')
+                        logger.info('Saving lists...')
+                        save_lists()
+                        #  refresh_database()
+                        broken = True
+                        break
+                    if (counter % 200 == 0):
+                        print('Refreshing database...')
+                        logger.info('Refreshing database...')
+                        refresh_database()
+                        broken = True
+                        break
+                except KeyboardInterrupt:
+                    print('Exiting...')
+                    shutdown()
             
     except Exception as e:
         print(e)
