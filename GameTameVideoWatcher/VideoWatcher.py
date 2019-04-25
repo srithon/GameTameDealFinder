@@ -14,11 +14,105 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
+from selenium.webdriver.common.proxy import Proxy, ProxyType
+
 from time import sleep
+
+from requests import Session
 
 
 cookie_path = 'cookies.cck'
 
+proxy_page = 1
+
+proxies_list = list()
+
+def test_proxies():
+    global proxies_list
+    s = Session()
+    for prox in proxies_list:
+        try:
+            s.get('https://gametame.com', proxies = get_proxy_dict(prox))
+            print(prox)
+            return prox
+        except:
+            print('{} is bad'.format(prox))
+    print('All proxies were bad')
+    return None
+
+def update_proxies():
+    global proxy_page, proxies_list
+
+    options = webdriver.FirefoxOptions()
+    options.add_argument('--headless')
+    
+    driver = webdriver.Firefox(firefox_options=options)
+    
+    while True:
+        try:
+            driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+            break
+        except Exception as e:
+            print(e)
+        
+    search = driver.find_element_by_css_selector('#proxylisttable_filter > label:nth-child(1) > input:nth-child(1)')
+    search.send_keys('elite proxy')
+    sort_by_https = driver.find_element_by_css_selector('th.sorting:nth-child(7)') 
+    sort_by_https.click()
+    sleep(0.5)
+    sort_by_https.click()
+    sleep(1.0)
+
+    current_page = 1
+
+    while current_page < proxy_page:
+        next_button = driver.find_element_by_css_selector('#proxylisttable_next > a:nth-child(1)')
+        sleep(0.5)
+        driver.execute_script('"window.scrollTo(0, document.body.scrollHeight);"')
+        next_button.click()
+        current_page += 1
+
+    proxy_page += 1
+    
+    proxies_body = driver.find_element_by_css_selector('#proxylisttable > tbody:nth-child(2)')
+    proxies = proxies_body.find_elements_by_xpath('.//tr')
+    print('{} proxies found in total'.format(len(proxies)))
+    if len(proxies) == 0:
+          print('No Proxies Found!')
+          return None
+    for proxy_element in proxies:
+        ip = proxy_element.find_element_by_xpath('.//td[1]').text
+        port = proxy_element.find_element_by_xpath('.//td[2]').text
+        print('{}:{}'.format(ip, port))
+        proxies_list.append('{}:{}'.format(ip, port))
+    os.system('taskkill /f /im geckodriver.exe /T')
+    
+def get_new_proxy():
+    global proxies_list
+    print('{} proxies remaining'.format(len(proxies_list)))
+    if len(proxies) == 0:
+        print('Ran outta proxies')
+        get_proxies()
+    return proxies_list.pop(int(random() * len(proxies)))
+    
+def get_proxy_dict(current_proxy):
+    return { "https" : str(current_proxy) }
+
+
+def get_proxy():
+    myProxy = test_proxies()
+    
+    return myProxy
+
+    proxy = Proxy({
+        'proxyType': ProxyType.MANUAL,
+        'httpProxy': myProxy,
+        'ftpProxy': myProxy,
+        'sslProxy': myProxy,
+        'noProxy': 'localhost'
+        })
+    
+    return proxy
 
 def save_cookie(driver):
     global cookie_path
@@ -66,7 +160,7 @@ def get_session_cookie():
         print('Saved cookies')
         driver1.quit()
 
-def login_with_cookies():
+def get_browser():
     firefox_profile = webdriver.FirefoxProfile()
     # firefox_profile.set_preference('permissions.default.stylesheet', 2)
     # Disable images
@@ -75,38 +169,116 @@ def login_with_cookies():
     firefox_profile.set_preference('dom.ipc.plugins.enabled.libflashplayer.so',
                                    'false')
     firefox_profile.set_preference('javascript.enabled', False)
+    firefox_profile.set_preference("general.warnOnAboutConfig", False)
     
     options = webdriver.FirefoxOptions()
     options.add_argument("--enable-file-cookies")
+    
+    return webdriver.Firefox(firefox_options = options, firefox_profile = firefox_profile)
+    
 
-    driver = webdriver.Firefox(firefox_profile = firefox_profile, firefox_options = options)
+def set_proxy(driver, proxy):
+    ip = proxy[:proxy.find(':')]
+    port = proxy[(proxy.find(':') + 1):]
+    print(ip)
+    print(port)
+    change_setting(driver, "network.proxy.type", 1)
+    change_setting(driver, "network.proxy.http", ip) #set your ip
+    change_setting(driver, "network.proxy.http_port", int(port)) #set your port
+    change_setting(driver, "network.proxy.ssl", ip) #set your ip
+    change_setting(driver, "network.proxy.ssl_port", int(port)) #set your port
 
-    driver.get('http://gametame.com')
+def login_with_cookies(driver=None):
+    """while True:
+        if proxy == None:
+            print('No proxy')
+            driver = webdriver.Firefox(firefox_profile = firefox_profile, firefox_options = options)
+        else:
+            driver = webdriver.Firefox(firefox_profile = firefox_profile, firefox_options = options, proxy = proxy)
+        
+        try:
+            driver.get('http://gametame.com')
+            break
+        except Exception as e:
+            print('Error in get')
+            print(e)
+            if proxy != None:
+                proxy = get_new_proxy()
+            try:
+                driver.quit()
+            except Exception as e:
+                print('Error in quit')
+                print(e)"""
+    
+    if driver == None:
+        driver = get_browser()
+    
+    driver.get('https://gametame.com')
     load_cookie(driver)
     print('Finished loading cookies')
     driver.refresh()
     print('Refreshed driver')
     
-    sleep(5)
+    sleep(3)
     
     close_button = driver.find_element_by_css_selector('button.btn:nth-child(3)')
-    close_button.submit()
+    ActionChains(driver).move_to_element(close_button).perform()
+    sleep(0.25)
+    ActionChains(driver).click(close_button).perform()
     
     return driver
 
 def watch_videos():
-    driver = login_with_cookies()
-    smores_button = driver.find_element_by_css_selector('#videos > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)')
+    update_proxies()
+    proxy = get_proxy()
+    init_driver = get_browser()
+    init_driver.get('about:config')
+    set_proxy(init_driver, proxy)
+    sleep(20)
+    driver = login_with_cookies(init_driver)
+    smores_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#videos > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)')))
     driver.execute_script('window.scrollTo(' + str(smores_button.location['x'])
-                                + ',' + str(smores_button.location['y']) + ');')
+                                + ',' + str(smores_button.location['y'] - 150) + ');')
     ActionChains(driver).move_to_element(smores_button).perform()
     sleep(0.25)
     ActionChains(driver).click(smores_button).perform()
+    
+    sleep(3)
+    
+    driver.switch_to_window(driver.window_handles[0])
+    driver.close()
+    driver.switch_to_window(driver.window_handles[0])
+    
+    offer_body = WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.CSS_SELECTOR, "#aw_offers")))
+    sleep(2)
+    offers = offer_body.find_elements_by_class_name('offer')
+    
+    for i in range(2):# range(len(offers)):
+        offer = offers[i]
+        offer_button = offer.find_element_by_xpath('./div/div/div[2]/div[2]/a')
+        
+        ActionChains(driver).move_to_element(offer_button).perform()
+        sleep(0.25)
+        ActionChains(driver).click(offer_button).perform()
+        
+        sleep(0.25)
+        
+        offer_confirm_button = driver.find_element_by_css_selector('.js-sending-offer-on-device > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)')#('.arrow_rotate')
+        
+        ActionChains(driver).move_to_element(offer_confirm_button).perform()
+        sleep(0.25)
+        ActionChains(driver).click(offer_confirm_button).perform()
+        
+        sleep(1.5)
+        
+        driver.switch_to_window(driver.window_handles[0])
+        # print(offer_button.get_attribute('href'))
     
 
 def main():
     # get_session_cookie()
     # test_session_cookie()
-    login_with_cookies()
+    # login_with_cookies()
+    watch_videos()
 
 main()

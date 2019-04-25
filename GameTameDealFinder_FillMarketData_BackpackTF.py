@@ -142,7 +142,7 @@ def get_proxy_dict(current_proxy):
 
 def refresh_database():
     global items
-    cursor.execute('SELECT name FROM `item list backpack tf` WHERE buyPrice IS NULL ORDER BY pointPrice ASC')
+    cursor.execute('SELECT ItemName from `item list steam market` WHERE PriceValue IS NOT NULL ORDER BY PriceValue / PointValue DESC')# ('SELECT name FROM `item list backpack tf` WHERE buyPrice IS NULL ORDER BY pointPrice ASC')
     items.clear()
     items = [item[0] for item in cursor.fetchall()]
 
