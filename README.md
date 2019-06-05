@@ -11,3 +11,5 @@ To get the Steam Market prices for each item, I originally intended to use 2 dif
   
 However, I eventually found out that GameTame updates its internal point prices every time one goes to purchase an item, and thus the entire concept was uprooted.  
 Nonetheless, the experience gained from pursuing the project was invaluable.  
+  
+This project has been discontinued
