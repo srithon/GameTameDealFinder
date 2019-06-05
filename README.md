@@ -11,5 +11,3 @@ To get the Steam Market prices for each item, I originally intended to use 2 dif
   
 However, I eventually found out that GameTame updates its internal point prices every time one goes to purchase an item, and thus the entire concept was uprooted.  
 Nonetheless, the experience gained from pursuing the project was invaluable.  
-  
-**Note: All branches aside from the master branch are irrelevant and are only being kept for sentimental reasons. Halfway into the development of the project, I permanently switched to the Database branch. As a result, all of the recent commit history is on that branch.**
