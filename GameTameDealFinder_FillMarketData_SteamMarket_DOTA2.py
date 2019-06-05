@@ -72,6 +72,9 @@ proxies = list()
 items = list()
 
 def save_lists():
+    global logger
+    print('Committing...')
+    logger.debug('Committing...')
     connection.commit()
 
 
@@ -115,7 +118,7 @@ def get_proxies():
     print('{} proxies found in total'.format(len(proxies)))
     if len(proxies) == 0:
           print('No Proxies Found!')
-          logger.e('No Proxies Found!')
+          logger.error('No Proxies Found!')
           return None
     proxy_list = list()
     for proxy_element in proxies:
@@ -142,8 +145,9 @@ def get_proxy_dict(current_proxy):
 
 def refresh_database():
     global items
-    # cursor.execute('SELECT ItemName FROM `item list steam market` WHERE PriceValue IS NULL ORDER BY PointValue ASC')
-    cursor.execute('SELECT ItemName FROM `item list steam market` WHERE PriceValue IS NOT NULL ORDER BY PointValue ASC')
+    # cursor.execute('SELECT name FROM `ITEM LIST STEAM MARKET DOTA2` WHERE dollarPrice IS NULL ORDER BY pointPrice ASC')
+    # cursor.execute('SELECT name from `ITEM LIST STEAM MARKET DOTA2` where dollarPrice IS NOT NULL AND volume IS NULL ORDER BY pointPrice ASC')
+    cursor.execute('SELECT name from `ITEM LIST STEAM MARKET DOTA2` where dollarPrice IS NULL ORDER BY pointPrice ASC')
     items.clear()
     items = [item[0] for item in cursor.fetchall()]
 
@@ -192,6 +196,9 @@ def main(delay):
         while broken:
             broken = False
             item = items[0]
+            
+            first_time = True
+            
             while item != None:
                 item = items[0]
 
@@ -199,7 +206,8 @@ def main(delay):
                     print(item)
 
                 try:
-                    r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item, proxies = proxy_dict)
+                    r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=570&market_hash_name=' + item, proxies = proxy_dict)
+                    first_time = True
                     
                     if r.text == 'null':
                         print('null in source')
@@ -212,17 +220,20 @@ def main(delay):
                         lowest_price = None
                         
                         try:
-                            lowest_price = (r.json()['lowest_price'])[1:]
+                            json = r.json()
                         except JSONDecodeError as b:
                             print(b)
                             logger.error(b)
                             proxy_dict = get_proxy_dict(get_new_proxy())
                             continue
+                        
+                        try:
+                            lowest_price = (json['lowest_price'])[1:]
                         except KeyError as e:
                             print(e)
                             logger.error(e)
                             try:
-                                lowest_price = (r.json()['median_price'])[1:]
+                                lowest_price = (json['median_price'])[1:]
                             except:
                                 print('Gave up on {}'.format(item))
                                 logger.error('Gave up on {}'.format(item))
@@ -231,12 +242,20 @@ def main(delay):
                                 sleep(delay)
                                 continue
                         price = float(lowest_price)
-                        query = 'UPDATE `item list steam market` SET PriceValue = {}, TimeUpdated = now() WHERE ItemName = \"{}\"'.format(price, item)
+                        query = 'UPDATE `ITEM LIST STEAM MARKET DOTA2` SET dollarPrice = %s, timeUpdated = now()'
+                        
+                        try:
+                            volume = json['volume']
+                            query += ', volume = {}'.format(volume)
+                        except KeyError as e:
+                            pass
+                        
+                        query += ' WHERE name = %s'
 
                         if verbose:
-                            print(query)
+                            print(query % (price, item))
 
-                        cursor.execute(query)
+                        cursor.execute(query, (price, item))
                     except Exception as e:
                         try:
                             print('Error in {}'.format(query))
@@ -270,7 +289,14 @@ def main(delay):
 
                     sleep(delay)
                     init_time += delay
-                    continue
+                    
+                    if first_time:
+                        first_time = False
+                        continue
+                    else:
+                        first_time = True
+                        proxy_dict = get_proxy_dict(get_new_proxy())
+                        continue
                 try:
                     sleep(delay)
                     counter += 1

@@ -20,6 +20,8 @@ from random import random
 
 from requests.exceptions import ProxyError
 
+from json.decoder import JSONDecodeError
+
 
 
 
@@ -33,12 +35,10 @@ verbose = True
 
 
 
-counter = 0
-
 log_formatter = logging.Formatter('%(asctime)s %(levelname)s:%(name)s\t%(message)s',
                                   datefmt='%H:%M:%S')
 
-log_handler = logging.FileHandler(filename='gametame_fill_market_data.log')
+log_handler = logging.FileHandler(filename='gametame_fill_market_data_tf2.log')
 log_handler.setFormatter(log_formatter)
 
 log_handler.setLevel(logging.DEBUG)
@@ -85,7 +85,7 @@ def get_proxies():
     
     while True:
         try:
-            driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+            driver.get('https://us-proxy.org')
             break
         except Exception as e:
             print(e)
@@ -142,13 +142,14 @@ def get_proxy_dict(current_proxy):
 
 def refresh_database():
     global items
-    cursor.execute('SELECT ItemName from `ITEM LIST STEAM MARKET TF2` WHERE PriceValue IS NOT NULL ORDER BY TimeUpdated DESC')# ('SELECT name FROM `item list backpack tf` WHERE buyPrice IS NULL ORDER BY pointPrice ASC')
+    # cursor.execute('SELECT ItemName FROM `item list steam market tf2 tf2` WHERE PriceValue IS NULL ORDER BY PointValue ASC')
+    cursor.execute('SELECT ItemName FROM `item list steam market tf2` WHERE PriceValue IS NOT NULL ORDER BY PointValue ASC')
     items.clear()
     items = [item[0] for item in cursor.fetchall()]
 
 
 def shutdown():
-    global s, counter, log_handler
+    global s
     
     try:
         s.close()
@@ -164,7 +165,7 @@ def shutdown():
     final_time = time()
     print('Time passed - {}'.format(final_time - init_time))
     logger.info('Time passed - {}'.format(final_time - init_time))
-    logger.info('Counter = {}'.format(counter))
+    logger.info('Counter = {}'.format(count))
 
     s = None
 
@@ -174,10 +175,8 @@ def shutdown():
 
 
 def main(delay):
-    global init_time, items, proxies, s, counter
-    print('Getting proxies...')
+    global init_time, items, proxies, s
     proxies = get_proxies()
-    print('Finished getting proxies...')
     if proxies == None:
         logger.error('No proxies found!')
         sys.exit()
@@ -194,38 +193,78 @@ def main(delay):
             broken = False
             item = items[0]
             while item != None:
-                params = { 'text' : item, 'conversion' : '440' }
-                
+                item = items[0]
+
+                if verbose:
+                    print(item)
+
                 try:
-                    r = s.get('https://backpack.tf/market_search', params = params, proxies = proxy_dict)
+                    r = s.get('https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=' + item, proxies = proxy_dict)
+                    first_time = True
                     
-                    try:
-                        json = r.json()
-                    except Exception as e:
-                        print('JSON Error')
-                        logger.error(e)
-                        sleep(delay)
+                    if r.text == 'null':
+                        print('null in source')
+                        logger.error('NULL IN SOURCE')
+                        logger.info('Counter = {}'.format(counter))
                         proxy_dict = get_proxy_dict(get_new_proxy())
                         continue
                     
-                    for item in json['items']:
-                        # print(item)
-       
-                        volume = item['volume']
+                    try:
+                        lowest_price = None
                         
-                        if len(volume) > 3:
-                            volume.replace(',', '')
-       
                         try:
-                            query = 'UPDATE `item list backpack tf` SET volume = {}, buyPrice = {}, sellPrice = {}, timeUpdated = now() WHERE name = \"{}\"'.format(int(volume), item['buyPrice'], item['sellPrice'], item['itemName'])
-                        except Exception as e:
-                            print('Error in making query.')
-                            print(e)
-                            logger.error(e)
+                            json = r.json()
+                        except JSONDecodeError as b:
+                            print(b)
+                            logger.error(b)
+                            proxy_dict = get_proxy_dict(get_new_proxy())
                             continue
                         
-                        cursor.execute(query)
+                        try:
+                            lowest_price = (json['lowest_price'])[1:]
+                        except KeyError as e:
+                            print(e)
+                            logger.error(e)
+                            try:
+                                lowest_price = (json['median_price'])[1:]
+                            except:
+                                print('Gave up on {}'.format(item))
+                                logger.error('Gave up on {}'.format(item))
+                                del items[:1]
+                                item = items[0]
+                                sleep(delay)
+                                continue
+                        price = float(lowest_price)
+                        query = 'UPDATE `ITEM LIST STEAM MARKET TF2` SET PriceValue = %s, TimeUpdated = now()'
+                        
+                        try:
+                            volume = json['volume']
+                            query += ', Volume = {}'.format(volume)
+                        except KeyError as e:
+                            pass
+                        
+                        query += ' WHERE ItemName = %s'
 
+                        if verbose:
+                            print(query % (price, item))
+
+                        cursor.execute(query, (price, item))
+                    except Exception as e:
+                        try:
+                            print('Error in {}'.format(query))
+                        except:
+                            pass
+                        print(e)
+                        logger.error(e)
+                        sleep(delay)
+
+                        if random() < 0.125:
+                            del items[:1]
+                            item = items[0]
+                            logger.d('Skipping this garbage')
+                            print('Skipping')
+
+                        continue
                 except KeyboardInterrupt as e:
                     print('Exiting...')
                     shutdown()
@@ -251,17 +290,10 @@ def main(delay):
                     item = items[0]
                     if verbose:
                         print('Completed iteration #{}'.format(counter))
-                    if (counter % 40 == 0):
+                    if (counter % 100 == 0):
                         print('Saving lists...')
                         logger.info('Saving lists...')
                         save_lists()
-                        #  refresh_database()
-                        broken = True
-                        break
-                    if (counter % 200 == 0):
-                        print('Refreshing database...')
-                        logger.info('Refreshing database...')
-                        refresh_database()
                         broken = True
                         break
                 except KeyboardInterrupt:

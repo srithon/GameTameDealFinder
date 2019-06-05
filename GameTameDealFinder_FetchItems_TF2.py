@@ -176,7 +176,7 @@ def save_lists():
     print('Saving lists...')
 
     while len(item_list) != 0:
-        sql_update_queryA = 'UPDATE `ITEM LIST STEAM MARKET` SET PointValue = {} WHERE ItemName = \"{}\"'.format(point_price, item_name)
+        sql_update_queryA = 'UPDATE `ITEM LIST STEAM MARKET TF2` SET PointValue = {} WHERE ItemName = \"{}\"'.format(point_price, item_name)
         sql_update_queryB = 'UPDATE `ITEM LIST BACKPACK TF` SET pointPrice = {} WHERE name = \"{}\"'.format(point_price, item_name)
 
         cursor.execute(sql_update_queryA)

@@ -12,7 +12,7 @@ try:
 
     cursor = connection.cursor(buffered=True)
     
-    cursor.execute("SELECT ItemName, PointValue FROM `ITEM LIST STEAM MARKET`")
+    cursor.execute("SELECT ItemName, PointValue FROM `ITEM LIST STEAM MARKET TF2`")
 
     items = cursor.fetchall()
     

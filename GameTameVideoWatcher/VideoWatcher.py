@@ -16,7 +16,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 
-from time import sleep
+from time import sleep, time
 
 from requests import Session
 
@@ -30,15 +30,31 @@ proxies_list = list()
 def test_proxies():
     global proxies_list
     s = Session()
+    
+    min_ping = 10.0
+    min_prox = None
+    
     for prox in proxies_list:
         try:
+            start = time()
             s.get('https://gametame.com', proxies = get_proxy_dict(prox))
-            print(prox)
-            return prox
+            end = time()
+            
+            ping = end - start
+            
+            if ping < min_ping:
+                min_ping = ping
+                min_prox = prox
+            
+            print('{} took {} seconds to load gametame'.format(prox, end - start))
+            
+            if ping < 0.25:
+                return prox
+            # return prox
         except:
             print('{} is bad'.format(prox))
     print('All proxies were bad')
-    return None
+    return min_prox
 
 def update_proxies():
     global proxy_page, proxies_list
@@ -50,7 +66,8 @@ def update_proxies():
     
     while True:
         try:
-            driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+            # driver.get('https://free-proxy-list.net/anonymous-proxy.html')
+            driver.get('https://www.us-proxy.org')
             break
         except Exception as e:
             print(e)
@@ -83,6 +100,7 @@ def update_proxies():
     for proxy_element in proxies:
         ip = proxy_element.find_element_by_xpath('.//td[1]').text
         port = proxy_element.find_element_by_xpath('.//td[2]').text
+        
         print('{}:{}'.format(ip, port))
         proxies_list.append('{}:{}'.format(ip, port))
     os.system('taskkill /f /im geckodriver.exe /T')
@@ -114,9 +132,7 @@ def get_proxy():
     
     return proxy
 
-def save_cookie(driver):
-    global cookie_path
-    path = cookie_path
+def save_cookie(driver, path):
     print('Saving cookies')
     while True:
         try:
@@ -126,43 +142,64 @@ def save_cookie(driver):
         except Exception as e:
             print(e)
             try:
-                driver.get('https://gametame.com')
+                driver.refresh()
             except Exception as j:
                 print(j)
 
-def load_cookie(driver):
-    global cookie_path
-    path = cookie_path
+
+
+def load_cookie(driver, path):
     with open(path, 'rb') as cookiesfile:
         cookies = pickle.load(cookiesfile)
         for cookie in cookies:
-            driver.add_cookie(cookie)
+            try:
+                driver.add_cookie(cookie)
+            except Exception as e:
+                print(e)
+                continue
             print('Added {}'.format(cookie))
     print('Finished adding cookies')
 
-def get_session_cookie():
+def get_hideouttv_cookie():
     try:
         profile = webdriver.FirefoxProfile()
         profile.set_preference('general.useragent.override', 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0')
         options = webdriver.FirefoxOptions()
         options.add_argument("--enable-file-cookies")
         driver1 = webdriver.Firefox(firefox_profile = profile, firefox_options = options)
-        driver1.get('https://gametame.com')
-        sleep(15.0)
+        driver1.get('https://hideout.tv/login.php')
         wait = WebDriverWait(driver1, 640.0)
-        wait.until(EC.title_contains('Earn'))
+        wait.until(EC.title_contains('Hideout.tv - '))
         print('Done sleeping')
     except KeyboardInterrupt as e:
         print('Interrupted')
     finally:
         print('Saving cookies...')
-        save_cookie(driver1)
+        save_cookie(driver1, 'hotv.cck')
         print('Saved cookies')
-        driver1.quit()
 
-def get_browser():
+def get_gametame_cookie(site = None):
+    try:
+        profile = webdriver.FirefoxProfile()
+        profile.set_preference('general.useragent.override', 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:66.0) Gecko/20100101 Firefox/66.0')
+        options = webdriver.FirefoxOptions()
+        options.add_argument("--enable-file-cookies")
+        driver1 = webdriver.Firefox(firefox_profile = profile, firefox_options = options)
+        driver1.get('https://gametame.com/auth/')
+        wait = WebDriverWait(driver1, 640.0)
+        wait.until(EC.title_contains('Earn'))
+        sleep(10)
+        print('Done sleeping')
+    except KeyboardInterrupt as e:
+        print('Interrupted')
+    finally:
+        print('Saving cookies...')
+        save_cookie(driver1, 'gt.cck')
+        print('Saved cookies')
+
+def get_browser(proxy = None):
     firefox_profile = webdriver.FirefoxProfile()
-    # firefox_profile.set_preference('permissions.default.stylesheet', 2)
+    firefox_profile.set_preference('permissions.default.stylesheet', 2)
     # Disable images
     firefox_profile.set_preference('permissions.default.image', 2)
     # Disable Flash
@@ -174,19 +211,21 @@ def get_browser():
     options = webdriver.FirefoxOptions()
     options.add_argument("--enable-file-cookies")
     
-    return webdriver.Firefox(firefox_options = options, firefox_profile = firefox_profile)
+    if proxy != None:
+        set_proxy(firefox_profile, proxy)
     
+    return webdriver.Firefox(firefox_options = options, firefox_profile = firefox_profile)
 
-def set_proxy(driver, proxy):
+def set_proxy(profile, proxy):
     ip = proxy[:proxy.find(':')]
     port = proxy[(proxy.find(':') + 1):]
     print(ip)
     print(port)
-    change_setting(driver, "network.proxy.type", 1)
-    change_setting(driver, "network.proxy.http", ip) #set your ip
-    change_setting(driver, "network.proxy.http_port", int(port)) #set your port
-    change_setting(driver, "network.proxy.ssl", ip) #set your ip
-    change_setting(driver, "network.proxy.ssl_port", int(port)) #set your port
+    profile.DEFAULT_PREFERENCES['frozen']["network.proxy.type"] = 1
+    profile.DEFAULT_PREFERENCES['frozen']["network.proxy.http"] = ip
+    profile.DEFAULT_PREFERENCES['frozen']["network.proxy.http_port"] = int(port)
+    profile.DEFAULT_PREFERENCES['frozen']["network.proxy.ssl"] = ip
+    profile.DEFAULT_PREFERENCES['frozen']["network.proxy.ssl_port"] = int(port)
 
 def login_with_cookies(driver=None):
     """while True:
@@ -213,30 +252,39 @@ def login_with_cookies(driver=None):
     if driver == None:
         driver = get_browser()
     
-    driver.get('https://gametame.com')
-    load_cookie(driver)
+    driver.get('https://gametame.com/image/discord_bottom.png')
+    sleep(2.0)
+    load_cookie(driver, 'gt.cck')
+    sleep(2.0)
     print('Finished loading cookies')
-    driver.refresh()
+    driver.get('https://google.com')
+    sleep(2.0)
+    driver.get('https://gametame.com')
     print('Refreshed driver')
-    
+
     sleep(3)
-    
-    close_button = driver.find_element_by_css_selector('button.btn:nth-child(3)')
-    ActionChains(driver).move_to_element(close_button).perform()
-    sleep(0.25)
-    ActionChains(driver).click(close_button).perform()
     
     return driver
 
-def watch_videos():
-    update_proxies()
+def get_browser_with_new_proxy():
     proxy = get_proxy()
-    init_driver = get_browser()
-    init_driver.get('about:config')
-    set_proxy(init_driver, proxy)
-    sleep(20)
-    driver = login_with_cookies(init_driver)
-    smores_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#videos > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)')))
+    return get_browser(proxy)
+    
+
+def watch_videos():
+    # update_proxies()
+    # init_driver = get_browser_with_new_proxy()
+    # sleep(20)
+    driver = login_with_cookies() # init_driver)
+    
+    while True:
+        try:
+            smores_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '#videos > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2) > img:nth-child(1)')))
+            break
+        except Exception as e:
+            print(e)
+            driver.get('https://gametame.com')
+        
     driver.execute_script('window.scrollTo(' + str(smores_button.location['x'])
                                 + ',' + str(smores_button.location['y'] - 150) + ');')
     ActionChains(driver).move_to_element(smores_button).perform()
@@ -276,9 +324,11 @@ def watch_videos():
     
 
 def main():
-    # get_session_cookie()
+    # get_session_cookie(True)
     # test_session_cookie()
-    # login_with_cookies()
-    watch_videos()
+    login_with_cookies()
+    # watch_videos()
+    # get_gametame_cookie()
+    # get_hideouttv_cookie()
 
 main()

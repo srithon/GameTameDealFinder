@@ -1,0 +1,19 @@
+11:07:20 INFO:root_logger	Starting script...
+11:07:27 DEBUG:root_logger	Initalized scraper
+11:07:27 ERROR:root_logger	'Scraper' object has no attribute 'fillItems'
+11:07:27 ERROR:root_logger	Could not find item
+11:08:19 INFO:root_logger	Starting script...
+11:08:52 INFO:root_logger	Starting script...
+11:08:58 DEBUG:root_logger	Initalized scraper
+11:08:58 INFO:root_logger	Looking in page #76
+11:09:01 INFO:root_logger	Looking in page #77
+11:09:02 INFO:root_logger	Looking in page #78
+11:09:03 INFO:root_logger	Looking in page #79
+11:09:04 INFO:root_logger	Looking in page #80
+11:09:05 INFO:root_logger	Looking in page #81
+11:09:06 INFO:root_logger	Looking in page #82
+11:09:07 INFO:root_logger	Looking in page #83
+11:09:07 INFO:root_logger	Found Robes of the Captive Princess on page 83
+11:09:07 DEBUG:root_logger	shutdown() called on Scraper instance
+11:09:13 ERROR:root_logger	HTTPConnectionPool(host='127.0.0.1', port=50488): Max retries exceeded with url: /session/5228fb6d-51f6-4f60-b216-4a617759fa34/element/cc403f23-d416-4a51-84dd-61c88f1f75c9/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028630954EB8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+11:09:13 ERROR:root_logger	Could not find item

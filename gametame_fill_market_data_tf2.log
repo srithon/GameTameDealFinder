@@ -1,0 +1,682 @@
+15:35:12 INFO:root_logger	Starting script...
+15:35:24 INFO:root_logger	35.236.32.34:3128
+15:35:24 INFO:root_logger	104.236.55.48:8080
+15:35:24 INFO:root_logger	141.193.189.1:44464
+15:35:24 INFO:root_logger	72.21.66.222:42485
+15:35:24 INFO:root_logger	208.98.185.89:53630
+15:35:25 INFO:root_logger	208.98.186.80:53630
+15:35:25 INFO:root_logger	45.55.53.228:44578
+15:35:25 INFO:root_logger	165.22.157.156:3128
+15:35:25 INFO:root_logger	205.169.145.130:39438
+15:35:25 INFO:root_logger	76.76.76.74:53281
+15:35:25 INFO:root_logger	165.22.157.220:3128
+15:35:25 INFO:root_logger	12.17.238.2:8080
+15:35:25 INFO:root_logger	35.246.211.162:80
+15:35:25 INFO:root_logger	68.177.71.126:59528
+15:35:25 INFO:root_logger	35.225.208.4:80
+15:35:25 INFO:root_logger	3.80.244.213:80
+15:35:25 INFO:root_logger	34.235.60.12:80
+15:35:25 INFO:root_logger	35.163.249.229:80
+15:35:25 INFO:root_logger	50.197.139.163:36609
+15:35:25 INFO:root_logger	12.189.125.89:31442
+15:35:34 ERROR:root_logger	'lowest_price'
+15:35:34 ERROR:root_logger	Gave up on Strange Coffin Nail Revolver (Factory New)
+15:35:37 ERROR:root_logger	'lowest_price'
+15:35:37 ERROR:root_logger	Gave up on Strange Killstreak Dressed to Kill Pistol (Factory New)
+15:35:39 ERROR:root_logger	'lowest_price'
+15:35:39 ERROR:root_logger	Gave up on Strange Killstreak Ullapool Caber
+15:35:42 ERROR:root_logger	'lowest_price'
+15:35:42 ERROR:root_logger	Gave up on Strange Specialized Killstreak Airwolf Sniper Rifle (Well-Worn)
+15:35:48 ERROR:root_logger	'lowest_price'
+15:35:48 ERROR:root_logger	Gave up on Strange Specialized Killstreak Night Terror Scattergun (Field-Tested)
+15:35:50 ERROR:root_logger	'lowest_price'
+15:35:50 ERROR:root_logger	Gave up on Strange Star Crossed Iron Bomber (Field-Tested)
+15:35:53 ERROR:root_logger	'lowest_price'
+15:35:53 ERROR:root_logger	Gave up on Bamboo Brushed Panic Attack (Field-Tested)
+15:35:58 ERROR:root_logger	'lowest_price'
+15:35:58 ERROR:root_logger	Gave up on Bovine Blazemaker Mk.II Wrench (Well-Worn)
+15:36:07 ERROR:root_logger	'lowest_price'
+15:36:07 ERROR:root_logger	Gave up on Killstreak Nutcracker Scattergun (Minimal Wear)
+15:36:09 ERROR:root_logger	'lowest_price'
+15:36:09 ERROR:root_logger	Gave up on Specialized Killstreak American Pastoral Rocket Launcher (Factory New)
+15:36:12 ERROR:root_logger	'lowest_price'
+15:36:12 ERROR:root_logger	Gave up on Bamboo Brushed Loose Cannon (Field-Tested)
+15:36:17 ERROR:root_logger	'lowest_price'
+15:36:17 ERROR:root_logger	Gave up on Killstreak Airwolf Sniper Rifle (Well-Worn)
+15:36:20 ERROR:root_logger	'lowest_price'
+15:36:20 ERROR:root_logger	Gave up on Strange Leopard Printed War Paint (Battle Scarred)
+15:36:23 ERROR:root_logger	'lowest_price'
+15:36:23 ERROR:root_logger	Gave up on Strange Specialized Killstreak Dressed to Kill Stickybomb Launcher (Minimal Wear)
+15:36:25 ERROR:root_logger	NULL IN SOURCE
+15:36:25 INFO:root_logger	Counter = 6
+15:36:43 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bamboo%20Brushed%20Air%20Strike%20(Factory%20New) (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+15:37:06 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bamboo%20Brushed%20Air%20Strike%20(Factory%20New) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC069AFB38>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+15:37:17 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bamboo%20Brushed%20Air%20Strike%20(Factory%20New) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+15:37:30 ERROR:root_logger	'lowest_price'
+15:37:30 ERROR:root_logger	Gave up on Bamboo Brushed Air Strike (Factory New)
+15:37:33 ERROR:root_logger	'lowest_price'
+15:37:33 ERROR:root_logger	Gave up on Strange Killstreak Civil Servant Medi Gun (Factory New)
+15:37:41 ERROR:root_logger	'lowest_price'
+15:37:41 ERROR:root_logger	Gave up on Specialized Killstreak War Room Minigun (Minimal Wear)
+15:37:44 ERROR:root_logger	'lowest_price'
+15:37:44 ERROR:root_logger	Gave up on Strange Specialized Killstreak Nutcracker Wrench (Minimal Wear)
+15:37:52 ERROR:root_logger	'lowest_price'
+15:37:52 ERROR:root_logger	Gave up on Strange Liquor Locker
+15:37:55 ERROR:root_logger	'lowest_price'
+15:37:55 ERROR:root_logger	Gave up on Strange Plaid Potshotter SMG (Field-Tested)
+15:37:57 ERROR:root_logger	'lowest_price'
+15:37:57 ERROR:root_logger	Gave up on Strange Merc Stained Rocket Launcher (Minimal Wear)
+15:38:00 ERROR:root_logger	'lowest_price'
+15:38:00 ERROR:root_logger	Gave up on Collector's Festive Black Box Chemistry Set
+15:38:03 ERROR:root_logger	'lowest_price'
+15:38:03 ERROR:root_logger	Gave up on Vintage Professional Killstreak Chargin' Targe
+15:38:05 ERROR:root_logger	'lowest_price'
+15:38:05 ERROR:root_logger	Gave up on Killstreak Flash Fryer Flame Thrower (Factory New)
+15:38:08 ERROR:root_logger	'lowest_price'
+15:38:08 ERROR:root_logger	Gave up on Strange Specialized Killstreak Butcher Bird Grenade Launcher (Well-Worn)
+15:38:14 ERROR:root_logger	'lowest_price'
+15:38:14 ERROR:root_logger	Gave up on Strange Mister Cuddles Minigun (Minimal Wear)
+15:38:16 ERROR:root_logger	'lowest_price'
+15:38:16 ERROR:root_logger	Gave up on Bovine Blazemaker Mk.II Reserve Shooter (Minimal Wear)
+15:38:24 ERROR:root_logger	NULL IN SOURCE
+15:38:24 INFO:root_logger	Counter = 13
+15:38:24 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Killstreak%20Boneyard%20Revolver%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+15:38:26 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Killstreak%20Boneyard%20Revolver%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Bad Gateway',)))
+15:38:32 ERROR:root_logger	'lowest_price'
+15:38:32 ERROR:root_logger	Gave up on Strange Egghead's Overalls
+15:38:37 ERROR:root_logger	'lowest_price'
+15:38:37 ERROR:root_logger	Gave up on Strange Killstreak Black Dahlia Pistol (Field-Tested)
+15:38:43 ERROR:root_logger	'lowest_price'
+15:38:43 ERROR:root_logger	Gave up on Collector's Dead Ringer
+15:39:02 ERROR:root_logger	'lowest_price'
+15:39:02 ERROR:root_logger	Gave up on Killstreak Boneyard Sniper Rifle (Minimal Wear)
+15:39:08 ERROR:root_logger	'lowest_price'
+15:39:08 ERROR:root_logger	Gave up on Collector's Professional Killstreak Force-A-Nature
+15:39:10 ERROR:root_logger	'lowest_price'
+15:39:10 ERROR:root_logger	Gave up on Professional Killstreak Festive Scattergun
+15:39:13 ERROR:root_logger	'lowest_price'
+15:39:13 ERROR:root_logger	Gave up on Strange Professional Killstreak Black Dahlia Pistol (Minimal Wear)
+15:39:35 ERROR:root_logger	'lowest_price'
+15:39:35 ERROR:root_logger	Gave up on Kill Covered Brass Beast (Field-Tested)
+15:39:40 ERROR:root_logger	'lowest_price'
+15:39:40 ERROR:root_logger	Gave up on Strange Bamboo Brushed Shahanshah (Field-Tested)
+15:39:51 ERROR:root_logger	NULL IN SOURCE
+15:39:51 INFO:root_logger	Counter = 34
+15:40:12 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Vintage%20Sergeant's%20Drill%20Hat (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+15:40:17 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Vintage%20Sergeant's%20Drill%20Hat (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+15:40:21 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Vintage%20Sergeant's%20Drill%20Hat (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06947668>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+15:40:48 ERROR:root_logger	'lowest_price'
+15:40:48 ERROR:root_logger	Gave up on Specialized Killstreak Macabre Web Revolver (Field-Tested)
+15:40:55 ERROR:root_logger	'lowest_price'
+15:40:55 ERROR:root_logger	Gave up on Strange Idea Tube
+15:41:05 ERROR:root_logger	'lowest_price'
+15:41:05 ERROR:root_logger	Gave up on Specialized Killstreak Bogtrotter Sniper Rifle (Minimal Wear)
+15:41:08 ERROR:root_logger	'lowest_price'
+15:41:08 ERROR:root_logger	Gave up on Mannana Peeled Reserve Shooter (Field-Tested)
+15:41:21 ERROR:root_logger	'lowest_price'
+15:41:21 ERROR:root_logger	Gave up on Strange Mannana Peeled War Paint (Minimal Wear)
+15:41:24 ERROR:root_logger	'lowest_price'
+15:42:02 ERROR:root_logger	'lowest_price'
+15:42:02 ERROR:root_logger	Gave up on Strange Specialized Killstreak Blue Mew SMG (Minimal Wear)
+15:42:06 ERROR:root_logger	'lowest_price'
+15:42:06 ERROR:root_logger	Gave up on Professional Killstreak Conniver's Kunai
+15:42:09 ERROR:root_logger	'lowest_price'
+15:42:09 ERROR:root_logger	Gave up on Strange Blue Mew Pistol (Minimal Wear)
+15:42:25 ERROR:root_logger	'lowest_price'
+15:42:25 ERROR:root_logger	Gave up on Strange Professional Killstreak Silver Botkiller Scattergun Mk.I
+15:43:19 ERROR:root_logger	'lowest_price'
+15:43:19 ERROR:root_logger	Gave up on Specialized Killstreak Brain Candy Rocket Launcher (Field-Tested)
+15:43:40 ERROR:root_logger	'lowest_price'
+15:43:40 ERROR:root_logger	Gave up on Specialized Killstreak Bazaar Bargain
+15:44:31 INFO:root_logger	Saving lists...
+15:46:45 ERROR:root_logger	'lowest_price'
+15:48:27 ERROR:root_logger	'lowest_price'
+15:48:27 ERROR:root_logger	Gave up on Mannana Peeled Wrench (Well-Worn)
+15:48:47 ERROR:root_logger	'lowest_price'
+15:48:47 ERROR:root_logger	Gave up on Collector's Overdose Chemistry Set
+15:49:44 ERROR:root_logger	'lowest_price'
+15:49:44 ERROR:root_logger	Gave up on Strange Specialized Killstreak Masked Mender Medi Gun (Factory New)
+15:50:02 INFO:root_logger	Saving lists...
+15:50:10 ERROR:root_logger	'lowest_price'
+15:50:10 ERROR:root_logger	Gave up on Strange Festive Flame Thrower
+15:51:04 ERROR:root_logger	'lowest_price'
+15:51:04 ERROR:root_logger	Gave up on Collector's Loch-n-Load Chemistry Set
+15:51:30 ERROR:root_logger	'lowest_price'
+15:51:30 ERROR:root_logger	Gave up on Backwoods Boomstick Mk.II Brass Beast (Factory New)
+15:51:59 ERROR:root_logger	'lowest_price'
+15:52:39 ERROR:root_logger	'lowest_price'
+15:52:39 ERROR:root_logger	Gave up on Strange Killstreak Night Terror Scattergun (Minimal Wear)
+15:55:40 INFO:root_logger	Saving lists...
+15:58:43 ERROR:root_logger	'lowest_price'
+15:58:43 ERROR:root_logger	Gave up on Professional Killstreak Old Country Revolver (Field-Tested)
+16:01:06 INFO:root_logger	Saving lists...
+16:01:07 ERROR:root_logger	'lowest_price'
+16:06:30 INFO:root_logger	Saving lists...
+16:09:02 ERROR:root_logger	'lowest_price'
+16:09:02 ERROR:root_logger	Gave up on Strange Gold Digger
+16:11:50 INFO:root_logger	Saving lists...
+16:11:59 ERROR:root_logger	'lowest_price'
+16:11:59 ERROR:root_logger	Gave up on Specialized Killstreak Killer Bee Scattergun (Field-Tested)
+16:12:36 ERROR:root_logger	NULL IN SOURCE
+16:12:36 INFO:root_logger	Counter = 613
+16:12:36 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Professional%20Killstreak%20Silver%20Botkiller%20Sniper%20Rifle%20Mk.I (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+16:13:08 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Professional%20Killstreak%20Festive%20Minigun (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+16:13:17 ERROR:root_logger	'lowest_price'
+16:13:17 ERROR:root_logger	Gave up on Strange Purple Range Sniper Rifle (Field-Tested)
+16:13:36 ERROR:root_logger	'lowest_price'
+16:13:36 ERROR:root_logger	Gave up on Killstreak Top Shelf Minigun (Minimal Wear)
+16:14:06 ERROR:root_logger	NULL IN SOURCE
+16:14:06 INFO:root_logger	Counter = 641
+16:14:27 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Specialized%20Killstreak%20Flash%20Fryer%20Flame%20Thrower%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC069B29B0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+16:14:56 ERROR:root_logger	'lowest_price'
+16:15:38 ERROR:root_logger	NULL IN SOURCE
+16:15:38 INFO:root_logger	Counter = 661
+16:16:44 ERROR:root_logger	NULL IN SOURCE
+16:16:44 INFO:root_logger	Counter = 681
+16:17:51 INFO:root_logger	Saving lists...
+16:23:33 INFO:root_logger	Saving lists...
+16:23:57 ERROR:root_logger	NULL IN SOURCE
+16:23:57 INFO:root_logger	Counter = 807
+16:24:19 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Killstreak%20Warhawk%20Rocket%20Launcher%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None)))
+16:24:19 DEBUG:root_logger	Used up all proxies! Refreshing
+16:24:35 INFO:root_logger	64.183.32.218:37222
+16:24:35 INFO:root_logger	178.128.151.27:80
+16:24:35 INFO:root_logger	35.198.147.143:80
+16:24:35 INFO:root_logger	24.123.196.28:46984
+16:24:35 INFO:root_logger	159.203.153.71:80
+16:24:35 INFO:root_logger	35.245.14.133:3128
+16:24:35 INFO:root_logger	68.177.70.229:49568
+16:24:35 INFO:root_logger	35.237.167.60:80
+16:24:35 INFO:root_logger	68.183.147.220:80
+16:24:35 INFO:root_logger	166.249.185.131:35518
+16:24:35 INFO:root_logger	54.161.161.207:3128
+16:24:35 INFO:root_logger	159.89.151.66:80
+16:24:35 INFO:root_logger	35.245.29.174:3128
+16:24:35 INFO:root_logger	74.113.169.129:47208
+16:24:35 INFO:root_logger	166.249.185.133:52436
+16:24:35 INFO:root_logger	73.55.76.54:8080
+16:24:35 INFO:root_logger	3.89.61.109:3128
+16:24:35 INFO:root_logger	159.203.101.204:80
+16:24:35 INFO:root_logger	18.218.73.88:80
+16:24:35 INFO:root_logger	12.218.209.130:53281
+16:24:58 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Killstreak%20Warhawk%20Rocket%20Launcher%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A09780>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+16:28:18 ERROR:root_logger	'lowest_price'
+16:29:46 INFO:root_logger	Saving lists...
+16:33:25 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:28 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:31 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:34 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:37 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:40 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:43 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:46 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:49 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:52 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '431 WHERE ItemName = 'Battle-Worn Robot KB-808'' at line 1
+16:33:54 DEBUG:root_logger	Failed to get response. Retrying. item = Battle-Worn Robot Money Furnace
+16:33:57 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:00 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:03 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:06 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:09 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:12 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:15 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:18 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:21 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:24 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:27 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:30 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:33 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:36 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:39 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:42 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:45 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:48 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '468 WHERE ItemName = 'Battle-Worn Robot Money Furnace'' at line 1
+16:34:50 DEBUG:root_logger	Failed to get response. Retrying. item = Battle-Worn Robot Taunt Processor
+16:34:54 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '345 WHERE ItemName = 'Battle-Worn Robot Taunt Processor'' at line 1
+16:34:57 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '345 WHERE ItemName = 'Battle-Worn Robot Taunt Processor'' at line 1
+16:35:00 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '345 WHERE ItemName = 'Battle-Worn Robot Taunt Processor'' at line 1
+16:35:03 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '345 WHERE ItemName = 'Battle-Worn Robot Taunt Processor'' at line 1
+16:35:06 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '345 WHERE ItemName = 'Battle-Worn Robot Taunt Processor'' at line 1
+16:35:09 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '345 WHERE ItemName = 'Battle-Worn Robot Taunt Processor'' at line 1
+16:35:11 DEBUG:root_logger	Failed to get response. Retrying. item = Civic Duty Mk.II War Paint (Field-Tested)
+16:36:38 INFO:root_logger	Saving lists...
+16:38:46 ERROR:root_logger	'lowest_price'
+16:41:44 INFO:root_logger	Saving lists...
+16:43:21 ERROR:root_logger	NULL IN SOURCE
+16:43:21 INFO:root_logger	Counter = 1131
+16:44:39 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+16:44:49 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+16:45:09 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+16:45:32 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A956A0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+16:45:40 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+16:46:48 DEBUG:root_logger	Failed to get response. Retrying. item = Local Hero Pistol (Battle Scarred)
+16:47:12 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A95B70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+16:47:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A9E3C8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+16:47:38 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A9E898>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+16:48:01 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A9EC18>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+16:48:04 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A9EC88>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+16:48:07 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+16:48:30 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Local%20Hero%20Pistol%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06A9E278>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+16:48:45 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '052 WHERE ItemName = 'Secret Saxton'' at line 1
+16:48:48 ERROR:root_logger	1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '052 WHERE ItemName = 'Secret Saxton'' at line 1
+16:48:51 DEBUG:root_logger	Failed to get response. Retrying. item = Strange Filter: Maple Ridge Event (Community)
+16:48:57 ERROR:root_logger	'lowest_price'
+16:50:32 ERROR:root_logger	NULL IN SOURCE
+16:50:32 INFO:root_logger	Counter = 1169
+16:52:21 INFO:root_logger	Saving lists...
+16:53:50 ERROR:root_logger	'lowest_price'
+16:58:14 INFO:root_logger	Saving lists...
+17:04:06 INFO:root_logger	Saving lists...
+17:09:55 INFO:root_logger	Saving lists...
+17:15:27 ERROR:root_logger	'lowest_price'
+17:15:40 INFO:root_logger	Saving lists...
+17:17:54 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+17:17:57 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06997E48>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+17:18:01 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+17:19:21 DEBUG:root_logger	Failed to get response. Retrying. item = Autumn Mk.II Reserve Shooter (Well-Worn)
+17:19:45 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06995390>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+17:20:12 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+17:20:12 DEBUG:root_logger	Used up all proxies! Refreshing
+17:20:26 INFO:root_logger	35.245.29.174:3128
+17:20:26 INFO:root_logger	166.249.185.133:52436
+17:20:26 INFO:root_logger	74.113.169.129:47208
+17:20:26 INFO:root_logger	3.89.61.109:3128
+17:20:26 INFO:root_logger	159.203.101.204:80
+17:20:26 INFO:root_logger	12.218.209.130:53281
+17:20:26 INFO:root_logger	18.218.73.88:80
+17:20:26 INFO:root_logger	104.222.110.66:23500
+17:20:26 INFO:root_logger	216.21.162.200:51368
+17:20:26 INFO:root_logger	50.253.229.189:45725
+17:20:26 INFO:root_logger	50.197.38.230:60724
+17:20:50 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06995A58>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+17:20:52 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+17:21:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC06995B70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+17:21:17 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+17:26:54 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Autumn%20Mk.II%20Reserve%20Shooter%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+17:27:57 ERROR:root_logger	NULL IN SOURCE
+17:27:57 INFO:root_logger	Counter = 1656
+17:28:56 ERROR:root_logger	NULL IN SOURCE
+17:28:56 INFO:root_logger	Counter = 1676
+17:29:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Plaid%20Potshotter%20Mk.II%20War%20Paint%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+17:30:22 ERROR:root_logger	NULL IN SOURCE
+17:30:22 INFO:root_logger	Counter = 1696
+17:30:43 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Rust%20Botkiller%20Stickybomb%20Launcher%20Mk.I (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC082979E8>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+17:30:46 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Rust%20Botkiller%20Stickybomb%20Launcher%20Mk.I (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+17:30:46 DEBUG:root_logger	Used up all proxies! Refreshing
+17:30:59 INFO:root_logger	68.177.70.229:49568
+17:30:59 INFO:root_logger	35.237.167.60:80
+17:30:59 INFO:root_logger	68.183.147.220:80
+17:30:59 INFO:root_logger	166.249.185.131:35518
+17:30:59 INFO:root_logger	54.161.161.207:3128
+17:30:59 INFO:root_logger	159.89.151.66:80
+17:30:59 INFO:root_logger	35.245.29.174:3128
+17:30:59 INFO:root_logger	166.249.185.133:52436
+17:30:59 INFO:root_logger	74.113.169.129:47208
+17:30:59 INFO:root_logger	3.89.61.109:3128
+17:30:59 INFO:root_logger	159.203.101.204:80
+17:30:59 INFO:root_logger	18.218.73.88:80
+17:31:00 INFO:root_logger	12.218.209.130:53281
+17:31:00 INFO:root_logger	104.222.110.66:23500
+17:31:00 INFO:root_logger	216.21.162.200:51368
+17:31:00 INFO:root_logger	50.253.229.189:45725
+17:31:00 INFO:root_logger	50.197.38.230:60724
+17:31:23 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Rust%20Botkiller%20Stickybomb%20Launcher%20Mk.I (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC08299630>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+17:31:25 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Rust%20Botkiller%20Stickybomb%20Launcher%20Mk.I (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+17:31:44 INFO:root_logger	Saving lists...
+17:33:50 ERROR:root_logger	'lowest_price'
+17:33:50 ERROR:root_logger	Gave up on High Roller's SMG (Field-Tested)
+17:37:41 INFO:root_logger	Saving lists...
+17:39:14 ERROR:root_logger	NULL IN SOURCE
+17:39:14 INFO:root_logger	Counter = 1826
+17:39:35 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Pumpkin%20Patch%20Stickybomb%20Launcher%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001FC08298048>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+17:39:59 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Pumpkin%20Patch%20Stickybomb%20Launcher%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None)))
+22:50:14 INFO:root_logger	Starting script...
+22:50:26 INFO:root_logger	104.222.110.66:23500
+22:50:26 INFO:root_logger	206.189.203.191:3128
+22:50:26 INFO:root_logger	98.172.141.125:8080
+22:50:26 INFO:root_logger	96.80.89.69:8080
+22:50:26 INFO:root_logger	216.85.7.155:30131
+22:50:26 INFO:root_logger	206.81.15.223:8888
+22:50:26 INFO:root_logger	97.76.44.162:42882
+22:50:26 INFO:root_logger	18.223.15.49:3128
+22:50:26 INFO:root_logger	157.230.168.244:3128
+22:50:26 INFO:root_logger	38.86.51.101:3128
+22:50:26 INFO:root_logger	47.252.3.4:3128
+22:50:26 INFO:root_logger	47.252.5.3:3128
+22:50:26 INFO:root_logger	35.236.7.79:3128
+22:50:27 INFO:root_logger	96.74.27.161:32784
+22:50:27 INFO:root_logger	12.218.209.130:53281
+22:50:27 INFO:root_logger	104.236.47.73:8080
+22:50:27 INFO:root_logger	35.221.132.64:80
+22:50:27 INFO:root_logger	35.236.98.92:3128
+22:50:27 INFO:root_logger	205.158.57.2:53281
+22:50:27 INFO:root_logger	141.193.189.1:44464
+22:50:48 INFO:root_logger	Time passed - 21.123092651367188
+22:50:48 INFO:root_logger	Time passed - 21.123092651367188
+22:50:48 INFO:root_logger	Counter = 0
+22:50:59 INFO:root_logger	Starting script...
+22:51:10 INFO:root_logger	Time passed - 10.569559097290039
+22:51:26 INFO:root_logger	Starting script...
+22:51:37 INFO:root_logger	104.222.110.66:23500
+22:51:37 INFO:root_logger	206.189.203.191:3128
+22:51:37 INFO:root_logger	98.172.141.125:8080
+22:51:37 INFO:root_logger	96.80.89.69:8080
+22:51:37 INFO:root_logger	216.85.7.155:30131
+22:51:37 INFO:root_logger	206.81.15.223:8888
+22:51:37 INFO:root_logger	97.76.44.162:42882
+22:51:37 INFO:root_logger	18.223.15.49:3128
+22:51:37 INFO:root_logger	157.230.168.244:3128
+22:51:37 INFO:root_logger	38.86.51.101:3128
+22:51:37 INFO:root_logger	47.252.3.4:3128
+22:51:37 INFO:root_logger	47.252.5.3:3128
+22:51:37 INFO:root_logger	35.236.7.79:3128
+22:51:37 INFO:root_logger	96.74.27.161:32784
+22:51:37 INFO:root_logger	12.218.209.130:53281
+22:51:37 INFO:root_logger	104.236.47.73:8080
+22:51:37 INFO:root_logger	35.221.132.64:80
+22:51:37 INFO:root_logger	35.236.98.92:3128
+22:51:37 INFO:root_logger	205.158.57.2:53281
+22:51:37 INFO:root_logger	141.193.189.1:44464
+22:51:37 INFO:root_logger	Time passed - 0.0
+22:51:37 INFO:root_logger	Counter = 0
+22:51:56 INFO:root_logger	Starting script...
+22:52:07 INFO:root_logger	50.224.151.234:31196
+22:52:07 INFO:root_logger	35.236.62.247:3128
+22:52:07 INFO:root_logger	206.189.203.191:3128
+22:52:07 INFO:root_logger	134.209.170.22:3128
+22:52:07 INFO:root_logger	75.146.218.153:55768
+22:52:07 INFO:root_logger	104.222.110.66:23500
+22:52:07 INFO:root_logger	98.172.141.125:8080
+22:52:07 INFO:root_logger	96.80.89.69:8080
+22:52:07 INFO:root_logger	216.85.7.155:30131
+22:52:07 INFO:root_logger	206.81.15.223:8888
+22:52:07 INFO:root_logger	97.76.44.162:42882
+22:52:07 INFO:root_logger	18.223.15.49:3128
+22:52:07 INFO:root_logger	157.230.168.244:3128
+22:52:07 INFO:root_logger	38.86.51.101:3128
+22:52:07 INFO:root_logger	47.252.3.4:3128
+22:52:07 INFO:root_logger	47.252.5.3:3128
+22:52:07 INFO:root_logger	35.236.7.79:3128
+22:52:07 INFO:root_logger	96.74.27.161:32784
+22:52:07 INFO:root_logger	12.218.209.130:53281
+22:52:07 INFO:root_logger	104.236.47.73:8080
+22:52:08 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Tough%20Break%20Cosmetic%20Case (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Bad Gateway',)))
+22:56:08 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Coffin%20Nail%20Revolver%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+22:57:36 INFO:root_logger	Saving lists...
+23:03:50 INFO:root_logger	Saving lists...
+23:10:30 INFO:root_logger	Saving lists...
+23:13:56 ERROR:root_logger	'lowest_price'
+23:17:10 INFO:root_logger	Saving lists...
+23:23:50 INFO:root_logger	Saving lists...
+23:25:24 ERROR:root_logger	'lowest_price'
+23:25:24 ERROR:root_logger	Gave up on Cardboard Boxed Flame Thrower (Well-Worn)
+23:30:33 INFO:root_logger	Saving lists...
+23:35:18 ERROR:root_logger	NULL IN SOURCE
+23:35:18 INFO:root_logger	Counter = 675
+23:36:16 ERROR:root_logger	NULL IN SOURCE
+23:36:16 INFO:root_logger	Counter = 695
+23:36:27 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+23:36:50 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187491A62B0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+23:37:13 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187491A6E48>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+23:37:16 ERROR:root_logger	Expecting value: line 1 column 1 (char 0)
+23:37:37 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187491A6748>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+23:38:00 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187491AEAC8>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+23:38:03 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Bad Gateway',)))
+23:38:26 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187491AE080>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+23:38:49 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Dead%20Reckoner%20Mk.II%20Minigun%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187491A6E48>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+23:39:08 INFO:root_logger	Saving lists...
+23:39:50 ERROR:root_logger	NULL IN SOURCE
+23:39:50 INFO:root_logger	Counter = 715
+23:40:51 ERROR:root_logger	NULL IN SOURCE
+23:40:51 INFO:root_logger	Counter = 735
+23:41:11 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Vintage%20Crit-a-Cola (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+23:41:25 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Vintage%20Crit-a-Cola (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+23:42:21 ERROR:root_logger	NULL IN SOURCE
+23:42:21 INFO:root_logger	Counter = 755
+23:44:40 INFO:root_logger	Saving lists...
+23:49:42 INFO:root_logger	Saving lists...
+23:54:43 INFO:root_logger	Saving lists...
+23:59:10 ERROR:root_logger	'lowest_price'
+23:59:10 ERROR:root_logger	Gave up on Cardboard Boxed Brass Beast (Well-Worn)
+23:59:46 INFO:root_logger	Saving lists...
+00:00:48 ERROR:root_logger	'lowest_price'
+00:00:48 ERROR:root_logger	Gave up on Backwoods Boomstick Mk.II Crusader's Crossbow (Field-Tested)
+00:00:56 ERROR:root_logger	'lowest_price'
+00:00:56 ERROR:root_logger	Gave up on Backwoods Boomstick Mk.II War Paint (Field-Tested)
+00:03:29 ERROR:root_logger	NULL IN SOURCE
+00:03:29 INFO:root_logger	Counter = 1171
+00:04:31 ERROR:root_logger	NULL IN SOURCE
+00:04:31 INFO:root_logger	Counter = 1191
+00:04:31 DEBUG:root_logger	Used up all proxies! Refreshing
+00:04:43 INFO:root_logger	47.252.5.3:3128
+00:04:43 INFO:root_logger	35.236.7.79:3128
+00:04:43 INFO:root_logger	96.74.27.161:32784
+00:04:43 INFO:root_logger	12.189.125.89:44611
+00:04:43 INFO:root_logger	3.14.93.95:8080
+00:04:43 INFO:root_logger	69.95.64.149:48188
+00:04:43 INFO:root_logger	75.98.119.13:30598
+00:04:43 INFO:root_logger	24.227.248.226:55997
+00:04:43 INFO:root_logger	96.87.184.101:43705
+00:04:43 INFO:root_logger	34.80.236.158:80
+00:04:43 INFO:root_logger	67.23.64.98:53281
+00:04:43 INFO:root_logger	13.66.208.202:80
+00:04:43 INFO:root_logger	149.248.33.121:80
+00:04:43 INFO:root_logger	54.174.149.97:80
+00:04:43 INFO:root_logger	157.230.178.37:80
+00:04:43 INFO:root_logger	40.121.203.104:80
+00:04:43 INFO:root_logger	159.89.83.140:80
+00:04:43 INFO:root_logger	54.241.147.31:80
+00:04:43 INFO:root_logger	34.204.75.5:80
+00:04:43 INFO:root_logger	23.92.53.159:80
+00:04:50 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Cardboard%20Boxed%20Shotgun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+00:04:52 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Cardboard%20Boxed%20Shotgun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:04:55 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Cardboard%20Boxed%20Shotgun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 503 Service Temporarily Unavailable',)))
+00:05:46 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Cardboard%20Boxed%20Shotgun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+00:05:52 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Cardboard%20Boxed%20Shotgun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:06:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Cardboard%20Boxed%20Shotgun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000018749122208>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:06:20 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Cardboard%20Boxed%20Shotgun%20(Minimal%20Wear) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:07:00 INFO:root_logger	Saving lists...
+00:12:08 INFO:root_logger	Saving lists...
+00:17:16 INFO:root_logger	Saving lists...
+00:18:03 ERROR:root_logger	'lowest_price'
+00:18:03 ERROR:root_logger	Gave up on Mannana Peeled Air Strike (Battle Scarred)
+00:18:39 ERROR:root_logger	'lowest_price'
+00:18:39 ERROR:root_logger	Gave up on Tiger Buffed Claidheamh Mòr (Field-Tested)
+00:22:32 INFO:root_logger	Saving lists...
+00:27:40 INFO:root_logger	Saving lists...
+00:29:01 ERROR:root_logger	'lowest_price'
+00:31:47 ERROR:root_logger	'lowest_price'
+00:31:47 ERROR:root_logger	Gave up on Bamboo Brushed Panic Attack (Field-Tested)
+00:32:02 ERROR:root_logger	'lowest_price'
+00:32:02 ERROR:root_logger	Gave up on Dead Reckoner Mk.II Medi Gun (Minimal Wear)
+00:32:54 INFO:root_logger	Saving lists...
+00:36:34 ERROR:root_logger	'lowest_price'
+00:37:17 ERROR:root_logger	NULL IN SOURCE
+00:37:17 INFO:root_logger	Counter = 1785
+00:37:30 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:37:32 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:38:01 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:38:03 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Bad Gateway',)))
+00:38:09 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+00:39:00 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+00:39:14 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:39:37 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187491A6828>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:40:00 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001874908CCC0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:40:03 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187490A61D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+00:40:06 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187490A66A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)))
+00:40:30 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001874908CD30>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:40:30 DEBUG:root_logger	Used up all proxies! Refreshing
+00:40:47 INFO:root_logger	159.89.83.140:80
+00:40:47 INFO:root_logger	54.241.147.31:80
+00:40:47 INFO:root_logger	34.204.75.5:80
+00:40:47 INFO:root_logger	23.92.53.159:80
+00:40:47 INFO:root_logger	69.95.64.147:48188
+00:40:47 INFO:root_logger	192.241.223.145:80
+00:40:47 INFO:root_logger	96.233.41.158:8081
+00:40:47 INFO:root_logger	178.128.11.215:80
+00:40:47 INFO:root_logger	205.158.57.2:53281
+00:40:47 INFO:root_logger	141.193.189.1:44464
+00:40:47 INFO:root_logger	72.89.133.41:80
+00:41:10 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001874904F668>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:41:27 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:41:44 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:42:07 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001874904FCF8>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:42:42 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None)))
+00:42:49 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:43:12 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000018749122A58>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:43:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:43:17 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Genuine%20Killstreak%20Huo-Long%20Heater (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 License Violation',)))
+00:44:00 ERROR:root_logger	'lowest_price'
+00:44:00 ERROR:root_logger	Gave up on Bamboo Brushed Ubersaw (Minimal Wear)
+00:44:13 INFO:root_logger	Saving lists...
+00:44:24 ERROR:root_logger	NULL IN SOURCE
+00:44:24 INFO:root_logger	Counter = 1804
+00:44:28 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Rescue%20Ranger%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:44:28 DEBUG:root_logger	Used up all proxies! Refreshing
+00:44:41 INFO:root_logger	40.121.203.104:80
+00:44:41 INFO:root_logger	159.89.83.140:80
+00:44:41 INFO:root_logger	54.241.147.31:80
+00:44:41 INFO:root_logger	34.204.75.5:80
+00:44:41 INFO:root_logger	23.92.53.159:80
+00:44:41 INFO:root_logger	69.95.64.147:48188
+00:44:41 INFO:root_logger	192.241.223.145:80
+00:44:41 INFO:root_logger	96.233.41.158:8081
+00:44:41 INFO:root_logger	178.128.11.215:80
+00:44:41 INFO:root_logger	205.158.57.2:53281
+00:44:41 INFO:root_logger	141.193.189.1:44464
+00:44:41 INFO:root_logger	72.89.133.41:80
+00:44:48 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Rescue%20Ranger%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:44:50 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Rescue%20Ranger%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 License Violation',)))
+00:44:52 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Rescue%20Ranger%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:45:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Rescue%20Ranger%20(Well-Worn) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001874904F048>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:46:10 ERROR:root_logger	NULL IN SOURCE
+00:46:10 INFO:root_logger	Counter = 1823
+00:46:10 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:46:20 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:46:23 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:46:25 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:46:27 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:46:42 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187490A6518>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:46:45 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:46:45 DEBUG:root_logger	Used up all proxies! Refreshing
+00:46:59 INFO:root_logger	40.121.203.104:80
+00:46:59 INFO:root_logger	159.89.83.140:80
+00:46:59 INFO:root_logger	54.241.147.31:80
+00:46:59 INFO:root_logger	34.204.75.5:80
+00:46:59 INFO:root_logger	23.92.53.159:80
+00:46:59 INFO:root_logger	69.95.64.147:48188
+00:46:59 INFO:root_logger	192.241.223.145:80
+00:46:59 INFO:root_logger	96.233.41.158:8081
+00:46:59 INFO:root_logger	178.128.11.215:80
+00:46:59 INFO:root_logger	205.158.57.2:53281
+00:46:59 INFO:root_logger	141.193.189.1:44464
+00:46:59 INFO:root_logger	72.89.133.41:80
+00:47:03 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:47:05 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:47:28 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187499C2588>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:47:35 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:47:58 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187499C9828>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:48:00 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:48:03 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:48:05 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 License Violation',)))
+00:48:11 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:48:44 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Strange%20Filter:%20Mossrock%20(Community) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:49:35 ERROR:root_logger	NULL IN SOURCE
+00:49:35 INFO:root_logger	Counter = 1841
+00:49:56 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187499C2B70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:49:56 DEBUG:root_logger	Used up all proxies! Refreshing
+00:50:11 INFO:root_logger	40.121.203.104:80
+00:50:11 INFO:root_logger	159.89.83.140:80
+00:50:11 INFO:root_logger	54.241.147.31:80
+00:50:11 INFO:root_logger	34.204.75.5:80
+00:50:11 INFO:root_logger	23.92.53.159:80
+00:50:11 INFO:root_logger	69.95.64.147:48188
+00:50:11 INFO:root_logger	192.241.223.145:80
+00:50:11 INFO:root_logger	96.233.41.158:8081
+00:50:11 INFO:root_logger	178.128.11.215:80
+00:50:11 INFO:root_logger	205.158.57.2:53281
+00:50:11 INFO:root_logger	141.193.189.1:44464
+00:50:11 INFO:root_logger	72.89.133.41:80
+00:50:17 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:50:27 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:50:36 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:50:48 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:50:51 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:50:54 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 License Violation',)))
+00:50:58 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Bloom%20Buffed%20Panic%20Attack%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:51:55 ERROR:root_logger	NULL IN SOURCE
+00:51:55 INFO:root_logger	Counter = 1861
+00:51:57 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:52:20 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187499C9DA0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:52:43 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187499D5C18>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+00:52:56 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:52:56 DEBUG:root_logger	Used up all proxies! Refreshing
+00:53:35 ERROR:root_logger	Message: Reached error page: about:neterror?e=netTimeout&u=https%3A//us-proxy.org/&c=UTF-8&f=regular&d=The%20server%20at%20us-proxy.org%20is%20taking%20too%20long%20to%20respond.
+
+00:53:47 INFO:root_logger	13.66.208.202:80
+00:53:47 INFO:root_logger	149.248.33.121:80
+00:53:47 INFO:root_logger	54.174.149.97:80
+00:53:47 INFO:root_logger	157.230.178.37:80
+00:53:47 INFO:root_logger	40.121.203.104:80
+00:53:47 INFO:root_logger	159.89.83.140:80
+00:53:47 INFO:root_logger	54.241.147.31:80
+00:53:47 INFO:root_logger	34.204.75.5:80
+00:53:47 INFO:root_logger	23.92.53.159:80
+00:53:47 INFO:root_logger	69.95.64.147:48188
+00:53:47 INFO:root_logger	192.241.223.145:80
+00:53:47 INFO:root_logger	96.233.41.158:8081
+00:53:47 INFO:root_logger	178.128.11.215:80
+00:53:47 INFO:root_logger	205.158.57.2:53281
+00:53:47 INFO:root_logger	141.193.189.1:44464
+00:53:47 INFO:root_logger	72.89.133.41:80
+00:53:50 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:54:10 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:54:13 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:54:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Civil%20Servant%20Mk.II%20Crusader's%20Crossbow%20(Battle%20Scarred) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+00:56:30 INFO:root_logger	Saving lists...
+01:01:49 INFO:root_logger	Saving lists...
+01:30:52 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Leopard%20Printed%20Holy%20Mackerel%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+01:30:54 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Leopard%20Printed%20Holy%20Mackerel%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 License Violation',)))
+01:30:57 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=Leopard%20Printed%20Holy%20Mackerel%20(Field-Tested) (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:31:10 ERROR:root_logger	'lowest_price'
+01:31:10 ERROR:root_logger	Gave up on Leopard Printed Stickybomb Launcher (Minimal Wear)
+01:31:32 INFO:root_logger	Saving lists...
+01:32:04 ERROR:root_logger	NULL IN SOURCE
+01:32:04 INFO:root_logger	Counter = 2111
+01:32:07 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:32:12 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 503 Service Temporarily Unavailable',)))
+01:32:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:32:17 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:32:25 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden',)))
+01:32:44 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:32:46 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:32:52 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:32:52 DEBUG:root_logger	Used up all proxies! Refreshing
+01:33:08 INFO:root_logger	208.67.30.73:53281
+01:33:08 INFO:root_logger	12.189.125.89:44611
+01:33:08 INFO:root_logger	69.95.64.149:48188
+01:33:08 INFO:root_logger	34.80.236.158:80
+01:33:08 INFO:root_logger	13.66.208.202:80
+01:33:08 INFO:root_logger	149.248.33.121:80
+01:33:08 INFO:root_logger	54.174.149.97:80
+01:33:08 INFO:root_logger	40.121.203.104:80
+01:33:08 INFO:root_logger	159.89.83.140:80
+01:33:08 INFO:root_logger	54.241.147.31:80
+01:33:08 INFO:root_logger	34.204.75.5:80
+01:33:08 INFO:root_logger	23.92.53.159:80
+01:33:08 INFO:root_logger	69.95.64.147:48188
+01:33:08 INFO:root_logger	192.241.223.145:80
+01:33:08 INFO:root_logger	96.233.41.158:8081
+01:33:08 INFO:root_logger	178.128.11.215:80
+01:33:08 INFO:root_logger	205.158.57.2:53281
+01:33:08 INFO:root_logger	141.193.189.1:44464
+01:33:15 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:33:17 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:33:22 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:33:37 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:33:46 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:33:48 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error',)))
+01:34:11 ERROR:root_logger	HTTPSConnectionPool(host='steamcommunity.com', port=443): Max retries exceeded with url: /market/priceoverview/?country=US&currency=1&appid=440&market_hash_name=The%20El%20Paso%20Poncho (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000187499DEEB8>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',)))
+01:39:16 INFO:root_logger	Time passed - 10028.675978899002
+01:39:16 INFO:root_logger	Time passed - 10028.675978899002
+01:39:16 INFO:root_logger	Counter = 2111
